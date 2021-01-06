@@ -1,0 +1,100 @@
+﻿@charset "shift_jis";
+/* CSS Document */
+
+.lxl-mainWrap{
+	background-color:#fff;
+	height:357px;
+	margin-bottom:30px;
+}
+
+.lxl-mainWrap .r-img{
+	float:right;
+	height:357px;
+}
+
+.lxl-mainWrap .l-linkbox{
+	float:left;
+	width:322px;
+	height:295px;
+	background-color:#fff;
+	padding-top:62px;
+}
+
+.lxl-mainWrap .l-linkbox .inner{
+	width:216px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.lxl-mainWrap .l-linkbox .title{
+	font-size:24px;
+	color:#666;
+	padding-bottom:36px;
+	border-bottom:1px solid #d0d0d0;
+}
+
+.lxl-mainWrap .l-linkbox .lxl-links li a{
+	display:block;
+	padding:14px 0;
+	font-size:14px;
+	line-height:1;
+	text-decoration:none;
+	color:#464646;
+	border-bottom:1px solid #d0d0d0;
+}
+
+.lxl-mainWrap .l-linkbox .lxl-links li a:hover{
+	color:#ef7a00;
+}
+
+.lxl-mainWrap .link-global{
+	margin-top:30px;
+}
+
+.lxl-mainWrap .link-global a{
+	display:inline-block;
+	text-align:left;
+}
+
+
+.box-h3{
+	position:relative;
+}
+
+.section.icon-link ul.link-toppage{
+	position:absolute;
+	right:0;
+	bottom:8px;
+}
+.section.icon-link ul.link-toppage li {
+	float:none !important;
+	width:auto;
+	margin-bottom:0;
+    background: url(/common/pic/icon_link.gif) no-repeat 0 5px;
+    padding-left: 0 !important;
+    list-style-type: none;
+		display:inline-block;
+		padding:0 8px 0 0;
+}
+
+.box-h3 .link-toppage a{
+	display:inline-block;
+	padding: 0 0 0 20px;
+}
+
+.section.icon-link ul li {
+	width:242px;
+}
+
+.box-col2{
+	width:393px;
+}
+
+.section.icon-link .box-col2 ul.l-links{
+	width:50%;
+}
+
+.section.icon-link .box-col2 ul.l-links li{
+	width:152px;
+}
+

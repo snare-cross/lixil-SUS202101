@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+html {
+	width:100%;
+	font-size: 10px;
+}
+body {
+	*font-size:small;
+	*font:x-small;
+	font-size: 13px;
+	color:#54585a;
+	line-height:1.5em;
+	font-family: arial, helvetica, clean, sans-serif;
+	text-align:center;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#FFFFFF;
+	-webkit-text-size-adjust:100%;
+}
+body {
+	font-family: "UD新ゴ L" ,"UD Shin Go Light";
+}
+body *{
+	font-family: "UD新ゴ L" ,"UD Shin Go Light";
+}
+#wrap {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,a,img,table,th,td,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+}
+h1,h2,h3,h4{
+	font-size:13px;
+	line-height:1.2em;
+}
+li{
+	list-style-type:none;
+}
+table {
+        border-collapse:collapse;
+}
+a:link,a:visited{
+	cursor:pointer;
+	color:#54585a;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:hover img{
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+img{
+	vertical-align:top;
+	border:0;
+	max-width:100%;
+}
+a img{
+	vertical-align:bottom;
+}
+
+@media screen and (max-width: 1400px) {
+html {
+	font-size: 0.71vw;
+}
+body {
+	font-size: 0.92vw;
+}
+h1,h2,h3,h4{
+	font-size: 0.92vw;
+}
+}
+
+@media screen and (max-width: 980px) {
+html {
+	font-size: 1.02vw;
+}
+body {
+	font-size: 1.32vw;
+}
+h1,h2,h3,h4{
+	font-size: 1.32vw;
+}
+}
+
+@media screen and (max-width: 768px) {
+html {
+	font-size: 1.56vw;
+}
+body {
+	font-size: 2.03vw;
+}
+h1,h2,h3,h4{
+	font-size: 2.03vw;
+}
+img{
+	width:100%;
+	height:auto;
+}
+}

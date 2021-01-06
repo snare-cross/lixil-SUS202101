@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* header */
+#header{
+	padding:50px 60px;
+}
+.nv{
+	top:185.6px;
+	padding-top:14.4px;
+}
+.headMenu{
+	width:520px;
+}
+.headMenu #searchArea{
+	padding-bottom:2px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;	
+	border-radius:8px;
+}
+.headMenu #searchArea input{
+	height:83px;
+	font-size:24px;
+	padding-left:70px;
+	background-position:26px center;
+	background-size:34px 34px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;	
+	border-radius:8px;
+}
+.headMenu #searchArea .searchReset{
+	top:35px;
+	right:26px;
+	width:16px;
+	height:17px;
+	background-size:16px 17px;
+}
+.headMenu #utilityNavi{
+	margin-bottom:30px;
+}
+.headMenu #utilityNavi li{
+	font-size:24px;
+	line-height:32px;
+	margin-left:24px;
+}
+.headMenu #utilityNavi li#unGlobal a{
+	padding-right:30px;
+	background-size:24px 20px;
+}
+.logo{
+	width:171px;
+	height:87px;
+	margin-bottom:55px;
+}
+.logo a{
+	width:171px;
+	height:87px;
+}
+#spMenuBtn{
+	width:50px;
+	height:40px;
+	top:66px;
+	right:60px;
+	background-size:50px 32px;
+}
+#spMenuBtn.active{
+	background-size:40px 40px;
+}
+#gNavi{
+	margin-top:50px;
+}
+#gNavi li{
+	font-size:32px;
+	margin-left:60px;
+	border-bottom:solid 4px #54585a;
+}
+#gNavi li:first-child{
+	border-top:solid 4px #54585a;
+}
+#gNavi > li > p{
+	padding:30px 0px;
+	background-image:url(/common_r/pic/icon_spmenu_open_ar.gif);
+	background-position:right center;
+	background-size:58px 21px;
+}
+#gNavi > li > p.active{
+	background-image:url(/common_r/pic/icon_spmenu_close_ar.gif);
+}
+#gNavi > li#nvBiz > p > a {
+	padding:30px 0px !important;
+	background-position:210px center;
+	background-size:28px 24px;
+}
+#gNavi li#spMenuArrow{
+	height:142px !important;
+	margin-left:0px;
+	background-size:38px 20px;
+}
+.megaMenu{
+	padding:0px 0px 70px;
+}
+.megaMenu .mmChild{
+	margin-left:20px;
+	margin-right:60px;
+}
+.megaMenu .mmChild .detail > .col p{
+	font-size:30px;
+	line-height:40px;
+	padding-bottom:16px;
+	margin-top:60px;
+}
+.megaMenu .mmChild .detail > .col p + *{
+	margin-top:40px;
+}
+.megaMenu .mmChild .detail > .col li{
+	font-size:26px !important;
+	line-height:36px !important;
+	margin-top:10px;
+}
+.megaMenu .mmChild .detail > .col li a{
+	padding:12px 0px 6px;
+}
+.megaMenu .mmChild .detail > .col li a.icon{
+	padding-left:70px;
+	background-size:50px auto;
+}
+.megaMenu .mmChild .detail > .col li a.iconUtility{
+	background-size:24px 20px;
+}
+.megaMenu .mmChild .detail > .col p a.iconWin{
+	background-size:28px 24px;
+}
+
+/* footer */
+.footDetail{
+	margin:0px 60px;
+	padding:120px 0px 60px;
+}
+.footerMadeby a{
+	width:520px;
+	height:101px;
+	margin:0px auto 100px;
+	background-size:520px 101px;
+}
+.footBottom .fLogo{
+	width:290px;
+	margin:0px 0px 25px;
+	
+}
+.footBottom .menuBox .footMenu{
+	margin:0px 0px 50px;
+}
+.footBottom .menuBox .footMenu li{
+	font-size:24px;
+	line-height:30px;
+	margin:20px 0px 0px;
+}
+.footBottom .menuBox p.copy{
+	font-size:20px;
+	line-height:20px;
+}
+#fotPtop{
+	width:92px;
+	height:80px;
+	right:40px;
+	background-image:url(/common_r/pic/icon_pagetop_arrow_sp.gif);
+	background-size:40px 22px;
+}

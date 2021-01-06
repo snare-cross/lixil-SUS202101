@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* customer */
+.sustainability-customer #contents .clsC02 .cllC01{
+	margin-top:20px !important;
+}
+.sustainability-customer #contents .clsC02 h2{
+	font-size:36px !important;
+	line-height:48px !important;
+}
+
+/* customer dialogue */
+.sustainability-customer-dialogue #contents .col6 .col:nth-child(2n){
+	margin-right:40px;
+	margin-top:60px;
+}
+.sustainability-customer-dialogue #contents .col6 .col img{
+	margin-top:20px !important;
+}
+
+/* community */
+.sustainability-community #contents .clsC02 h2{
+	font-size:36px !important;
+	line-height:48px !important;
+}
+
+/* community dialogue list */
+.sustainability-community-dialogue-list #contents table th,
+.sustainability-community-dialogue-list #contents table td{
+	font-size:28px;
+	line-height:43px;
+}
+.sustainability-community-dialogue-list #contents table th{
+	padding-top:20px;
+}
+.sustainability-community-dialogue-list #contents table td .col{
+	font-size:26px;
+	line-height:36px;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col,
+.sustainability-community-dialogue-list #contents table td .col2 .col{
+	margin-top:20px !important;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col:first-child,
+.sustainability-community-dialogue-list #contents table td .col2 .col:first-child{
+	padding-top:20px;
+}
+.sustainability-community-dialogue-list #contents table tr:first-child td .col3 .col:first-child,
+.sustainability-community-dialogue-list #contents table tr:first-child td .col2 .col:first-child{
+	padding-top:0px !important;
+}
+
+/* future */
+.sustainability-future #contents .clsC02 h2{
+	font-size:36px !important;
+	line-height:48px !important;
+}
+
+/* sports */
+/* index */
+#corporate.sports #contents .tlH2Add h2{
+	padding-bottom: 26px;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner{
+	width:560px;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt{
+	padding:40px 0px;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .link{
+	margin-top:20px;
+}
+#corporate.sports #contents .facebookList .tlH2Add h2 img{
+	width:34px;
+	height:34px;
+}
+#corporate.sports #contents .facebookList .clsC03{
+	margin-top:54px !important;
+}
+#corporate.sports #contents .facebookList .col{
+	margin:0px 0px 0px 6px;
+	border-left:solid 4px #54585a;
+}
+#corporate.sports #contents .facebookList .col a{
+	margin:-14px 0px 0px -10px !important;
+	padding:0px 0px 60px 80px;
+	background-position:left 8px;
+	background-size:61px 16px;
+}
+#corporate.sports #contents .facebookList .col a p{
+	font-size:24px;
+	line-height:32px;
+}
+#corporate.sports #contents .facebookList .col a p + .cbImg{
+	margin-top:14px;
+}
+#corporate.sports #contents .facebookList .col a h3{
+	font-size:28px;
+	line-height:37px;
+	margin-top:20px;
+}
+#corporate.sports #contents .inhouseathleteList .col{
+	width:260px;
+	margin-right:40px;
+}
+#corporate.sports #contents .inhouseathleteList .col:nth-child(2n){
+	margin-right:0px;
+}
+#corporate.sports #contents .inhouseathleteList .col h3{
+	margin-top:20px;
+}
+#corporate.sports #contents .inhouseathleteList .col p,
+#corporate.sports #contents .inhouseathleteList .col .link{
+	margin-top:30px;
+}
+
+/* sports_list */
+#corporate.sports-sports_list #contents .conPosiWide{
+	margin-top:40px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col{
+	padding:50px 0px 60px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	font-size:40px;
+	line-height:54px;
+	padding-bottom:24px;
+	background-size:88px 2px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2 span{
+	margin:12px auto 0px;
+	font-size:20px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-size:24px 20px;
+}
+
+/* localNavi */
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(1) a,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(2) a,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > ul > li:nth-last-child(1) a{
+	border-left: solid 4px #e75400;
+}

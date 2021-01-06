@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+#contents .tpTl01{
+	display:block;
+	background-color:#5484ac;
+	font-size:20px;
+	line-height:20px;
+	padding:5px 7px;
+	color:#ffffff;
+}
+#contents .tpTl02{
+	display:block;
+	background-color:#cbdae6;
+	font-size:20px;
+	line-height:20px;
+	padding:5px 7px;
+	color:#5484ac;
+	margin-top:70px !important;
+}
+#contents .tpTl03{
+	display:block;
+	background-color:#eef2f7;
+	font-size:20px;
+	line-height:20px;
+	padding:5px 7px;
+	color:#5484ac;
+	margin-top:70px !important;
+}
+#contents .tpTl01 + .tpTl02,
+#contents .tpTl02 + .tpTl03{
+	margin-top:20px !important;
+}
+#contents .tpTl02 + *,
+#contents .tpTl03 + *{
+	margin-top:40px;
+}
+
+@media screen and (max-width: 1400px) {
+#contents .tpTl01{
+	font-size:1.42vw;
+	line-height:1.42vw;
+	padding:0.35vw 0.5vw;
+}
+#contents .tpTl02{
+	font-size:1.42vw;
+	line-height:1.42vw;
+	padding:0.35vw 0.5vw;
+	margin-top:5vw !important;
+}
+#contents .tpTl03{
+	font-size:1.42vw;
+	line-height:1.42vw;
+	padding:0.35vw 0.5vw;
+	margin-top:5vw !important;
+}
+#contents .tpTl01 + .tpTl02,
+#contents .tpTl02 + .tpTl03{
+	margin-top:1.42vw !important;
+}
+#contents .tpTl02 + *,
+#contents .tpTl03 + *{
+	margin-top:2.85vw;
+}
+}
+
+@media screen and (max-width: 980px) {
+#contents .tpTl01{
+	font-size:2.04vw;
+	line-height:2.04vw;
+	padding:0.51vw 0.71vw;
+}
+#contents .tpTl02{
+	font-size:2.04vw;
+	line-height:2.04vw;
+	padding:0.51vw 0.71vw;
+	margin-top:7.14vw !important;
+}
+#contents .tpTl03{
+	font-size:2.04vw;
+	line-height:2.04vw;
+	padding:0.51vw 0.71vw;
+	margin-top:7.14vw !important;
+}
+#contents .tpTl01 + .tpTl02,
+#contents .tpTl02 + .tpTl03{
+	margin-top:2.04vw !important;
+}
+#contents .tpTl02 + *,
+#contents .tpTl03 + *{
+	margin-top:4.08vw;
+}
+}
+
+@media screen and (max-width: 768px) {
+#contents .tpTl01{
+	font-size:3.12vw;
+	line-height:3.12vw;
+	padding:1.25vw;
+}
+#contents .tpTl02{
+	font-size:3.12vw;
+	line-height:3.12vw;
+	padding:1.25vw;
+	margin-top:10.93vw !important;
+}
+#contents .tpTl03{
+	font-size:3.12vw;
+	line-height:3.12vw;
+	padding:1.25vw;
+	margin-top:10.93vw !important;
+}
+#contents .tpTl01 + .tpTl02,
+#contents .tpTl02 + .tpTl03{
+	margin-top:3.12vw !important;
+}
+#contents .tpTl02 + *,
+#contents .tpTl03 + *{
+	margin-top:6.25vw;
+}
+}

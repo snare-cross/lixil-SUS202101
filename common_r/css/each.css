@@ -1,0 +1,1562 @@
+@charset "UTF-8";
+
+/*----- second -----*/
+/* index */
+#second.categoryTop .mainImg{
+	background-image:url(/comp_content/second/pic/index_main_img.jpg);
+}
+
+/*----- corporate -----*/
+#corporate.categoryTop .mainImg{
+	background-image:url(/corporate/pic/index_main_img.jpg);
+}
+#corporate #side .sideNavi > li > ul,
+#corporate #side .sideNavi > li > ul > li > ul{
+	display:none;
+}
+
+/* sustainability */
+/* index */
+#corporate.thirdTop .bx-wrapper {
+	position: relative;
+	margin: 0 auto !important;
+	padding: 0;
+	*zoom: 1;
+	z-index:0;
+}
+#corporate.thirdTop .bx-wrapper img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#corporate.thirdTop .bx-wrapper .bx-viewport li {
+	min-height: 1px; min-width: 1px;
+}
+#corporate.thirdTop ul.bxslider{
+	position:relative;
+}
+#corporate.thirdTop ul.bxslider li{
+	float:left;
+}
+
+/* side */
+#corporate.sustainability-customer #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
+#corporate.sustainability-community #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(3) > ul,
+#corporate.sustainability-future #side .sideNavi > li:nth-child(4) > ul,
+#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > ul,
+#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > ul,
+#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > ul,
+#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > ul,
+#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-future-evaluation #side .sideNavi > li:nth-child(4) > ul,
+#corporate.sustainability-employee #side .sideNavi > li:nth-child(5) > ul,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > ul,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > ul > li > ul,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > ul,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > ul > li > ul,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > ul,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > ul > li > ul,
+#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(5) > ul,
+#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(5) > ul,
+#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(5) > ul{
+	display:block;
+}
+#corporate.sustainability-engagement #side .sideNavi > li:nth-child(1) > a,
+#corporate.sustainability-customer #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-community #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-future #side .sideNavi > li:nth-child(4) > a,
+#corporate.sustainability-employee #side .sideNavi > li:nth-child(5) > a{
+	color:#e75400;
+}
+#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > a,
+#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > a,
+#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul > li:nth-child(1) > a,
+#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul > li:nth-child(2) > a,
+#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(3) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > a,
+#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(3) > ul > li:nth-child(5) > a,
+#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > a,
+#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul > li:nth-child(3) > a,
+#corporate.sustainability-future-evaluation #side .sideNavi > li:nth-child(4) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > ul > li:nth-child(1) > a,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(5) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(5) > ul > li:nth-child(3) > a,
+#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(5) > ul > li:nth-child(4) > a{
+	color:#e75400;
+	border-left:solid 2px #e75400;
+}
+
+/* customer */
+.sustainability-customer #contents .clsC02 .cllC01{
+	margin-top:8px !important;
+}
+.sustainability-customer #contents .clsC02 h2{
+	font-size:22px !important;
+	line-height:30px !important;
+}
+
+/* customer dialogue */
+.sustainability-customer-dialogue #contents .col6 .col{
+	vertical-align:bottom;
+}
+.sustainability-customer-dialogue #contents .col6 .colTwo{
+	width:282.8px;
+	vertical-align:top;
+}
+.sustainability-customer-dialogue #contents .col6 .col:nth-child(5){
+	margin-right:0px;
+}
+.sustainability-customer-dialogue #contents .col6 .col img{
+	margin-top:8px !important;
+}
+
+/* community */
+.sustainability-community #contents .clsC02 h2{
+	font-size:22px !important;
+	line-height:30px !important;
+}
+
+/* community dialogue list */
+.sustainability-community-dialogue-list #contents table th,
+.sustainability-community-dialogue-list #contents table td{
+	font-size:16px;
+	line-height:27px;
+	vertical-align:top;
+}
+.sustainability-community-dialogue-list #contents table th{
+	font-weight:normal;
+	font-family: "UD新ゴ L" ,"UD Shin Go Light";
+	min-width:5.5em;
+	padding-top:14px;
+}
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(2),
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(3),
+.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(2){
+	padding-top:14px;
+}
+.sustainability-community-dialogue-list #contents table td .col{
+	font-size:14px;
+	line-height:23px;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col{
+	width:230.8px;
+}
+.sustainability-community-dialogue-list #contents table td .col2 .col{
+	width:361.6px;
+}
+.sustainability-community-dialogue-list #contents table tr:first-child th,
+.sustainability-community-dialogue-list #contents table tr:first-child .col3 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table tr:first-child .col3 .col:nth-child(2),
+.sustainability-community-dialogue-list #contents table tr:first-child .col3 .col:nth-child(3),
+.sustainability-community-dialogue-list #contents table tr:first-child .col2 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table tr:first-child .col2 .col:nth-child(2){
+	padding-top:0px;
+}
+
+/* future */
+.sustainability-future #contents .clsC02 h2{
+	font-size:22px !important;
+	line-height:30px !important;
+}
+
+/* future education */
+.sustainability-future-education #contents .cbTable tr:nth-child(2) td:first-child{
+	width:4em;
+}
+.sustainability-future-education #contents .cbTable tr:nth-child(2) td:nth-child(2){
+	width:3.4em;
+}
+
+/* ed_toilet */
+.sustainability-future-education-ed_toilet .cbTable th{
+	width:4.2em;
+}
+
+/* future evaluation */
+.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child p{
+	margin-top:0px;
+}
+.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul{
+	margin-top:0px;
+}
+.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
+	margin-top:22px;
+}
+.sustainability-future-evaluation #contents .cbTable th,
+.sustainability-future-evaluation #contents .cbTable td{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sustainability-future-evaluation #contents .cbTable th:first-child,
+.sustainability-future-evaluation #contents .cbTable td:first-child{
+	width:23%;
+}
+.sustainability-future-evaluation #contents .cbTable th:nth-child(2),
+.sustainability-future-evaluation #contents .cbTable td:nth-child(2){
+	width:60%;
+}
+.sustainability-future-evaluation #contents .cbTable td img{
+	max-width:172px;
+}
+
+/* sports */
+/* index */
+#corporate.sports #contents .tlH2Add h2{
+	background-color: transparent;
+	background-image:url(/common_r/pic/bg_line.gif);
+	padding-bottom: 16px;
+}
+#corporate.sports #contents .sportsList a{
+	display:block;
+	position:relative;
+}
+#corporate.sports #contents .sportsList a:hover img{
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+#corporate.sports #contents .sportsList a .kv02{
+	margin-top:0px !important;
+}
+#corporate.sports #contents .sportsList a .txtBox{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	margin-top:0px !important;
+	z-index:51;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner{
+	display:table;
+	width:100%;
+	height:100%;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt{
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:170px;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .tlH2{
+	margin-top:0px;
+	color:#ffffff;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .cbTxt01{
+	color:#ffffff;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .link{
+	margin-top:8px;
+}
+#corporate.sports #contents .sportsList a:hover .inner .txt .link{
+	text-decoration:underline;
+}
+#corporate.sports #contents .facebookList .tlH2Add h2 img{
+	width:28px;
+	height:28px;
+	vertical-align:baseline;
+}
+#corporate.sports #contents .facebookList .col{
+	margin:4px 0px 0px;
+	padding-right:5%;
+	border-top:solid 2px #54585a;
+}
+#corporate.sports #contents .facebookList .col:nth-child(3n){
+	padding-right:0px;
+}
+#corporate.sports #contents .facebookList .col a{
+	display:block;
+	position:relative;
+	margin-top:-6px !important;
+	padding-top:46px;
+	background-image:url(/s/sports/pic/index_icon_circle.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+#corporate.sports #contents .facebookList .col a p{
+	font-size:14px;
+	line-height:23px;
+}
+#corporate.sports #contents .facebookList .col a p + .cbImg{
+	margin-top:14px;
+}
+#corporate.sports #contents .facebookList .col a h3{
+	font-size:16px;
+	line-height:27px;
+	font-weight:normal;
+	font-family: "UD新ゴ L" ,"UD Shin Go Light";
+	margin-top:8px;
+}
+#corporate.sports #contents .inhouseathleteList .col h3{
+	margin-top:14px;
+}
+#corporate.sports #contents .inhouseathleteList .col p,
+#corporate.sports #contents .inhouseathleteList .col .link{
+	margin-top:8px;
+}
+#corporate.sports #contents .movieBnr{
+	background-color:#f33c00;
+	height:120px;
+	width:100%;
+	margin-top:0 !important;
+	background-image:url(/s/sports/pic/index_movie_bg_pc.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	cursor:pointer;
+}
+#corporate.sports #contents .movieBnr:hover{
+	opacity:0.8;
+}
+#corporate.sports #contents .movieBnr .inner{
+	max-width:1260px;
+	margin:0 auto;
+	padding:15px 0;
+	overflow:hidden;
+}
+#corporate.sports #contents .movieBnr .image{
+	float:left;
+	width:50%;
+}
+#corporate.sports #contents .movieBnr .image img{
+	height:auto;
+}
+#corporate.sports #contents .movieBnr .btn{
+	float:left;
+	width:50%;
+	height:90px;
+	display:table;
+	font-size:18px;
+	line-height:27px;
+	color:#ffffff;
+}
+#corporate.sports #contents .movieBnr .btn strong{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+#corporate.sports #contents .movieBnr .btn strong::after{
+	content:"";
+	display:inline-block;
+	vertical-align:middle;
+	width:40px;
+	height:40px;
+	background:url(/s/sports/pic/index_icon_movie_btn.png) no-repeat center center;
+	background-size:100% 100%;
+	margin-left:14px;
+}
+#corporate.sports #modal{
+	position:relative;
+	z-index:52;
+}
+#corporate.sports #modal .modal_wrap {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	margin-top: -50%;
+}
+#corporate.sports #modal .modal_mv {
+	position: fixed;
+	z-index: 10;
+	padding-bottom: 45.25%;
+	width: 80%;
+	height: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#corporate.sports #modal .modal_announce {
+	display: none;
+	position: fixed;
+	z-index: 11;
+	left: 50%;
+	top: 50%;
+	margin: -21px 0 0 -168.5px;
+	width:337px;
+	height:42px;
+}
+#corporate.sports #modal .modal_announce:before {
+	content:"";
+	display:block;
+	width:337px;
+	height:42px;
+	background: url(/s/sports/pic/sound_announce.png) no-repeat center center;
+	background-size:100% auto;
+}
+#corporate.sports #modal .modal_mv iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#corporate.sports #modal #close {
+	position: absolute;
+	top: 0;
+	right: -60px;
+	z-index: 10;
+	cursor: pointer;
+}
+#corporate.sports #modal-overlay{
+	z-index: 8;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background: url(/s/sports/pic/overlay_bg_white.png) left top repeat;
+}
+
+#corporate.sports #modal-overlay {
+	background: url(/s/sports/pic/overlay_bg_black.png) left top repeat;
+}
+
+/* activities */
+#corporate.sports-activities-detail #contents .tlH1Add h1{
+	margin-right:200px;
+}
+#corporate.sports-activities #contents .tlH1Add > a,
+#corporate.sports-activities-detail #contents .tlH1Add > a{
+	width:153px;
+	height:16px;
+	position:absolute;
+	top:8px;
+	right:0px;
+}
+
+/* sports_list */
+#corporate.sports-sports_list #contents .tlH1Add > a{
+	width:153px;
+	height:16px;
+	position:absolute;
+	top:8px;
+	right:0px;
+}
+#corporate.sports-sports_list #contents .conPosiWide{
+	margin-top:22px;
+}
+#corporate.sports-sports_list #contents .col2{
+	margin-top:0px;
+	overflow:hidden;
+	position:relative;
+}
+#corporate.sports-sports_list #contents .col2 .col{
+	width:50%;
+	margin:0px;
+	padding:0px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col{
+	height:100%;
+	position:absolute;
+	top:0px;
+	background-color:#171717;
+}
+#corporate.sports-sports_list #contents .col2.cbInflatL .cbImg + .col{
+	right:0px;
+}
+#corporate.sports-sports_list #contents .col2.cbInflatR .cbImg + .col{
+	left:0px;
+}
+#corporate.sports-sports_list #contents .col2 .col img{
+	width:100%;
+	height:auto;
+	margin:0px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea{
+	display:table;
+	width:100%;
+	height:100%;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	font-size:32px;
+	line-height:43px;
+	margin-top:0px;
+	color:#ffffff;
+	padding-bottom:20px;
+	background-image:url(/common_r/pic/bg_line.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:88px 2px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2 span{
+	display:block;
+	margin:10px auto 0px;
+	font-size:14px;
+	line-height:1.2;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt p{
+	color:#ffffff;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a{
+	display:inline-block;
+	background-color:#e75400;
+	color:#ffffff !important;
+	padding:12px 30px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-o-border-radius: 100px;
+	-ms-border-radius: 100px;
+	border-radius:100px;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a:hover{
+	background-color:#f19866;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-image:url(/s/sports/sports_list/pic/icon_win.png);
+	background-size:12px 10px;
+}
+#corporate.sports-sports_list #contents .movieBnr{
+	background-color:#f33c00;
+	height:120px;
+	width:100%;
+	margin-top:0 !important;
+	background-image:url(/s/sports/sports_list/pic/index_movie_bg_pc.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	cursor:pointer;
+}
+#corporate.sports-sports_list #contents .movieBnr:hover{
+	opacity:0.8;
+}
+#corporate.sports-sports_list #contents .movieBnr .inner{
+	max-width:1260px;
+	margin:0 auto;
+	padding:15px 0;
+	overflow:hidden;
+}
+#corporate.sports-sports_list #contents .movieBnr .image{
+	float:right;
+	width:50%;
+}
+#corporate.sports-sports_list #contents .movieBnr .image img{
+	height:auto;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn{
+	float:left;
+	width:50%;
+	height:90px;
+	display:table;
+	font-size:18px;
+	line-height:27px;
+	color:#ffffff;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn strong{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn strong::after{
+	content:"";
+	display:inline-block;
+	vertical-align:middle;
+	width:40px;
+	height:40px;
+	background:url(/s/sports/pic/index_icon_movie_btn.png) no-repeat center center;
+	background-size:100% 100%;
+	margin-left:14px;
+}
+#corporate.sports-sports_list #modal{
+	position:relative;
+	z-index:52;
+}
+#corporate.sports-sports_list #modal .modal_wrap {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	margin-top: -50%;
+}
+#corporate.sports-sports_list #modal .modal_mv {
+	position: fixed;
+	z-index: 10;
+	padding-bottom: 45.25%;
+	width: 80%;
+	height: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#corporate.sports-sports_list #modal .modal_announce {
+	display: none;
+	position: fixed;
+	z-index: 11;
+	left: 50%;
+	top: 50%;
+	margin: -21px 0 0 -168.5px;
+	width:337px;
+	height:42px;
+}
+#corporate.sports-sports_list #modal .modal_announce:before {
+	content:"";
+	display:block;
+	width:337px;
+	height:42px;
+	background: url(/s/sports/pic/sound_announce.png) no-repeat center center;
+	background-size:100% auto;
+}
+#corporate.sports-sports_list #modal .modal_mv iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#corporate.sports-sports_list #modal #close {
+	position: absolute;
+	top: 0;
+	right: -60px;
+	z-index: 10;
+	cursor: pointer;
+}
+#corporate.sports-sports_list #modal-overlay{
+	z-index: 8;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background: url(/s/sports/pic/overlay_bg_white.png) left top repeat;
+}
+
+#corporate.sports-sports_list #modal-overlay {
+	background: url(/s/sports/pic/overlay_bg_black.png) left top repeat;
+}
+
+/* inhouseathlete */
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add h1{
+	margin-right:200px;
+}
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add > a{
+	width:153px;
+	height:16px;
+	position:absolute;
+	top:8px;
+	right:0px;
+}
+#corporate.sports-inhouseathlete-nagashima .bnr{
+  text-align: center;
+  max-width: 438px;
+  margin: 0 auto;
+}
+
+/* localNavi */
+#corporate.sports-activities #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-activities-detail #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > ul{
+	display:block !important;
+}
+#corporate.sports-activities #side .sideNavi > li:nth-child(1) > a,
+#corporate.sports-sports_list #side .sideNavi > li:nth-child(2) > a{
+	color:#e75400;
+}
+#corporate.sports-activities-column_06 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(1) > a,
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(2) > a,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(3) > a,
+#corporate.sports-activities-column_03 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(4) > a,
+#corporate.sports-activities-column_04 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(5) > a,
+#corporate.sports-activities-column_05 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(6) > a,
+#corporate.sports-activities-column_07 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(7) > a,
+#corporate.sports-activities-column_08 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(8) > a,
+#corporate.sports-activities-column_09 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(9) > a,
+#corporate.sports-activities-column_10 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(10) > a,
+#corporate.sports-activities-column_11 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(11) > a,
+#corporate.sports-activities-column_12 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(12) > a,
+#corporate.sports-activities-column_13 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(13) > a,
+#corporate.sports-activities-column_14 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(14) > a,
+#corporate.sports-activities-column_15 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(15) > a,
+#corporate.sports-activities-column_16 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(16) > a,
+#corporate.sports-activities-column_17 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(17) > a,
+#corporate.sports-activities-column_18 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(18) > a,
+#corporate.sports-activities-column_19 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(19) > a,
+#corporate.sports-activities-column_20 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(20) > a,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > ul > li:nth-last-child(1) > a{
+	color:#e75400;
+	border-left:solid 2px #e75400;
+}
+@media screen and (max-width: 1400px) {
+
+/* customer */
+.sustainability-customer #contents .clsC02 .cllC01{
+	margin-top:0.57vw !important;
+}
+.sustainability-customer #contents .clsC02 h2{
+	font-size:1.57vw !important;
+	line-height:2.14vw !important;
+}
+
+/* customer dialogue */
+.sustainability-customer-dialogue #contents .col6 .colTwo{
+	width:20.2vw;
+}
+.sustainability-customer-dialogue #contents .col6 .col img{
+	margin-top:0.57vw !important;
+}
+
+/* community */
+.sustainability-community #contents .clsC02 h2{
+	font-size:1.57vw !important;
+	line-height:2.14vw !important;
+}
+
+/* community dialogue list */
+.sustainability-community-dialogue-list #contents table th,
+.sustainability-community-dialogue-list #contents table td{
+	font-size:1.14vw;
+	line-height:1.92vw;
+}
+.sustainability-community-dialogue-list #contents table th{
+	padding-top:1vw;
+}
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(2),
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(3),
+.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(2){
+	padding-top:1vw;
+}
+.sustainability-community-dialogue-list #contents table td .col{
+	font-size:1vw;
+	line-height:1.64vw;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col{
+	width:16.42vw;
+}
+.sustainability-community-dialogue-list #contents table td .col2 .col{
+	width:25.75vw;
+}
+
+/* future */
+.sustainability-future #contents .clsC02 h2{
+	font-size:1.57vw !important;
+	line-height:2.14vw !important;
+}
+
+/* future evaluation */
+.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
+	margin-top:1.57vw;
+}
+
+/* sports */
+/* index */
+#corporate.sports #contents .tlH2Add h2{
+	padding-right: 0.71vw;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt{
+	padding-left:12.14vw;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .link{
+	margin-top:0.57vw;
+}
+#corporate.sports #contents .facebookList .tlH2Add h2 img{
+	width:2vw;
+	height:2vw;
+}
+#corporate.sports #contents .facebookList .col{
+	margin:0.28vw 0px 0px;
+	border-top:solid 0.14vw #54585a;
+}
+#corporate.sports #contents .facebookList .col a{
+	margin-top:-0.42vw !important;
+	padding-top:3.28vw;
+	background-size:1rem 3.6rem;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports #contents .facebookList .col a{
+	background-size:0.71vw 2.57vw;
+}
+}
+#corporate.sports #contents .facebookList .col a p{
+	font-size:1vw;
+	line-height:1.64vw;
+}
+#corporate.sports #contents .facebookList .col a p + .cbImg{
+	margin-top:1vw;
+}
+#corporate.sports #contents .facebookList .col a h3{
+	font-size:1.14vw;
+	line-height:1.92vw;
+	margin-top:0.57vw;
+}
+#corporate.sports #contents .inhouseathleteList .col h3{
+	margin-top:1vw;
+}
+#corporate.sports #contents .inhouseathleteList .col p,
+#corporate.sports #contents .inhouseathleteList .col .link{
+	margin-top:0.57vw;
+}
+#corporate.sports #contents .movieBnr{
+	height:8.57vw;
+}
+#corporate.sports #contents .movieBnr .inner{
+	width:90vw;
+	padding:1.07vw 0;
+}
+#corporate.sports #contents .movieBnr .btn{
+	height:6.42vw;
+	font-size:1.28vw;
+	line-height:1.92vw;
+}
+#corporate.sports #contents .movieBnr .btn strong::after{
+	width:2.85vw;
+	height:2.85vw;
+	margin-left:1vw;
+}
+
+/* activities */
+#corporate.sports-activities-detail #contents .tlH1Add h1{
+	margin-right:14.28vw;
+}
+#corporate.sports-activities #contents .tlH1Add > a,
+#corporate.sports-activities-detail #contents .tlH1Add > a{
+	width:10.92vw;
+	height:1.14vw;
+	top:0.57vw;
+}
+#corporate.sports-activities #contents .tlH1Add > a img,
+#corporate.sports-activities-detail #contents .tlH1Add > a img{
+	width:100%;
+	height:auto;
+}
+
+/* sports_list */
+#corporate.sports-sports_list #contents .tlH1Add > a{
+	width:10.92vw;
+	height:1.14vw;
+	top:0.57vw;
+}
+#corporate.sports-sports_list #contents .tlH1Add > a img{
+	width:100%;
+	height:auto;
+}
+#corporate.sports-sports_list #contents .conPosiWide{
+	margin-top:1.57vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	font-size:2.28vw;
+	line-height:3.07vw;
+	padding-bottom:1.42vw;
+	background-size:8.8rem 0.2rem;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	background-size:6.28vw 0.14vw;
+}
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2 span{
+	margin:0.71vw auto 0px;
+	font-size:1vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a{
+	padding:0.85vw 2.14vw;
+	-moz-border-radius: 10rem;
+	-webkit-border-radius: 10rem;
+	-o-border-radius: 10rem;
+	-ms-border-radius: 10rem;
+	border-radius:10rem;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a{
+	-moz-border-radius: 7.14vw;
+	-webkit-border-radius: 7.14vw;
+	-o-border-radius: 7.14vw;
+	-ms-border-radius: 7.14vw;
+	border-radius:7.14vw;
+}
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-size:1.2rem 1rem;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-size:0.85vw 0.71vw;
+}
+}
+#corporate.sports-sports_list #contents .movieBnr{
+	height:8.57vw;
+}
+#corporate.sports-sports_list #contents .movieBnr .inner{
+	width:90vw;
+	padding:1.07vw 0;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn{
+	height:6.42vw;
+	font-size:1.28vw;
+	line-height:1.92vw;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn strong::after{
+	width:2.85vw;
+	height:2.85vw;
+	margin-left:1vw;
+}
+
+/* inhouseathlete */
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add h1{
+	margin-right:14.28vw;
+}
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add > a{
+	width:10.92vw;
+	height:1.14vw;
+	top:0.57vw;
+}
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add > a img{
+	width:100%;
+	height:auto;
+}
+}
+
+@media screen and (max-width: 980px) {
+/*----- corporate -----*/
+#corporate #side .sideNavi > li > ul,
+#corporate #side .sideNavi > li > ul > li > ul{
+	display:none !important;
+}
+
+/* sustainability */
+#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-customer-dialogue #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > a,
+#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > a,
+#corporate.sustainability-community-donation #side .sideNavi >li:nth-child(3) > a,
+#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > a,
+#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > a,
+#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > a,
+#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > a,
+#corporate.sustainability-future-evaluation #side .sideNavi > li:nth-child(4) > a,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > a,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > a,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > a,
+#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(5) > a,
+#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(5) > a,
+#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(5) > a{
+	color:#e75400;
+}
+
+/* customer */
+.sustainability-customer #contents .clsC02 .cllC01{
+	margin-top:0.81vw !important;
+}
+.sustainability-customer #contents .clsC02 h2{
+	font-size:2.24vw !important;
+	line-height:3.06vw !important;
+}
+
+/* customer dialogue */
+.sustainability-customer-dialogue #contents .col6 .colTwo{
+	width:26.6vw;
+}
+.sustainability-customer-dialogue #contents .col6 .col img{
+	margin-top:0.81vw !important;
+}
+
+/* community */
+.sustainability-community #contents .clsC02 h2{
+	font-size:2.24vw !important;
+	line-height:3.06vw !important;
+}
+
+/* community dialogue list */
+.sustainability-community-dialogue-list #contents table th,
+.sustainability-community-dialogue-list #contents table td{
+	font-size:1.63vw;
+	line-height:2.75vw;
+}
+.sustainability-community-dialogue-list #contents table th{
+	padding-top:1.42vw;
+}
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(2),
+.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(3),
+.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(1),
+.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(2){
+	padding-top:1.42vw;
+}
+.sustainability-community-dialogue-list #contents table td .col{
+	font-size:1.42vw;
+	line-height:2.04vw;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col{
+	width:21.2vw;
+}
+.sustainability-community-dialogue-list #contents table td .col2 .col{
+	width:33vw;
+}
+
+/* future */
+.sustainability-future #contents .clsC02 h2{
+	font-size:2.24vw !important;
+	line-height:3.06vw !important;
+}
+
+/* future evaluation */
+.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
+	margin-top:2.24vw;
+}
+
+/* sports */
+/* index */
+#corporate.sports #contents .tlH2Add h2{
+	padding-right: 1.02vw;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt{
+	padding-left:10.2vw;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .link{
+	margin-top:0.81vw;
+}
+#corporate.sports #contents .facebookList .tlH2Add h2 img{
+	width:2.85vw;
+	height:2.85vw;
+}
+#corporate.sports #contents .facebookList .col{
+	margin:0.4vw 0px 0px;
+	padding-right:7.14vw;
+	border-top:solid 0.2vw #54585a;
+}
+#corporate.sports #contents .facebookList .col a{
+	margin-top:-0.61vw !important;
+	padding-top:4.69vw;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports #contents .facebookList .col a{
+	background-size:1.02vw 3.67vw;
+}
+}
+#corporate.sports #contents .facebookList .col a p{
+	font-size:1.42vw;
+	line-height:2.34vw;
+}
+#corporate.sports #contents .facebookList .col a p + .cbImg{
+	margin-top:1.42vw;
+}
+#corporate.sports #contents .facebookList .col a h3{
+	font-size:1.63vw;
+	line-height:2.14vw;
+	margin-top:0.81vw;
+}
+#corporate.sports #contents .inhouseathleteList .col h3{
+	margin-top:1.42vw;
+}
+#corporate.sports #contents .inhouseathleteList .col p,
+#corporate.sports #contents .inhouseathleteList .col .link{
+	margin-top:0.81vw;
+}
+#corporate.sports #contents .movieBnr{
+	height:8.57vw;
+}
+#corporate.sports #contents .movieBnr .inner{
+	width:85.8vw;
+	padding:1.2vw 0;
+}
+#corporate.sports #contents .movieBnr .btn{
+	font-size:1.83vw;
+	line-height:2.75vw;
+}
+#corporate.sports #contents .movieBnr .btn strong::after{
+	width:4.08vw;
+	height:4.08vw;
+	margin-left:1.42vw;
+}
+
+/* activities */
+#corporate.sports-activities-detail #contents .tlH1Add h1{
+	margin-right:20.4vw;
+}
+#corporate.sports-activities #contents .tlH1Add > a,
+#corporate.sports-activities-detail #contents .tlH1Add > a{
+	width:15.61vw;
+	height:1.63vw;
+	top:0.81vw;
+}
+
+/* sports_list */
+#corporate.sports-sports_list #contents .tlH1Add > a{
+	width:15.61vw;
+	height:1.63vw;
+	top:0.81vw;
+}
+#corporate.sports-sports_list #contents .conPosiWide{
+	margin-top:2.24vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt{
+	padding:0px 5%;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	font-size:3.26vw;
+	line-height:4.38vw;
+	padding-bottom:2.04vw;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	background-size:8.97vw 0.2vw;
+}
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2 span{
+	margin:1.02vw auto 0px;
+	font-size:1.42vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a{
+	padding:1.22vw 3.06vw;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a{
+	-moz-border-radius: 10.2vw;
+	-webkit-border-radius: 10.2vw;
+	-o-border-radius: 10.2vw;
+	-ms-border-radius: 10.2vw;
+	border-radius:10.2vw;
+}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-size:1.22vw 1.02vw;
+}
+}
+#corporate.sports-sports_list #contents .movieBnr{
+	height:8.57vw;
+}
+#corporate.sports-sports_list #contents .movieBnr .inner{
+	width:85.8vw;
+	padding:1.2vw 0;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn{
+	font-size:1.83vw;
+	line-height:2.75vw;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn strong::after{
+	width:4.08vw;
+	height:4.08vw;
+	margin-left:1.42vw;
+}
+
+/* inhouseathlete */
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add h1{
+	margin-right:20.4vw;
+}
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add > a{
+	width:15.61vw;
+	height:1.63vw;
+	top:0.81vw;
+}
+
+/* localNavi */
+#corporate.sports-activities #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > ul{
+	display:none !important;
+}
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > a,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > a,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > a{
+	color:#e75400;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+/* customer */
+.sustainability-customer #contents .clsC02 .cllC01{
+	margin-top:3.12vw !important;
+}
+.sustainability-customer #contents .clsC02 h2{
+	font-size:5.62vw !important;
+	line-height:7.5vw !important;
+}
+
+/* customer dialogue */
+.sustainability-customer-dialogue #contents .col6 .colTwo{
+	width:100%;
+	margin-right:0px;
+}
+.sustainability-customer-dialogue #contents .col6 .col:nth-child(2n){
+	margin-right:6.25vw;
+	margin-top:9.37vw;
+}
+.sustainability-customer-dialogue #contents .col6 .col:nth-child(3){
+	margin-right:0px;
+}
+.sustainability-customer-dialogue #contents .col6 .col img{
+	margin-top:3.12vw !important;
+}
+
+/* community */
+.sustainability-community #contents .clsC02 h2{
+	font-size:5.62vw !important;
+	line-height:7.5vw !important;
+}
+
+/* community dialogue list */
+.sustainability-community-dialogue-list #contents table th,
+.sustainability-community-dialogue-list #contents table td{
+	font-size:4.37vw;
+	line-height:6.71vw;
+}
+.sustainability-community-dialogue-list #contents table th{
+	padding-top:3.12vw;
+}
+.sustainability-community-dialogue-list #contents table tr:first-child th{
+	padding-top:0px !important;
+}
+.sustainability-community-dialogue-list #contents table td .col{
+	font-size:4.06vw;
+	line-height:5.62vw;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col,
+.sustainability-community-dialogue-list #contents table td .col2 .col{
+	width:100%;
+	margin-right:0px !important;
+	margin-top:3.12vw !important;
+}
+.sustainability-community-dialogue-list #contents table td .col3 .col:first-child,
+.sustainability-community-dialogue-list #contents table td .col2 .col:first-child{
+	margin-top:0px !important;
+	padding-top:3.12vw;
+}
+.sustainability-community-dialogue-list #contents table tr:first-child td .col3 .col:first-child,
+.sustainability-community-dialogue-list #contents table tr:first-child td .col2 .col:first-child{
+	padding-top:0px !important;
+}
+
+/* future */
+.sustainability-future #contents .clsC02 h2{
+	font-size:5.62vw !important;
+	line-height:7.5vw !important;
+}
+
+/* future evaluation */
+.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
+	margin-top:3.12vw;
+}
+.sustainability-future-evaluation #contents .cbTable td img{
+	max-width:260px;
+}
+
+/* sports */
+/* index */
+#corporate.sports #contents .tlH2Add h2{
+	padding-bottom: 4.06vw;
+}
+#corporate.sports #contents .sportsList a .txtBox{
+	position:relative;
+	background-color:#191919;
+}
+#corporate.sports #contents .sportsList a:hover .txtBox{
+	background-color:#757575;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner{
+	width:87.5vw;
+	margin:0 auto;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt{
+	padding:6.25vw 0px;
+}
+#corporate.sports #contents .sportsList a .txtBox .inner .txt .link{
+	margin-top:3.12vw;
+}
+#corporate.sports #contents .facebookList .tlH2Add h2 img{
+	width:5.31vw;
+	height:5.31vw;
+}
+#corporate.sports #contents .facebookList .clsC03{
+	margin-top:8.43vw !important;
+}
+#corporate.sports #contents .facebookList .col{
+	width:auto;
+	margin:0px 0px 0px 0.93vw;
+	padding-right:0px;
+	border-top:none;
+	border-left:solid 0.62vw #54585a;
+}
+#corporate.sports #contents .facebookList .col a{
+	margin:-2.18vw 0px 0px -1.56vw !important;
+	padding:0px 0px 9.37vw 12.5vw;
+	background-image:url(/s/sports/pic/index_icon_circle_sp.png);
+	background-position:left 0.8rem;
+	background-size:6.1rem 1.6rem;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports #contents .facebookList .col a{
+	background-position:left 1.25vw;
+	background-size:9.53vw 2.5vw;
+}
+}
+#corporate.sports #contents .facebookList .col:last-child a{
+	padding-bottom:0px;
+}
+#corporate.sports #contents .facebookList .col a p{
+	font-size:3.75vw;
+	line-height:5vw;
+}
+#corporate.sports #contents .facebookList .col a p + .cbImg{
+	margin-top:2.18vw;
+}
+#corporate.sports #contents .facebookList .col a h3{
+	font-size:4.37vw;
+	line-height:5.78vw;
+	margin-top:3.12vw;
+}
+#corporate.sports #contents .inhouseathleteList .col{
+	width:40.62vw;
+	margin-right:6.25vw;
+}
+#corporate.sports #contents .inhouseathleteList .col:nth-child(2n){
+	margin-right:0px;
+}
+#corporate.sports #contents .inhouseathleteList .col:nth-child(2){
+	margin-top:0px;
+}
+#corporate.sports #contents .inhouseathleteList .col h3{
+	margin-top:3.12vw;
+}
+#corporate.sports #contents .inhouseathleteList .col p,
+#corporate.sports #contents .inhouseathleteList .col .link{
+	margin-top:3.12vw;
+}
+#corporate.sports #contents .movieBnr{
+	height:auto;
+	background-image:url(/s/sports/pic/index_movie_bg_sp.png);
+}
+#corporate.sports #contents .movieBnr .inner{
+	width:auto;
+	padding:3.9vw 0 0;
+}
+#corporate.sports #contents .movieBnr .image{
+	float:none;
+	width:auto;
+	margin:0 0.78vw;
+}
+#corporate.sports #contents .movieBnr .btn{
+	float:none;
+	width:100%;
+	height:13.43vw;
+	font-size:4.37vw;
+	line-height:5.62vw;
+}
+#corporate.sports #contents .movieBnr .btn strong{
+	float:none;
+	width:100%;
+	padding:0 6.25vw;
+	overflow:hidden;
+	text-align:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#corporate.sports #contents .movieBnr .btn strong::after{
+	width:6.25vw;
+	height:6.25vw;
+	margin-left:0;
+	float:right;
+}
+#corporate.sports #modal .modal_announce {
+	margin: -3.28vw 0 0 -26.32vw;
+	width:52.65vw;
+	height:6.56vw;
+}
+#corporate.sports #modal .modal_announce:before{
+	width:52.65vw;
+	height:6.56vw;
+}
+#corporate.sports #modal #close {
+	width:5.46vw;
+	top: -9.3vw;
+	right: 0;
+}
+
+/* activities */
+#corporate.sports-activities-detail #contents .tlH1Add h1{
+	margin-right:0px;
+}
+#corporate.sports-activities #contents .tlH1Add > a,
+#corporate.sports-activities-detail #contents .tlH1Add > a{
+	display:none;
+}
+
+/* sports_list */
+#corporate.sports-sports_list #contents .tlH1Add > a{
+	display:none;
+}
+#corporate.sports-sports_list #contents .conPosiWide{
+	margin-top:6.25vw;
+}
+#corporate.sports-sports_list #contents .col2{
+	margin-top:0px !important;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col{
+	height:auto;
+	position:static;
+	padding:7.81vw 0px 9.37vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	font-size:6.25vw;
+	line-height:8.43vw;
+	padding-bottom:3.75vw;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2{
+	background-size:13.75vw 0.31vw;
+}
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt h2 span{
+	margin:1.87vw auto 0px;
+	font-size:3.12vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt a{
+	padding:3.75vw 9.37vw;
+}
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-size:2.4rem 2rem;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#corporate.sports-sports_list #contents .col2 .cbImg + .col .txtArea .txt .cbIconWin{
+	background-size:3.75vw 3.12vw;
+}
+}
+#corporate.sports-sports_list #contents .movieBnr{
+	height:auto;
+	background-image:url(/s/sports/pic/index_movie_bg_sp.png);
+}
+#corporate.sports-sports_list #contents .movieBnr .inner{
+	width:auto;
+	padding:3.9vw 0 0;
+}
+#corporate.sports-sports_list #contents .movieBnr .image{
+	float:none;
+	width:auto;
+	margin:0 0.78vw;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn{
+	float:none;
+	width:100%;
+	height:13.43vw;
+	font-size:4.37vw;
+	line-height:5.62vw;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn strong{
+	float:none;
+	width:100%;
+	padding:0 6.25vw;
+	overflow:hidden;
+	text-align:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#corporate.sports-sports_list #contents .movieBnr .btn strong::after{
+	width:6.25vw;
+	height:6.25vw;
+	margin-left:0;
+	float:right;
+}
+#corporate.sports-sports_list #modal .modal_announce {
+	margin: -3.28vw 0 0 -26.32vw;
+	width:52.65vw;
+	height:6.56vw;
+}
+#corporate.sports-sports_list #modal .modal_announce:before{
+	width:52.65vw;
+	height:6.56vw;
+}
+#corporate.sports-sports_list #modal #close {
+	width:5.46vw;
+	top: -9.3vw;
+	right: 0;
+}
+
+/* inhouseathlete */
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add h1{
+	margin-right:0px;
+}
+#corporate.sports-inhouseathlete-detail #contents .tlH1Add > a{
+	display:none;
+}
+#corporate.sports-inhouseathlete-nagashima .bnr{
+  max-width: 325px;
+}
+
+/* localNavi */
+#corporate.sports-activities #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > ul,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > ul{
+	display:block !important;
+}
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > a,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > a,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > a{
+	color:#54585a;
+}
+#corporate.sports-activities-column_01 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(1) a,
+#corporate.sports-activities-column_02 #side .sideNavi > li:nth-child(1) > ul > li:nth-last-child(2) a,
+#corporate.sports-inhouseathlete-nagashima #side .sideNavi > li:nth-child(3) > ul > li:nth-last-child(1) a{
+	border-left: solid 0.62vw #e75400 !important;
+}
+}

@@ -1,0 +1,43 @@
+@charset "shift_jis";
+
+/* ================================================================================================= FORM */
+
+/* ------------------------------------------------------------------------------------------------- default */
+
+.lixTmplFInput {
+	width: 200px;
+}
+
+select,
+option {
+	width: 6em;
+}
+
+.lixTmplPopup650 #lixTmplHeader .lixTmplHeaderInner,
+.lixTmplPopup650 #lixTmplMainCont,
+.lixTmplPopup650 .lixTmplMainCont,
+.lixTmplPopup650 #lixTmplContents,
+.lixTmplPopup650 .lixTmplContents,
+.lixTmplPopup650 #lixTmplFooterBtm {
+	width: 650px;
+}
+
+
+.txtBold{
+	font-weight:bold;
+}
+.mb00{
+	margin-bottom: 0px !important;
+}
+.mb05{
+	margin-bottom: 5px !important;
+}
+.mb10{
+	margin-bottom: 10px !important;
+}
+.mb20{
+	margin-bottom: 20px !important;
+}
+.mb30{
+	margin-bottom: 30px !important;
+}

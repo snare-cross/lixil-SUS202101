@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* base */
+body {
+	width:1400px !important;
+	zoom: 80%;
+}
+
+/* sustainability */
+#corporate.thirdTop .bx-wrapper .bx-viewport li{
+	width:100% !important;
+}
+#contents .frlLinkList .col2 .col,
+#contents .frlLinkList02 .col2 .col{
+	width:399px;
+}
+#contents .cbQuoteS > .col2 .col{
+	width:403px;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+.content-col-2 #container{
+	overflow:visible;
+}
+.content-col-2 #contents{
+	float:none;
+	margin-left:350px;
+}
+
+/* sustainability */
+#corporate.sustainability-customer-dialogue .section:nth-child(6) > .cbInflatL,
+#corporate.sustainability-community-dialogue-list #footer,
+#corporate.sustainability-community-environment #footer{
+	page-break-before: always;
+}
+}
