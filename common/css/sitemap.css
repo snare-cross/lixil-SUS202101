@@ -1,0 +1,60 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+サイトマップ用CSS
+------------------------------------------------------- */
+
+/* 見出し */
+
+div#other-area div.sitemap h2{
+	background-image: none;
+	height: 30px;
+	padding:0;
+	margin:0;
+}
+div#other-area div.sitemap h2.mb{
+	margin:0 0 30px 0;
+}
+
+/* 大枠 */
+div#other-area div.sitemap div.category{
+	border-bottom:1px dotted #cccccc;
+	padding:0 0 20px 0;
+	margin:0 0 20px 0;
+}
+div#other-area div.sitemap div.category02{
+	border-bottom:1px dotted #cccccc;
+	padding:0;
+	margin:0 0 20px 0;
+}
+
+/* 段組 */
+div#other-area div.sitemap div.col-main{
+ width:745px;
+	margin:0 0 0 10px;
+}
+div#other-area div.sitemap div.col-main-left{
+ float:left;
+	width:360px;
+}
+div#other-area div.sitemap div.col-main-right{
+ float:right;
+	width:360px;
+}
+
+/* リスト */
+div#other-area div.sitemap ul{
+ margin:10px;
+}
+div#other-area div.sitemap ul li{
+	width:170px;
+	float:left;
+	line-height: 1.3em;
+}
+div#other-area div.sitemap ul li a{
+	background-image: url(../images/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding:0 10px 5px 12px;
+	display:block;
+}

@@ -1,0 +1,372 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+ビバ倶楽部カード用CSS
+------------------------------------------------------- */
+
+/* トップページ */
+body#card #contents h1.top{
+ margin:0;
+	padding:0;
+	background-image: none;
+	height: 185px;
+}
+
+body#card #contents p.btn{
+ float:left;
+	padding:15px 5px 0 10px;
+}
+
+/* カードラインナップ-トップ */
+body#card #contents dl.info{
+ margin-bottom:15px;
+	width:100%;
+	border:1px solid #EB5C02;
+}
+body#card #contents dl.info dt{
+ padding:5px;
+	font-weight:bold;
+	background-color: #EB5C02;
+	margin:3px;
+	color:#FFFFFF;
+	text-align:center;
+}
+body#card #contents dl.info dd{
+ padding:5px 5px 0 5px;
+	margin:0;
+}
+
+body#card #contents ol.decimal li{
+ font-weight:normal;
+	margin:0 0 10px 30px;
+}
+body#card #contents ol.decimal li.end{
+	margin:0 0 -10px 30px;
+}
+
+body#card #contents h3.under-h2{
+	margin-top: 10px;
+}
+
+body#card #contents h2.h4{/* 見た目h4文字大 */
+	font-weight:bold;
+	color:#FF0000;
+	background-image: none;
+	padding:0;
+	margin-bottom:10px;
+	height:20px;
+	font-size:180%;
+	line-height:120%;
+}
+body#card #contents h2.h4b{/* 見た目h4 */
+	font-weight:bold;
+	color:#EB5C02;
+	background-image: none;
+	padding:0;
+	margin:0;
+	height:20px;
+}
+
+body#card #contents h3.h4{/* 見た目h4 */
+	width:540px;
+	font-weight:bold;
+	color:#EB5C02;
+	background-image: none;
+	padding:0;
+	margin:0;
+	height:20px;
+}
+body#card #contents h4.line{/* h4文字サイズ大 */
+	font-size:120%;
+	border-top:solid 1px #EB5C02;
+	border-bottom:solid 1px #EB5C02;
+	width:550px;
+	padding:3px 0;
+	margin-bottom:10px;
+}
+body#card #contents h4.line span{/* h4縦罫 */
+	border-left:solid 3px #EB5C02;
+	margin-left:3px;
+	padding-left:3px;
+}
+
+
+
+body#card #contents div.mg{
+ margin:10px 0;
+}
+
+body#card #contents dl.news dt{
+ margin:0 0 0.5em 0;
+}
+body#card #contents dl.news dd{
+ margin:-1.5em 0 0.5em 5em;
+}
+
+body#card #contents p.arrow{
+ text-align:center;
+	margin:10px 0;
+}
+body#card #contents p.subscription{
+	margin:5px 30px 5px 10px;
+	font-size:80%;
+}
+
+
+
+/* カードラインナップ-会員規約 */
+body#card #contents dl.kiyaku dt{
+ font-weight:bold;
+	color:#EB5C02;
+	margin:0 0 0.5em 0;
+}
+body#card #contents dl.kiyaku dd{
+	margin:0 0 1.5em 0;
+	line-height:125%;
+}
+
+/* 特典優待 */
+body#card #contents img.free{
+	margin:0 5px;
+}
+/* 生活サポートサービス */
+body#card #contents p.dial{
+	font-size:150%;
+	font-weight:bold;
+	color:#EB5C02;
+}
+/* カード取り扱い店舗 */
+body#card #contents .blue{
+	color: #0000FF;
+}
+body#card #contents .green{
+	color: #009900;
+}
+/* カード入会 */
+body#card #contents #pagenavi ul li a{
+	display: block;
+	width:180px;
+}
+body#card #contents div.waku{
+ border:1px solid #CCCCCC;
+	padding:10px;
+}
+body#card #contents p.link{
+	background-image:url(../images/navi_ic01.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+body#card #contents p.link a.naka{
+	padding:0 0 0 18px;
+	font-weight:bolder;
+}
+
+
+/* QandA */
+body#card #contents .qa-area{
+	width: 550px;
+	margin:10px 0 20px 10px;
+	padding:5px 8px;
+	background-color: #ebebeb;
+}
+body#card #contents .ans-area {
+	width: 550px;
+	margin:5px 0 15px 15px;
+}
+
+
+body#card #contents .ans-area dl.shitumon {
+	padding: 0;
+	margin:0;
+}
+
+body#card #contents .ans-area dl.shitumon dt{
+	display: block;
+	background-color: #FFFFFF;
+	padding: 5px;
+	margin: 5px 10px 0 0;
+	font-weight: bold;
+	color: #EB5C02;
+	text-align: center;
+	width: 22px;
+	*+width: 25px;
+	_width: 25px;
+	border:1px solid #EB5C02;
+}
+
+body#card #contents .ans-area dl.shitumon dd{
+	font-weight: bold;
+	color: #EB5C02;
+	margin:-1.5em 0 0 45px;
+}
+
+
+
+body#card #contents .ans-area dl.kaitou{
+	padding: 0px;
+ margin:0;
+}
+body#card #contents .ans-area dl.kaitou dt{
+	display: block;
+	background-color: #EB5C02;
+	padding: 5px 6px 5px 6px;
+	margin:10px 10px 0 0;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	width: 22px;
+	*+width: 25px;
+	_width: 25px;
+
+}
+body#card #contents .ans-area dl.kaitou dt.long{
+	display: block;
+	background-color: #EB5C02;
+	padding: 5px;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 6em;
+	text-align: center;
+	width: 20px;
+}
+body#card #contents .ans-area dl.kaitou dd{
+	margin:-1.5em 0 1em 45px;
+	
+}
+body#card #contents .ans-area dl.kaitou dd p{
+ margin:10px 0 0 0;
+}
+body#card #contents .ans-area dl.kaitou dd ol{
+ margin: 5px 5px 5px 30px;
+}
+
+body#card #contents .ans-area dl.kaitou dd ol li{
+ list-style: decimal;
+ font-weight: bold;
+ line-height: 120%;
+}
+body#card #contents .ans-area dl.kaitou dd ol li span{
+ font-weight:lighter;
+}
+
+
+
+body#card #contents div.qa-area p a.linktxt{
+ line-height:150%;
+	margin:0 0 10px 20px;
+}
+
+
+/* ポイント早わかり */
+body#card #contents #pagenavi ul li a.small-navi{
+	display: block;
+	width:150px;
+}
+
+
+/* 空き */
+body#card #contents .space{
+	margin-bottom:15px;
+}
+
+/* 均等2段組 */
+body#card div#main #contents #sub-section02{
+ width:540px;
+	margin:15px 0 15px 20px;
+}
+body#card div#main #contents #sub-section04{
+ width:540px;
+	margin-top:5px;
+}
+
+body#card div#main #col #col-left07a{
+ float:left;
+	margin-left:10px;
+	*+margin-left:20px;
+	_margin-left:10px;
+}
+body#card div#main #col #col-left07b{
+ float:left;
+	margin-left:20px;
+}
+
+body#card div#main #col #col-left08a{
+ float:left;
+}
+body#card div#main #col #col-left08b{
+ float:left;
+	margin-left:20px;
+}
+
+
+/* 均等3段組 */
+body#card div#main #contents #sub-section03{
+ width:560px;
+	margin:15px 0 15px 10px;
+}
+body#card div#main #col #col-left06a{
+ float:left;
+	margin-left:5px;
+	*+margin-left:10px;
+	_margin-left:5px;
+	width:165px;
+}
+body#card div#main #col #col-left06b{
+ float:left;
+	margin-left:10px;
+	width:165px;
+}
+
+/* 米印 */
+body#card p.notes{
+	font-size:80%;
+	margin:5px 0 0 0;
+}
+body#card p.notes02{
+	font-size:80%;
+	margin:10px 0 10px 20px;
+	*+margin:10px 0 10px 40px;
+	_margin:10px 0 10px 20px;
+	text-align:right;
+	width:550px;
+}
+body#card span.notes{
+	font-size:80%;
+}
+
+/* TEL太字 */
+body#card span.tel{
+	font-weight:bold;
+	font-size:120%;
+}
+
+
+
+body#card #special-info{
+	font-weight:bold;
+	text-align: center;
+}
+
+
+div#main #col .notes{
+ float:left;
+	margin-left:20px;
+	*+margin-left:40px;
+	_margin-left:20px;
+	width:240px;
+	border: 1px solid #FF6600;
+	padding: 10px;
+}
+div#main #col .notes02{
+ float:left;
+	width:auto;
+	border: 1px solid #FF6600;
+	padding: 10px;
+}
+div#main div.notes{
+	margin-left:20px;
+	width:auto;
+	border: 1px solid #FF6600;
+	padding: 10px;
+}

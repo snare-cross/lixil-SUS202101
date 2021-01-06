@@ -1,0 +1,207 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------
+	reform.css
+	
+	style sheet for reform category
+---------------------------------------------------------- */
+
+/* /reform/default.htm only
+------------------------------------------ */
+#topPage h1,
+#topPage h2 {
+	background: none;
+	font-size: 0;
+	border: none;
+	margin-bottom: 10px;
+}
+
+#topPage .iconLink {
+	padding-left: 20px;
+	line-height: 1.2;
+	background: url(/reform/pic/default_ic001.gif) no-repeat 0 0.15em;
+	zoom: 1;
+}
+#topPage .wrapper {
+	margin-top: 30px;
+}
+#topPage .wrapper .mainArea {
+	float: left;
+	width: 705px;
+}
+#topPage .wrapper .mainArea .lead {
+	color: #333333;
+}
+#topPage .wrapper .mainArea ul {
+	clear: both;
+}
+#topPage .wrapper .mainArea ul.case li {
+	float: left;
+	width: 163px;
+	margin: 20px 0 0 17px;
+}
+#topPage .wrapper .mainArea ul.case li img {
+	padding: 3px 0;
+}
+#topPage .wrapper .mainArea ul.case li span {
+	display: block;
+	font-size: 100%;/* 80%; */
+	line-heigt: 1.2;
+}
+
+#topPage .wrapper .mainArea .subSection {
+	margin-top: 20px;
+	background: url(/reform/pic/default_bg001.gif) repeat-y;
+	zoom: 1;
+}
+#topPage .wrapper .mainArea .subSection .colLeft {
+	float: left;
+	width: 337px;
+}
+#topPage .wrapper .mainArea .subSection .colRight {
+	float: right;
+	width: 337px;
+}
+#topPage .wrapper .mainArea .subSection dl dt {
+}
+#topPage .wrapper .mainArea .subSection dl dd {
+	margin-top: 10px;
+	padding-top: 10px;
+	background: url(/common/pic/com_bg001.gif) repeat-x 0 0;
+	font-size: 100%;/* 80%; */
+	zoom: 1;
+}
+
+#topPage .wrapper .mainArea .searchArea {
+	border: 1px solid #dddddd;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	zoom: 1;
+}
+#topPage .wrapper .mainArea .searchArea p img {
+	vertical-align: middle;
+}
+#topPage .wrapper .mainArea .searchArea p span {
+	margin-left: 10px;
+	padding: 3px 0 3px 10px;
+	border-left: 1px solid #dddddd;
+	font-size: 100%;/* 80%; */
+}
+
+#topPage .wrapper .mainArea .searchArea .wrapper {
+	margin-top: 20px;
+}
+#topPage .wrapper .mainArea .searchArea .wrapper dl {
+	float: left;
+	margin-left: 49px;
+	width: 188px;
+}
+#topPage .wrapper .mainArea .searchArea .wrapper dl.first {
+	margin-left: 20px;
+}
+* html #topPage .wrapper .mainArea .searchArea .wrapper dl.first {
+	margin-left: 10px;
+}
+
+#topPage .wrapper .mainArea .searchArea .wrapper dt img {
+	margin-bottom: 5px;
+}
+#topPage .wrapper .mainArea .searchArea .wrapper dd .txNormal {
+	margin-top: 8px;
+}
+
+
+#topPage .wrapper .sideArea {
+	float: right;
+	width: 220px;
+}
+#topPage .wrapper .sideArea .reformBox {
+	padding: 4px;
+	margin-top: 15px;
+	border: 1px solid #d5d5d5;
+}
+#topPage .wrapper .sideArea .reformBox ul {
+	padding: 5px 10px;
+	font-size: 100%;/* 80%; */
+}
+
+#topPage .indexNav {
+	margin-top: 25px;
+	color: #666666;
+	font-size: 100%;/* 83%; */
+}
+#topPage .indexNav .thumbnail {
+	padding: 5px 0;
+}
+#topPage .indexNav .thumbnail img {
+	border: 1px solid #ececec;
+}
+
+#topPage .wrapper .sideArea .showroom {
+	margin-top: 15px;
+	padding: 10px;
+	border: 1px solid #d5d5d5;
+}
+#topPage .wrapper .sideArea .showroom dd img {
+	padding: 3px 0;
+}
+#topPage .wrapper .sideArea .showroom dd span {
+	display: block;
+	font-size: 100%;/* 80%; */
+	line-heigt: 1.2;
+}
+
+#topPage .wrapper .sideArea .recommend {
+	margin-top: 15px;
+}
+#topPage .wrapper .sideArea .recommend .inBox {
+	padding: 10px 12px;
+	border: 1px solid #efefef;
+	background: #f7f7f7;
+}
+#topPage .wrapper .sideArea .recommend dd img {
+	padding: 5px 0;
+}
+#topPage .wrapper .sideArea .recommend dd span {
+	display: block;
+	font-size: 100%;/* 80%; */
+	line-heigt: 1.2;
+}
+
+/* #topPage general */
+#topPage .wrapper .line {
+	padding-bottom: 10px;
+	background: url(/common/pic/com_bg001.gif) repeat-x 0 100%;
+}
+#topPage .wrapper .element-L00 {
+	margin-left: 0 !important;
+}
+#topPage .wrapper .pageUp {
+	margin-top: 10px;
+	text-align: right;
+}
+#topPage .wrapper .pageUp a {
+	padding-left: 15px;
+	background: url(/common/pic/com_ic009.gif) no-repeat 0 50%;
+	zoom: 1;
+}
+
+/* clearfix
+------------------------------------------ */
+#topPage .wrapper:after,
+#topPage .wrapper .mainArea ul.case:after,
+#topPage .wrapper .mainArea .subSection:after,
+#topPage .wrapper .mainArea .searchArea .wrapper:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#topPage .wrapper,
+#topPage .wrapper .mainArea ul.case,
+#topPage .wrapper .mainArea .subSection,
+#topPage .wrapper .mainArea .searchArea .wrapper {
+	zoom: 1;
+}

@@ -1,0 +1,80 @@
+@charset "shift_jis";
+
+/* 旧テンプレートの不具合調整 */
+/*===========================================================================================*/
+
+/* パンくず */
+.new_lxl-itm-contents-inner .lxl-topicpath {
+	line-height: 1.31;
+}
+.new_lxl-itm-contents-inner .lxl-topicpath li a {
+	background: url(../pic/bg_topicpath.gif) no-repeat 99% 0.4em;
+}
+
+ul[class^=list-] li {
+	padding-left: 25px;
+	background: url(../pic/icon_disc.gif) no-repeat 5px 0px;
+}
+
+.new_lxl-itm-contents-inner{
+	margin:0 auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align:left;
+	width:948px;
+}
+.new_lxl-itm-contents-inner.lxl-item-ttl{
+	font-size: 15px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.new_lxl-itm-contents-inner sup,
+.new_lxl-itm-contents-inner sub{
+	font-size: 80%;
+}
+.new_lxl-itm-contents-inner sub.new_lxl-sub_baseline{
+	position: relative;
+	top: -0.25em;
+}
+.new_lxl-wrap > .new_lxl-itm-contents-inner:first-child,
+.new_lxl-wrap > .new_lxl-itm-contents-inner + .new_lxl-itm-contents-inner{
+	padding-top: 0;
+}
+.new_lxl-sns{
+	margin: 15px 0;
+}
+.new_lxl-sns>ul li{
+	display: inline-block;
+	margin-right: 1em;
+}
+
+@media only screen and (max-width: 767px){
+	.new_lxl-itm-contents-inner{
+	width:auto;
+	margin:0 auto;
+	}
+	#lxl-breadcrumb-list{
+		display: block;
+		padding-bottom: 0;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	.new_lxl-itm-contents-inner.lxl-item-ttl{
+		padding-top: 5%;
+		font-size: 80%;
+	}
+	.new_lxl-itm-contents-inner{
+	width:auto;
+	margin:0 auto;
+	}
+	#lxl-breadcrumb-list{
+		display: block;
+		padding-bottom: 0;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	.new_lxl-sns{
+		padding: 0 3%;
+	}
+}
+	

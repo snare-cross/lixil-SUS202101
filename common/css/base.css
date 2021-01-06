@@ -1,0 +1,151 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+ヘッダー・フッター用CSS
+------------------------------------------------------- */
+*{
+	margin:0;
+	padding:0;
+	font-family: "ＭＳ Ｐゴシック", Osaka;
+}
+
+/* ---------- デフォルトの値をリセット ---------- 
+h1, h2, h3, h4, h5, h6, p,
+ul, ol, li, dl, dt, dd, form,
+table, th, td, caption{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	line-height: 100%;
+	font-weight: normal;
+	font-style: normal;
+	list-style-type: none;
+	border:none;
+}
+
+img {border:0px;}
+
+hr {
+	display: none;
+}
+
+*/
+
+/* ---------- float 解除 ---------- */
+/* [2008renewal]*/
+br.clear {
+	clear:both;
+	font-size:0px;
+	line-height:0px;
+}
+/**/
+span.clear {
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	clear: both;
+}
+li.clear {
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	font-size: 1px;
+	line-height: 1px;
+	background: none;
+	clear: both;
+}
+
+/* begin clearfix */
+
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.clearfix{
+    display:inline-block;
+    min-height:1%;  /* for IE 7*/
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */
+
+/* end clearfix */
+
+/* ---------- 共通 ---------- */
+a:link    {
+	color:#0066cc;
+	text-decoration: none;
+}
+a:visited {
+	color:#0066cc;
+	text-decoration: none;
+}
+a:hover   {
+	color:#0066cc;
+	text-decoration: underline;
+}
+a:active  {
+	color:#0066cc;
+	text-decoration: underline;
+}
+
+.t-center{
+  text-align: center;
+}
+.t-left{
+	text-align: left;
+}
+.t-right{
+	text-align: right;
+}
+.nowrap{
+ white-space:nowrap;
+}
+
+body {
+	/* [2008renewal] */
+	text-align:center;
+	background-image:url(../img2008/bg.gif);
+	background-position:center;
+	background-color:#f7f1e1;
+	/*
+	background-image: url(../images/page_bg.gif);
+	*/
+	background-repeat: repeat-y;
+	
+}
+
+div#container {
+	/* [2008renewal] */
+	margin: 9px 17px 28px 17px;
+	/* width: 800px; */
+}
+
+/* [2008renewal] */
+div#wrapper{
+	width:990px;
+	text-align:left;
+	margin:0 auto;
+}
+/* */
+
+.lxl-topicpath li a:link, .lxl-topicpath li a:visited {
+    color: #EF7A00;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #EF7A00;
+    text-decoration: underline;
+}
+.lxl-topicpath li a:hover,a:active{
+	color: #F5AF67 !important;
+}

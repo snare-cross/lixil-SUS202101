@@ -1,0 +1,60 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+イベント用CSS
+------------------------------------------------------- */
+div#other-area div.merchandise{
+	margin-left:3px;
+}
+/* 見出し */
+div#other-area div.merchandise h1{
+	background-image: url(../images/other_h1_bg02.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	padding:4px 0 0 14px;
+}
+div#other-area div.merchandise h2{
+	background-image: none;
+	height: 30px;
+	padding:0;
+	margin:0;
+}
+
+/* アンカーナビ */
+div#other-area div.merchandise #pagenavi ul li a{
+	display: block;
+	width:150px;
+}
+
+/* 段組 */
+div#other-area div.merchandise div.col-main{
+ width:737px;
+	margin:10px 0 0 10px;
+}
+div#other-area div.merchandise div.col-main-left{
+ float:left;
+	width:360px;
+}
+div#other-area div.merchandise div.col-main-right{
+ float:right;
+	width:360px;
+}
+
+div#other-area div.merchandise div.col-main-left p,
+div#other-area div.merchandise div.col-main-right p{
+	padding:8px 8px 5px 8px;
+}
+div#other-area div.merchandise div.col-main-left p.img,
+div#other-area div.merchandise div.col-main-right p.img{
+	padding:0;
+}
+div#other-area div.merchandise div.col-main-left p.img img,
+div#other-area div.merchandise div.col-main-right p.img img{
+	padding:0 20px 5px 20px;
+}
+
+
+div#other-area div.merchandise div.pageup{
+ width:737px;
+	margin:10px 0 0 10px;
+}

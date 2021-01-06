@@ -1,0 +1,446 @@
+@charset "shift_jis";
+
+/*--------------------
+  reset setting
+--------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display:block;
+}
+body {line-height:1;}
+img {line-height:0;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+img {vertical-align:top;}
+
+/*--------------------
+  global setting
+--------------------*/
+body {
+	font:75%/1.231 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+	color:#4b4949;
+	line-height:1.5;
+	background:#F9F7F1;
+	-webkit-text-size-adjust:100%;
+}
+a:link { text-decoration:none;color:#4b4949; }
+a:visited {	text-decoration:none;color:#4b4949; }
+a:hover { text-decoration:underline;color:#4b4949; }
+a:active { text-decoration:underline;color:#4b4949; }
+a { -webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(30,15,190,0.3); }
+
+.clearfix {zoom:1;}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*--------------------
+  margin
+--------------------*/
+.mb0 { margin-bottom:0px !important; }
+.mb5 { margin-bottom:5px !important; }
+.mb10 { margin-bottom:10px !important; }
+.mb15 { margin-bottom:15px !important; }
+.mb20 { margin-bottom:20px !important; }
+.mb25 { margin-bottom:25px !important; }
+.mb30 { margin-bottom:30px !important; }
+.mb35 { margin-bottom:35px !important; }
+.mb40 { margin-bottom:40px !important; }
+.mb45 { margin-bottom:45px !important; }
+.mb50 { margin-bottom:50px !important; }
+.mb60 { margin-bottom:60px !important; }
+.mb70 { margin-bottom:70px !important; }
+.mb80 { margin-bottom:80px !important; }
+.mb90 { margin-bottom:90px !important; }
+.mb100 { margin-bottom:100px !important; }
+
+/*--------------------
+lxl-header
+--------------------*/
+#lxl-header {
+	width:100%;
+	height:140px;
+	text-align:center;
+	background:#F9F7F1 url(../pic/header_bg.png) repeat-x 0 0;
+	position:relative;
+}
+#lxl-header .lxl-header-inner {
+	width:948px;
+	margin:0 auto;
+	text-align:left;
+}
+#logo {
+	float:left;
+	margin:27px 0 0;
+}
+#lxl-utility-area {
+	width:754px;
+	float:right;
+}
+#lxl-ulility-nav {
+	float:left;
+	width:256px;
+	height:14px;
+	padding:34px 0 0 356px;
+	background:url(../pic/utility.png) no-repeat 356px 34px;
+}
+#lxl-ulility-nav li {
+	float:left;
+	height:14px;
+}
+#lxl-ulility-nav a {
+	display:block;
+	height:14px;
+	text-indent:-9999px;
+	background:url(../pic/utility.png) no-repeat 0 0;
+}
+#lxl-global {width:66px;margin-right:21px;}
+#lxl-global a {width:66px;}
+#lxl-global a:hover {background-position:0 -14px;}
+#lxl-catalog {width:45px;margin-right:18px;}
+#lxl-catalog a {width:45px;background-position:-87px 0;}
+#lxl-catalog a:hover {background-position:-87px -14px;}
+#lxl-faq {width:106px;}
+#lxl-faq a {width:106px;background-position:-150px 0;}
+#lxl-faq a:hover {background-position:-150px -14px;}
+
+#lxl-search-area {
+	float:right;
+	width:100px;
+	height:19px;
+	overflow:hidden;
+	padding:0 0 0 20px;
+	margin:28px 0 0;
+	background:url(../pic/icon_search.png) no-repeat 0 0;
+	border-bottom:1px solid #4B4949;
+}
+#lxl-search-area input {
+	width:100px;
+	border:none;
+	background-color:transparent;
+}
+#lxl-global-nav {
+	clear:both;
+	width:754px;
+	height:27px;
+	padding:27px 0 0;
+	background:url(../pic/gnav.png) no-repeat 0 27px;
+}
+#lxl-global-nav li {
+	float:left;
+	/*height:27px;*/
+	height:45px;
+}
+#lxl-global-nav li p a {
+	display:block;
+	height:27px;
+	text-indent:-9999px;
+	background-image:url(../pic/gnav.png);
+}
+/* 商品ラインアップ */
+#lxl-lineup > p {width:115px;margin-right:32px;}
+#lxl-lineup > p a {width:115px;background-position:0 0;}
+#lxl-lineup > p a:hover {background-position:0 -27px;}
+#lineup #lxl-lineup > p a {background-position:0 -54px;}
+/* リフォーム */
+#lxl-reform > p {width:65px;margin-right:36px;}
+#lxl-reform > p a {width:65px;background-position:-147px 0;}
+#lxl-reform > p a:hover {background-position:-147px -27px;}
+#reform #lxl-reform > p a {background-position:-147px -54px;}
+/* ショールーム */
+#lxl-showroom > p {width:80px;margin-right:36px;}
+#lxl-showroom > p a {width:80px;background-position:-248px 0;}
+#lxl-showroom > p a:hover {background-position:-248px -27px;}
+#showroom #lxl-showroom > p a {background-position:-248px -54px;}
+/* お客さまサポート */
+#lxl-support > p {width:112px;margin-right:39px;}
+#lxl-support > p a {width:112px;background-position:-364px 0;}
+#lxl-support > p a:hover {background-position:-364px -27px;}
+#support #lxl-support > p a {background-position:-364px -54px;}
+/* リクシルについて */
+#lxl-corporate > p {width:97px;margin-right:36px;}
+#lxl-corporate > p a {width:97px;background-position:-515px 0;}
+#lxl-corporate > p a:hover {background-position:-515px -27px;}
+#corporate #lxl-corporate > p a {background-position:-515px -54px;}
+/* ビジネス向け */
+#lxl-biz > p {width:106px;}
+#lxl-biz > p a {width:106px;background-position:-648px 0;}
+#lxl-biz > p a:hover {background-position:-648px -27px;}
+
+/* メガドロップ */
+#lxl-global-nav a:link { text-decoration:none;color:#ffffff; }
+#lxl-global-nav a:visited {	text-decoration:none;color:#ffffff; }
+#lxl-global-nav a:hover { text-decoration:underline;color:#ffffff; }
+#lxl-global-nav a:active { text-decoration:underline;color:#ffffff; }
+
+#lxl-global-nav .lxl-mdd {
+	width:100%;
+	position:absolute;
+	left:0;
+	top:116px;
+	z-index:9999;
+	background:#615E5C;
+	padding:30px 0 40px;
+	color:#fff;
+}
+#lxl-global-nav .lxl-mdd-arw {
+	width:16px;
+	height:8px;
+	position:absolute;
+	left:50%;
+	top:-8px;
+	background:url(../pic/drop_arw.png) no-repeat 0 0;
+}
+#lxl-global-nav .lxl-mdd .lxl-mdd-inner{
+	width:948px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#lxl-global-nav .lxl-mdd .lxl-mdd-col {
+	float:left;
+    padding-bottom:32767px;
+    margin-bottom:-32767px;
+}
+#lxl-global-nav .lxl-mdd .lxl-mdd-col ul {
+	width:210px;
+	float:left;
+}
+#lxl-global-nav .lxl-mdd .lxl-mdd-col li {
+	line-height:1.5;
+	margin:0 0 10px;
+	width:auto;
+	height:auto;
+	float:none;
+	font-size:116.6%;
+}
+#lxl-global-nav .lxl-mdd .lxl-mdd-col h2 {
+	font-size:133.3%;
+	margin:0 0 30px;
+	padding:6px 0 0;
+}
+#lxl-global-nav .lxl-mdd .col-bn li {
+	line-height:1.5;
+	margin:0 0 18px;
+	width:auto;
+	height:auto;
+	float:none;
+	font-size:100%;
+}
+#lxl-global-nav .lxl-mdd .col-bn li img {
+	vertical-align:top;
+	margin:0 0 6px;
+}
+
+/* 商品ラインアップ */
+#lxl-global-nav #lxl-lineup-chiild .lxl-mdd-arw {
+	margin-left:-230px;
+}
+#lxl-global-nav #lxl-lineup-chiild .col01 {
+	width:216px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-lineup-chiild .col02 {
+	width:420px;
+	padding-left:54px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-lineup-chiild .col-bn {
+	width:220px;
+	float:right;
+}
+/* リフォーム */
+#lxl-global-nav #lxl-lineup-chiild .lxl-mdd-arw {
+	margin-left:-230px;
+}
+#lxl-global-nav #lxl-lineup-chiild .col01 {
+	width:216px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-lineup-chiild .col02 {
+	width:420px;
+	padding-left:54px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-lineup-chiild .col-bn {
+	width:220px;
+	float:right;
+}
+/* ショールーム */
+#lxl-global-nav #lxl-showroom-chiild .lxl-mdd-arw {
+	margin-left:-230px;
+}
+#lxl-global-nav #lxl-showroom-chiild .col01 {
+	width:216px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-showroom-chiild .col02 {
+	width:420px;
+	padding-left:54px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-showroom-chiild .col-bn {
+	width:220px;
+	float:right;
+}
+/* お客さまサポート */
+#lxl-global-nav #lxl-support-chiild .lxl-mdd-arw {
+	margin-left:-230px;
+}
+#lxl-global-nav #lxl-support-chiild .col01 {
+	width:216px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-support-chiild .col02 {
+	width:420px;
+	padding-left:54px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-support-chiild .col-bn {
+	width:220px;
+	float:right;
+}
+/* リクシルについて */
+#lxl-global-nav #lxl-corporate-chiild .lxl-mdd-arw {
+	margin-left:-230px;
+}
+#lxl-global-nav #lxl-corporate-chiild .col01 {
+	width:216px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-corporate-chiild .col02 {
+	width:420px;
+	padding-left:54px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-global-nav #lxl-corporate-chiild .col-bn {
+	width:220px;
+	float:right;
+}
+
+/*--------------------
+lxl-footer
+--------------------*/
+#lxl-footer {
+	width:100%;
+	text-align:center;
+	color:#fff;
+	background:#615E5C;
+	position:relative;
+}
+#lxl-footer a:link { text-decoration:none;color:#ffffff; }
+#lxl-footer a:visited {	text-decoration:none;color:#ffffff; }
+#lxl-footer a:hover { text-decoration:underline;color:#ffffff; }
+#lxl-footer a:active { text-decoration:underline;color:#ffffff; }
+
+#lxl-footer .lxl-footer-inner {
+	width:948px;
+	margin:0 auto;
+	padding:66px 0 0;
+	text-align:left;
+	position:relative;
+}
+#lxl-footer-pagetop {
+	width:60px;
+	height:60px;
+	position:absolute;
+	left:50%;
+	top:-72px;
+	margin-left:487px;
+	opacity: 0.2;
+	-moz-opacity:0.2;
+	filter: alpha(opacity=20);
+}
+/* sitemap */
+#lxl-footer-sitemap {
+	margin:0 0 30px;
+	overflow:hidden;
+}
+#lxl-footer-sitemap .lxl-footer-col {
+	float:left;
+	padding:3px 0 0;
+}
+#lxl-footer-sitemap h2 {
+	font-size:116.6%;
+	font-weight:bold;
+	margin:0 0 18px;
+}
+#lxl-footer-sitemap ul {
+	float:left;
+	margin-right:55px;
+}
+#lxl-footer-sitemap ul.lxl-last-child {
+	margin-right:0;
+}
+#lxl-footer-sitemap li {
+	line-height:1.5;
+	margin:0 0 5px;
+	font-size:100%;
+}
+#lxl-footer-left {
+	float:left;
+	width:566px;
+    padding-bottom:32767px;
+    margin-bottom:-32767px;
+	background:url(../pic/ftr_line.gif) repeat-y 100% 0;
+}
+#lxl-footer-right {
+	float:right;
+	width:324px;
+    padding-bottom:32767px;
+    margin-bottom:-32767px;
+}
+/* sns */
+#lxl-footer-sns {
+	width:73px;
+	height:33px;
+	position:absolute;
+	bottom:100px;
+	right:72px;
+	margin:0;
+	padding:0;
+	float:none;
+}
+#lxl-footer-facebook {
+	width:33px;
+	height:33px;
+	float:left;
+}
+#lxl-footer-twitter {
+	width:33px;
+	height:33px;
+	float:right;
+}
+/* copyright */
+#lxl-footer-copyright {
+	height:60px;
+}

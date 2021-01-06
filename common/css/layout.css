@@ -1,43 +1,292 @@
-@charset "shift_jis";
+@charset "EUC-JP";
+/* ****************************************************
+Since : 2008-06-03
+Last Modified: 2009-09-06
+***************************************************** */
+/* ****************************************************
+1: Header
+2: Common setting
+99: extra
+***************************************************** */
 
-/* ================================================================================================= FORM */
+/*1: Header
+=========================================*/
 
-/* ------------------------------------------------------------------------------------------------- default */
-
-.lixTmplFInput {
-	width: 200px;
+/* Header logo part */
+#header {
+	margin:0;
+	padding:0;
+	width:760px;
 }
-
-select,
-option {
-	width: 6em;
+#header p {
+	margin:0;
+	padding:0;
 }
-
-.lixTmplPopup650 #lixTmplHeader .lixTmplHeaderInner,
-.lixTmplPopup650 #lixTmplMainCont,
-.lixTmplPopup650 .lixTmplMainCont,
-.lixTmplPopup650 #lixTmplContents,
-.lixTmplPopup650 .lixTmplContents,
-.lixTmplPopup650 #lixTmplFooterBtm {
-	width: 650px;
+#header .logo {
+	float:left;
+	padding:0 0 0 5px;
 }
 
+#header .conp-logo {
+	float: left;
+	padding: 16px 0 2px 9px;
+}
 
-.txtBold{
-	font-weight:bold;
+
+#headerSkip,
+h2.anchor,
+div#page-navi p#pankuzu span {
+	display:inline;
+	position:absolute;
+	top:0px;
+	left:-9999px;
 }
-.mb00{
-	margin-bottom: 0px !important;
+
+#header-right-box {
+	margin:0;
+	padding:0 5px 0 0;
+	float:right;
+	width:372px;
+	text-align:right;
 }
-.mb05{
-	margin-bottom: 5px !important;
+
+/* Header option */
+#header #header-right-box #header-option {
+	clear:both;
+	width:394px;
+	text-align:left;
+	float:right;
+	margin:0 0 5px 0;
 }
-.mb10{
-	margin-bottom: 10px !important;
+#header #header-right-box #header-option #header-show{
+	margin-right:0px;
+	margin-left:0;
 }
-.mb20{
-	margin-bottom: 20px !important;
+/* for IE6 */
+#header #header-right-box #header-option {
+	margin: 15px 0 5px 0;
 }
-.mb30{
-	margin-bottom: 30px !important;
+
+#header #header-right-box #header-option ul {
+	float:right;
+}
+#header #header-right-box #header-option li {
+	float:left;
+	margin:0 0 0 0;
+	padding-left:5px;
+	list-style-type: none;
+}
+
+#header #header-right-box #header-option p {
+	margin:0;
+	float:right;
+}
+#header #header-right-box #header-option p a {
+	margin:0 0 0 5px;
+}
+
+/* search area */
+#header #header-right-box #header-option #search-area {
+	margin:0;
+	padding:7px 0 0 0;
+	float:right;
+}
+#header #header-right-box #header-option #search-area img {
+	vertical-align:top;
+	margin:1px 0 0 0;
+}
+#header #header-right-box #header-option #search-area #InputBox {
+	margin:1px 0 0 0;
+	width:170px;
+	vertical-align:top;
+}
+/* for IE6 */
+* html #header #header-right-box #header-option #search-area #InputBox {
+	margin:0;
+	width:170px;
+	vertical-align:top;
+}
+#header #header-right-box #header-option #search-area .submit {
+	margin:1px 0 0 5px;
+	vertical-align:top;
+}
+
+/* page-navi list */
+div#page-navi {
+	width:760px;
+	margin:0;
+	padding:4px 0 3px;
+	text-align:left;
+}
+#pankuzu {
+	padding:0 0 0 9px;
+}
+#pankuzu a {
+	text-decoration:underline;
+}
+#pankuzu a:hover {
+	text-decoration:none;
+}
+
+#pankuzu img {
+	margin:0 2px 2px 2px;
+	vertical-align:middle;
+}
+
+
+/*2: Navigation
+=========================================*/
+/* right Navigation */
+div#contents div#category-navi {
+	width: 110px;
+	line-height:1.2;
+	margin: 0;
+	padding:0;
+	text-align:left;
+}
+/* for IE6 */
+* html div#contents div#category-navi {
+	zoom:1;
+}
+
+/* category title */
+div#contents div#category-navi #right-ti,
+div#contents div#category-navi #right-ti2 {
+	width: 110px;
+}
+div#contents div#category-navi #right-ti a,
+div#contents div#category-navi #right-ti2 a {
+	background:url(../images/com_bg001.gif) no-repeat top center;
+	text-decoration:none;
+	display:block;
+}
+div#contents div#category-navi #right-ti a:hover,
+div#contents div#category-navi #right-ti2 a:hover {
+	background:url(../images/com_bg003.gif) no-repeat top center;
+	text-decoration:none;
+	display:block;
+}
+div#contents div#category-navi #right-ti a span,
+div#contents div#category-navi #right-ti2 a span {
+	background:url(../images/com_bg002.gif) no-repeat bottom center;
+	padding:10px 10px 10px 20px;
+	display:block;
+	cursor:pointer;
+}
+div#contents div#category-navi #right-ti a:hover span,
+div#contents div#category-navi #right-ti2 a:hover span {
+	background:url(../images/com_bg004.gif) no-repeat bottom center;
+	padding:10px 10px 10px 20px;
+	display:block;
+	cursor:pointer;
+}
+/* for IE6 */
+* html div#contents div#category-navi #right-ti a,
+* html div#contents div#category-navi #right-ti2 a {
+	zoom:1;
+}
+
+/* right Navigation menu */
+div#contents div#category-navi ul#right-menu,
+div#contents div#category-navi ul#right-menu2 {
+	margin:0;
+	padding:0 0 0 0;
+	list-style: none;
+}
+div#contents div#category-navi ul li {
+	padding: 0;
+	margin: 0 0 1px 0;
+	background-color:#f2f2f2;
+}
+div#contents div#category-navi ul li a {
+	display: block;
+	padding: 8px 3px 8px 15px;
+	text-decoration:none;
+	background:url(../images/com_ic002.gif) no-repeat 4px 0.75em;
+}
+div#contents div#category-navi ul li a:hover {
+	text-decoration:none;
+	background:url(../images/com_ic003.gif) no-repeat 4px 0.75em;
+}
+/* for IE6 */
+* html div#contents div#category-navi ul li a {
+	height:1px;
+}
+
+
+/* other menu */
+div#contents div#category-navi ul li.on-menu a,
+div#contents div#category-navi ul li.on-menu a:hover {
+	display: block;
+	padding: 8px 3px 8px 15px;
+	background:url(../images/com_ic003.gif) no-repeat 4px 0.75em;
+	text-decoration:none;
+}
+/* for IE6 */
+* html div#contents div#category-navi ul li.on-menu a,
+* html div#contents div#category-navi ul li.on-menu a:hover {
+	zoom:1;
+}
+
+
+/* Three hierarchical menus */
+div#contents div#category-navi ul li.on-menu ul.three-menu {
+	margin:0;
+	border:none;
+	list-style-type:none;
+}
+div#contents div#category-navi ul li.on-menu ul.three-menu li {
+	margin:0;
+	padding:0;
+}
+div#contents div#category-navi ul li.on-menu ul.three-menu li a {
+	padding: 4px 3px 4px 25px;
+	text-decoration:none;
+	border: none;
+	background:none;
+}
+/* for IE6 */
+* html div#contents div#category-navi ul li.on-menu ul.three-menu li a {
+	height:1px;
+}
+
+div#contents div#category-navi ul li.on-menu ul.three-menu li a:hover {
+	padding: 4px 3px 4px 25px;
+	background: url(../images/com_ic004.gif) no-repeat 14px 0.4em;
+}
+div#contents div#category-navi ul li.on-menu ul.three-menu li.on a {
+	background: url(../images/com_ic004.gif) no-repeat 14px 0.4em;
+}
+
+/* Side utility */
+div#contents  div#category-navi #side-utility {
+	display: block;
+	margin-top: 8px;
+}
+div#contents  div#category-navi #side-utility p {
+	margin-top: 1px;
+}
+
+/*99: extra
+=========================================*/
+#header .atlwrap:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+#header .atlwrap {
+	min-height: 1px;
+}
+
+/* for IE6 */
+* html #header .atlwrap {
+	height: 1px;
+}
+
+/* for IE7 */
+*+html #header .atlwrap {
+	zoom: 1;
 }

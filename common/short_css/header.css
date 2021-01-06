@@ -1,0 +1,20 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+ヘッダー・フッター用CSS
+------------------------------------------------------- */
+
+/* ヘッダ左 */
+body#shop-detail div#header {
+	background: url(../images/head_bg001.gif) #FFFFFF left bottom repeat-x;
+}
+
+
+/* ---------- パンくず ---------- */
+div#pankuzu {
+ margin:10px;
+}
+div#pankuzu p{
+ font-size:70%;
+}
+

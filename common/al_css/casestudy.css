@@ -1,0 +1,193 @@
+@charset "shift_jis";
+
+.lxl-reform-cs-imageBox_note li{
+  font-size: 85.526%; /* 13px */
+  color: #454545;
+}
+.lxl-reform-cs-imageBox_note li:first-child{
+  margin-top: 30px;
+}
+p.lxl-reform-cs-leading{
+  font-size: 118.421%; /* 18px */
+}
+p.lxl-reform-cs-leading span{
+  font-weight: bold;
+}
+
+.lxl-reform-cs-checkPoint:after{ clear:both; content:""; display:block;height:0;}
+.lxl-reform-cs-checkPoint .cs-checkPoint_imageBox{
+  width: 264px;
+  float: left;
+  margin-right: 24px;
+}
+.lxl-reform-cs-checkPoint .cs-checkPoint_imageBox img{
+  max-width: 100%;
+  height: auto;
+}
+.lxl-reform-cs-checkPoint .cs-checkPoint_textBox{
+  width: 552px;
+  float: right;
+}
+.lxl-reform-cs-checkPoint .cs-checkPoint_badge span{
+  font-size: 85.526%; /* 13px */
+  color: #fff;
+  background: #666464;
+  padding: 5px 13px;
+}
+.lxl-reform-cs-checkPoint ul.cs-checkPoint_list{
+  margin-top: 36px;
+}
+.lxl-reform-cs-checkPoint ul.cs-checkPoint_list li{
+  background-image: url(/common/pic/icon_link_check.png);
+  background-repeat: no-repeat;
+  background-position: left 0.3em;
+  padding-left: 26px;
+  font-size: 118.421%; /* 18px */
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+@media only screen and (max-width: 767px){
+  .lxl-reform-cs-checkPoint .cs-checkPoint_imageBox,
+  .lxl-reform-cs-checkPoint .cs-checkPoint_textBox{
+    width: auto;
+    float: none;
+    margin: 0;
+  }
+  .lxl-reform-cs-checkPoint .cs-checkPoint_imageBox img{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .lxl-reform-cs-checkPoint ul.cs-checkPoint_list{
+    margin-top: 15px;
+  }
+  .lxl-reform-cs-checkPoint ul.cs-checkPoint_list li{
+    background-image: url(/common/pic/icon_link_check.png);
+    background-repeat: no-repeat;
+    background-position: left 0.3em;
+    padding-left: 26px;
+    font-size: 118.421%; /* 18px */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+}
+
+.lxl-reform-cs-linkBox>ul>li img{
+  max-width: 100%;
+  height: auto;
+}
+.lxl-reform-cs-linkBox ul{
+  margin-right:-24px;
+}
+.lxl-reform-cs-linkBox>ul>li{
+  float:left;
+  width:216px;
+}
+.lxl-reform-cs-linkBox>ul>li:nth-child(4n+1) {
+  clear:left;
+}
+.lxl-reform-cs-linkBox>ul>li a{
+  display:block;
+  margin-right:24px;
+}
+.lxl-reform-cs-linkBox>ul>li .cs-linkBox_title{
+  display:block;
+  padding-top:5px;
+  margin:10px 0 0 0;
+  font-size: 118.421%; /* 18px */
+  line-height:1.2;
+}
+.lxl-reform-cs-linkBox>ul>li .cs-linkBox_caption ul li{
+  font-size: 92.105%; /* 14px */
+}
+.lxl-reform-cs-linkBox>ul>li .cs-linkBox_caption .cs-linkBox_color{
+  color: #ef7a00;
+}
+
+.lxl-reform-cs-linkBox ul{border:none;}
+.lxl-reform-cs-linkBox ul:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.lxl-reform-cs-linkBox li a,
+.lxl-reform-cs-linkBox li a:link,
+.lxl-reform-cs-linkBox li a:visited{
+  text-decoration:none;
+  color:#454545;
+}
+.lxl-reform-cs-linkBox li a:hover{
+  color:#5d5b5b;
+}
+.lxl-reform-cs-linkBox .cs-linkBox_textLink{
+  margin-top: 35px;
+}
+.lxl-reform-cs-linkBox .cs-linkBox_textLink a{
+  font-size: 92.105%; /* 14px */
+  padding: 4px 0 3px 25px;
+  background: url(/common/pic/icon_link_l.gif) 0 0.2em no-repeat;
+  color: #4b4949;
+  text-decoration: none;
+}
+.lxl-reform-cs-linkBox .cs-linkBox_textLink a:hover{
+  color: #ef7a00;
+}
+    
+
+@media only screen and (max-width: 767px){
+  .lxl-reform-cs-linkBox ul{
+    width:100%;
+    margin-top: 0;
+    margin-left:1%;
+    margin-right:-4%;
+  }
+  .lxl-reform-cs-linkBox>ul>li{
+    width:50%;
+    margin-top:3%;
+    padding-top:1%;
+  }
+  .lxl-reform-cs-linkBox>ul>li a{
+    width:94%;
+  }
+  .lxl-reform-cs-linkBox>ul>li a span{margin-right:0;}
+  .lxl-reform-cs-linkBox>ul>li a span span{
+    padding-left:0;
+    margin-left:-26px;
+  }
+  .lxl-reform-cs-linkBox li:nth-child(2n+1) {
+    clear:left;
+  }
+  .lxl-reform-cs-linkBox .cs-linkBox_textLink{
+    margin-top: 15px;
+  }
+ 
+}
+.lxl-reform-cs-spaceLink .section{
+  padding: 25px 50px;
+  margin-top: 58px;
+}
+.lxl-reform-cs-spaceLink .cs-spaceLink_ttl{
+  font-size: 131.578%;
+  margin-bottom: 5px;
+}
+.lxl-reform-cs-spaceLink ul.cs-spaceLink_list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+.lxl-reform-cs-spaceLink ul.cs-spaceLink_list li{
+  width: 33%;
+  margin-top: 5px;
+}
+.lxl-reform-cs-spaceLink ul.cs-spaceLink_list li a{
+display:inline-block;
+color:#54585a;
+text-decoration:none;
+font-size:118.421%;
+background-image:url(/common/pic/other_icon_03.gif);
+background-position:right center;
+background-repeat:no-repeat;
+padding-right:25px;
+}
+.lxl-reform-cs-spaceLink ul.cs-spaceLink_list li a:hover{
+color:#787777;
+}

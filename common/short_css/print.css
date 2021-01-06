@@ -1,0 +1,40 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+印刷用（WinIE対策）
+------------------------------------------------------- */
+
+/* ヘッダ- */
+div#header {
+	_width: 801px;
+}
+div#header-menu {
+ _width: 595px;
+}
+div#header-menu ul.type02 {
+ _margin-right:1px;
+}
+div#header-menu ul.type03 {
+ _width:595px;
+}
+
+/* 左ナビ- */
+div#main #sidenavi dd,
+div#main #sidenavi dt {
+	_height:1%;
+}
+
+/* コンテンツ内- */
+div#main #contents #localnavi ul li {
+
+}
+
+div#main a.linktxt,
+div#main a.linkpdf,
+div#main a.linkgaibu {
+	_display:block;
+	_background-position: 0px 7px;
+	_height:1%;
+}
+
+

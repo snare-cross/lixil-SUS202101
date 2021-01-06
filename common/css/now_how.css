@@ -1,0 +1,88 @@
+.irast_lef{
+	float: left;
+	width: 200px;
+	margin-bottom: 10px;	
+}
+.irast_setsumai{
+	float: right;
+	width: 350px;
+	margin-bottom: 10px;
+}
+
+　　.noprint{
+　　　　display:none;
+　　}
+
+.irast_setsumai02 {
+	float: right;
+	width: 280px;
+	margin-bottom: 10px;
+}
+#sub-section .irast_lef02 {
+	float: left;
+	width: 250px;
+	margin: 0px;
+	padding: 0px;	
+}
+
+#sub-section .irast_lefvista {
+	float: left;
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+}
+	
+#sub-section .irast_right02 {
+	width: 250px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sub-section .irast_right03 {
+	width: 200px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+#sub-section .irast_setsumai_right {
+	float: right;
+	width: 260px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+}
+#sub-section .irast_setsumai_left {
+	line-height: normal;
+	float: left;
+	width: 260px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#sub-section .irast_setsumai_left_10 {
+	line-height: normal;
+	float: left;
+	width: 260px;
+	margin-bottom: 10px;
+	padding: 0px;
+	margin-right: 20px;
+}
+
+#sub-section .irast_setsumai_left_wide {
+	line-height: normal;
+	float: left;
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#container #main #contents #sub-section  .youi {
+	line-height: 1.5em;
+	font-weight: normal;
+	margin: 0px 10px 10px;
+}
+#recruit #container #main #contents #sub-section .irast_setsumai03 {
+	float: right;
+	width: 340px;
+}
+

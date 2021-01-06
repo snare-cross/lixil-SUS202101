@@ -1,0 +1,65 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+左ナビ用CSS
+------------------------------------------------------- */
+div#main #sidenavi{
+	width:180px;
+	background-color: #FFEDD5;
+	float:left;
+}
+div#main #sidenavi dl{
+ margin-bottom:30px;
+}
+div#main #sidenavi dd{
+	font-size:80%;
+	background-image: url(../images/navi_ic01.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	padding: 10px 10px 10px 25px;
+	border-bottom: 1px dotted #ACA499;
+}
+div#main #sidenavi dt{
+	font-size:80%;
+	background-color: #FFFFFF;
+	background-image: url(../images/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: 25px 13px;
+	padding: 10px 10px 10px 35px;
+	border-bottom: 1px dotted #ACA499;
+}
+
+div#main #sidenavi dt.here{
+ font-weight:bold;
+}
+
+
+/* r_and_d専用（青ナビ） */
+body#rd div#main #sidenavi{
+	width:180px;
+	background-color: #EEEEEE;
+	float:left;
+}
+body#rd div#main #sidenavi dl{
+ margin-bottom:30px;
+}
+body#rd div#main #sidenavi dd{
+	font-size:80%;
+	background-image: url(../images/navi_ic03.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	padding: 10px 10px 10px 25px;
+	border-bottom: 1px dotted #ACACAC;
+}
+body#rd div#main #sidenavi dt{
+	font-size:80%;
+	background-color: #FFFFFF;
+	background-image: url(../images/arrow_05.gif);
+	background-repeat: no-repeat;
+	background-position: 25px 13px;
+	padding: 10px 10px 10px 35px;
+	border-bottom: 1px dotted #ACACAC;
+}
+body#rd div#main #sidenavi dt.here{
+ font-weight:bold;
+}

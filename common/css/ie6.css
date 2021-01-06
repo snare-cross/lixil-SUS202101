@@ -1,0 +1,96 @@
+@charset "shift_jis";
+
+/*
+=========================================================
+Editor		: AWK3
+Version		: 1.0.0
+Since		: 2014-03-02
+Last Up Date	: 2014-03-02
+=========================================================
+
+[TOC]
+-[001] IE6
+
+---------------------------------------------------------
+*/
+
+html { filter: expression(document.execCommand("BackgroundImageCache", false, true)); }
+
+/* [001] lxl-header
+-------------------------------------------------------*/
+#lxl-utility-nav{ margin-right:10px;padding:0;margin-top:35px;overflow:hidden;background:url(../pic/utility.png) no-repeat 0 0; }
+#lxl-utility-nav li{ line-height:0;font-size:0;overflow:hidden; }
+#lxl-utility-nav a{ line-height:0;font-size:0;overflow:hidden; }
+
+
+/* [002] Global Navigation
+-------------------------------------------------------*/
+/*---- グローバルナビ ----*/
+#lxl-global-nav{ overflow:hidden; height:27px; }
+#lxl-global-nav li { overflow:hidden; height:27px; /*border:1px solid #ff0000;*/ margin-top:-4px; padding-bottom:4px; }
+
+/*---- 商品ラインアップ ----*/
+#lxl-lineup p { width:113px; margin-right:36px; }
+#lxl-lineup p a { width:113px; background-position:0 0; }
+#lxl-lineup p a:hover { background-position:0 -27px; }
+#lineup #lxl-lineup p a { background-position:0 -54px; }
+
+
+/*---- リフォーム ----*/
+#lxl-reform p { width:65px; margin-right:36px; }
+#lxl-reform p a { width:65px; background-position:-149px 0; }
+#lxl-reform p a:hover { background-position:-149px -27px; }
+#reform #lxl-reform p a { background-position:-149px -54px; }
+
+
+/*---- ショールーム ----*/
+#lxl-showroom p { width:80px; margin-right:36px; }
+#lxl-showroom p a { width:80px; background-position:-250px 0; }
+#lxl-showroom p a:hover { background-position:-250px -27px; }
+#showroom #lxl-showroom p a { background-position:-250px -54px; }
+
+
+/*---- お客さまサポート ----*/
+#lxl-support p { width:113px; margin-right:34px; }
+#lxl-support p a { width:113px; background-position:-366px 0; }
+#lxl-support p a:hover { background-position:-366px -27px; }
+#support #lxl-support p a { background-position:-366px -54px; }
+
+
+/*---- リクシルについて ----*/
+#lxl-corporate p { width:97px; margin-right:36px; }
+#lxl-corporate p a { width:97px; background-position:-513px 0; }
+#lxl-corporate p a:hover { background-position:-513px -27px; }
+#corporate #lxl-corporate p a { background-position:-513px -54px; }
+
+
+/*---- ビジネス向け----*/
+#lxl-biz p { width:103px; }
+#lxl-biz p a { width:103px; background-position:-646px 0; }
+#lxl-biz p a:hover { background-position:-646px -27px; }
+
+
+/* [003] lxl-footer
+-------------------------------------------------------*/
+/*---- sitemap ----*/
+#lxl-footer-sitemap .lxl-footer-col { width:236px; overflow:hidden; }
+
+
+
+/* [004] lxl-topicpath
+-------------------------------------------------------*/
+.lxl-topicpath{ zoom:1; }
+.lxl-topicpath:after{ clear:both; content:""; display:block; }
+.lxl-topicpath li { display:block; float:left; /*float:left; border:1px solid #ff0000;*/ }
+
+
+/* [005] 
+-------------------------------------------------------*/
+
+
+/*---- Basic Setting ----*/
+/* Basic Setting */
+
+
+
+/* EOF*/

@@ -1,0 +1,144 @@
+@charset "shift_jis";
+/* ------------------------------------------------------
+スーパービバホーム用CSS
+------------------------------------------------------- */
+body#svh div#other-area-all {
+ font-size:80%;
+}
+/* トップページ */
+body#svh div#other-area-all h1{
+}
+body#svh div#other-area-all h2{
+	margin:0;
+	padding:0;
+	background-image:none;
+}
+body#svh div#other-area-all div#coner {
+	border-top: 3px solid #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	margin-bottom: 15px;
+}
+
+body#svh div#other-area-all div.col{
+	width:783px;
+	margin:10px 5px 10px 10px;
+}
+body#svh div#other-area-all div.col div.col-left{
+ float:left;
+	width:554px;
+}
+body#svh div#other-area-all div.col div.col-right{
+ float:right;
+	width:217px;
+	*+margin-right:3px;
+	_margin-right:0;
+}
+
+body#svh div#other-area-all div.col div.col-right p.staff{
+ margin-bottom:5px;
+}
+
+/*** 段組右 ***/
+body#svh div.col div.col-right ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+body#svh div.col div.col-right ul li{
+	padding-bottom:1px;
+	text-align:center;
+}
+body#svh div.col div.col-right ul li.banner{
+	padding-bottom:5px;
+}
+
+
+body#svh div#other-area-all div.col div.col-left div.guide{
+	background-image: url(../../tenpo_annai/svh/images/default_bg01.gif);
+	background-repeat: repeat-y;
+}
+body#svh div#other-area-all div.col div.col-left div.guide div.guide-left{
+ float:left;
+	width:167px;
+	margin:5px 0 0 0;
+}
+body#svh div#other-area-all div.col div.col-left div.guide div.guide-right{
+ float:left;
+	width:384px;
+	margin:5px 0 0 0;
+}
+body#svh div#other-area-all div.col div.col-left div.guide div.guide-left img{
+ padding:0 0 0 5px;
+}
+body#svh div#other-area-all div.col div.col-left div.guide div.guide-right img{
+ padding:0 0 0 3px;
+}
+body#svh div#other-area-all div.col div.col-left div.guide div.guide-right p.type02{
+ padding:3px 0 0 0;
+}
+
+body#svh div#other-area-all div.col div.col-left h2.type02{
+ padding:2px 0 5px 0;
+}
+
+body#svh div#other-area-all div.col div.col-left dl.topics{
+	margin:0 0 0 5px;
+}
+body#svh div#other-area-all div.col div.col-left dl.topics dt{
+	padding:0.2em;
+	color:#666666;
+}
+body#svh div#other-area-all div.col div.col-left dl.topics dd{
+	padding:0.2em;
+	margin:-1.5em 0 0 10em;
+}
+
+/* ------------------------------------------------------
+ここから中ページ用CSS
+------------------------------------------------------- */
+body#svh div#main #contents h3 span.top,div#main #contents h2.h3 span.top{
+	background-image: url(../images/h3_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#svh div#main #contents h3 span.bottom,div#main #contents h2.h3 span.bottom{
+	background-image: url(../images/h3_bg03.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#svh div#main #contents h3 span.naka,div#main #contents h2.h3 span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ *+margin-top:-2px;
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/h3_bg02.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	*+padding:0 5px 0 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+body#svh div#main div#contents div#col-left-m{
+ margin-left:20px;
+}
+body#svh div#main div#contents div#col-left-m{
+ margin-left:20px;
+ width:280px;
+}
+
+body#svh div#main div#contents p.dep{
+ margin-left:12px;
+}
+
+/*** 地図 ***/
+body#svh div#main div#contents div#sub-section img.map{
+	margin-bottom:20px;
+}

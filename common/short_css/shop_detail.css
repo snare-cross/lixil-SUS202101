@@ -1,0 +1,162 @@
+@charset "shift_jis";
+/* ------------------------------------------------------
+スーパービバホーム用CSS
+------------------------------------------------------- */
+body#shop-detail div#other-area-all {
+ font-size:80%;
+}
+/* トップページ */
+body#shop-detail div#other-area-all h1{
+	padding:8px;
+	background-image: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 160%;
+	line-height: 110%;
+}
+body#shop-detail div#other-area-all h1.vh{
+	background-color: #FF0002;
+}
+body#shop-detail div#other-area-all h1.svh{
+	background-color: #FF9933;
+}
+body#shop-detail div#other-area-all h1.rd{
+	background-color: #0B145A;
+}
+
+/* 分割 */
+body#shop-detail div#other-area-all div.main-area div.contents-area{
+	width:580px;
+	margin-left: 5px;
+}
+
+/* 左側 */
+body#shop-detail div#other-area-all div.main-area div.contents-area h2 {
+	width:591px;
+	background-image: none;
+	padding-left:0px;
+	margin: 10px 0 10px 0;
+}
+
+body#shop-detail div#other-area-all div.main-area div.contents-area h2 span.top{
+	background-image: url(../images/h3_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area h2 span.bottom{
+	background-image: url(../images/h3_bg03.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area h2 span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/h3_bg02.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+body#shop-detail div#other-area-all div.main-area div.contents-area dl{
+	padding:0 0 0 10px;
+	margin-bottom: 15px;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area dl dt{
+ color:#EB5C02;
+	font-weight:bold;
+	font-size:110%;
+	line-height:125%;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area dl dd p{
+	line-height:125%;
+	color:#666666;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area dl dd span{
+ color:#663333;
+	font-weight:bold;
+	display: block;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area dl dd p.date{
+ text-align:right;
+	font-size:80%;
+}
+
+body#shop-detail div#other-area-all div.main-area div.contents-area div.pagetop{
+	background-image: url(../images/shop_bg01.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	margin:18px 0 0 0;
+	padding:12px 0;
+	text-align:right;
+	font-size:80%;
+}
+
+
+/* VH用中見出し */
+body#shop-detail div#other-area-all div.main-area h3 {
+ width:591px;
+	margin-bottom: 15px;
+}
+
+body#shop-detail div#other-area-all div.main-area h3 span.top {
+	background-image: url(../images/h3_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#shop-detail div#other-area-all div.main-area h3 span.bottom {
+	background-image: url(../images/h3_bg03.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#shop-detail div#other-area-all div.main-area h3 span.naka {
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/h3_bg02.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+body#shop-detail div#other-area-all div.main-area div#allTopics {
+	width:560px;
+	height:200px;
+	overflow: scroll;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	margin: 0 0 10px 10px;
+}
+
+
+/* ポップアップの閉じるボタン */
+body#shop-detail div#other-area-all div.main-area div.contents-area table#icon-list {
+	width: 100%;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area p#card {
+	text-align:center;
+}
+body#shop-detail div#other-area-all div.main-area div.contents-area div.close {
+	background-image: url(../images/shop_bg01.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	margin:18px 0 0 0;
+	padding:12px 0;
+	text-align:center;
+}

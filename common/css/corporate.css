@@ -1,0 +1,34 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+会社概要用CSS
+------------------------------------------------------- */
+/***概要/表内リスト***/
+body#corporate dl.profile dd{
+ margin:-1.0em 0 0 8em;
+}
+
+body#corporate #localnavi ul.floor01{
+ _margin-bottom:5px;/* WinIE調整 */
+}
+body#corporate #localnavi ul.floor01 li{
+	display: block;
+	width:160px;
+}
+body#corporate #localnavi ul.floor02 li{
+	display: block;
+	width:90px;
+}
+
+/* トップページ */
+body#corporate #contents h1.top{
+ margin:0;
+	padding:0;
+	background-image: none;
+	height: 185px;
+}
+
+body#corporate #contents p.btn{
+ float:left;
+	padding:15px 5px 0 10px;
+}

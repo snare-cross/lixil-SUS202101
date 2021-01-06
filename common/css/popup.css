@@ -1,0 +1,16 @@
+@charset "EUC-JP";
+/* ****************************************************
+Since : 2008-06-03
+Last Modified: 2008-06-03
+***************************************************** */
+
+/*1: Common setting
+=========================================*/
+/* Contents */
+div#contents div#main {
+	width:760px;
+	line-height:1.4;
+	margin:0;
+	padding:0;
+	float:none;
+}

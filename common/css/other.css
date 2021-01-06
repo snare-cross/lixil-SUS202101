@@ -1,0 +1,468 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+その他（一段抜き）用CSS
+------------------------------------------------------- */
+/*** エリア設定 ***/
+body#other #other-area {
+	width:766px;
+	font-size:80%;
+	/* [2008renewal] */
+	margin-left:112px;
+	/*margin-left:17px;*/
+}
+/*** コンテンツ内側領域 ***/
+body#other #other-section{
+ width:720px;
+	margin:15px 0 15px 22px;
+}
+body#other #other-section table.type01{
+	width:550px;
+}
+body#other #other-section table.type02{
+	width:400px;
+}
+
+body#other #other-section table.type01 th,
+body#other #other-section table.type02 th{
+	white-space:nowrap;
+}
+body#other #other-section table.type01 th,
+body#other #other-section table.type02 th{
+	padding:5px;
+	font-weight:normal;
+	text-align:left;
+	background-color:#FFFFFF;
+	border:1px solid #999999;
+	vertical-align:top;
+	line-height:125%;
+	width:150px;
+}
+body#other #other-section table.type01 td,
+body#other #other-section table.type02 td{
+	width:250px;
+}
+
+body#other #other-section table.type01 .sub02{
+	background-color: #E1E1E1;
+}
+body#other #other-section table.type02 .sub02{
+	background-color: #E1E1E1;
+}
+
+
+body#other #other-section2{/* h2の下など更に幅の小さい領域のとき */
+ width:680px;
+	margin:15px 0 15px 42px;
+}
+
+/*** ページの上部へ ***/
+body#other #footer #pageup {/* 背景を白に */
+	background-image: none;
+}
+
+/*** 見出し ***/
+body#other h1{
+	background-image: url(../images/other_h1_bg.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	padding:6px 0 0 14px;
+	margin-bottom:-10px;
+}
+
+body#other h2{
+	height:28px;
+	padding:2px 0 0 10px;
+	background-image: url(../images/other_h2_bg.gif);
+	background-repeat: no-repeat;
+}
+
+body#other h2.h3,body#other h3{/* h3 と h2.h3 */
+	width:720px;
+	margin-left:22px;
+	*+margin-bottom:10px;
+	_margin-bottom:0;
+	background-image: none;
+	padding-left:0px;
+}
+
+body#other h2.h3 span.top,body#other h3 span.top{
+	background-image: url(../images/other_h3_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#other h2.h3 span.bottom,body#other h3 span.bottom{
+	background-image: url(../images/other_h3_bg03.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#other h2.h3 span.naka,body#other h3 span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ *+margin-top:-2px;
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/other_h3_bg02.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+}
+
+body#other h3.h4{/* 見た目h4だがh3 */
+	font-weight:bold;
+	color:#EB5C02;
+	margin-bottom:5px;
+}
+body#other h4{
+	font-weight:bold;
+	color:#EB5C02;
+	margin-bottom:5px;
+	line-height: 1.3em;
+}
+
+
+/*** 段落設定 ***/
+body#other p {
+ margin-bottom:0.5em;
+}
+body#other p.nomb {
+ margin-bottom:0;
+}
+body#other p.indent {
+ text-indent:1em;
+}
+body#other p.top {/* 個人情報保護ol内 */
+ margin-top:0.5em;
+}
+body#other p.indent2 {/* 個人情報保護ol内 */
+ text-indent:-1em;
+ padding-left:3em;
+}
+body#other p.indent3 {/* 個人情報保護ol内 */
+ text-indent:-1.5em;
+ padding-left:1.5em;
+}
+
+/*** 表関係 ***/
+body#other td.w50p{
+ width:50%;
+}
+
+/*** ローカルナビ調整 ***/
+body#other #other-area #localnavi{
+	padding:12px 10px 12px 10px;
+	*+padding:12px 10px 12px 0;
+	_padding:12px 10px 12px 10px;
+}
+/*** リスト/個人情報保護 ***/
+body#other #P_P ol.decimal li{
+ _margin:0 0 10px 35px;
+}
+/*** 定義リスト/news ***/
+body#other #other-area #news dd{
+ margin:-1.2em 0 1em 10em;
+}
+body#other #other-area #news dd p{
+ margin-bottom:0.2em;
+}
+body#other #other-area dd p.mb0{/* 囲みケイまでのマージン調整 */
+ margin:0;
+}
+
+/*** 段組関係 ***/
+/* 均等2段組み */
+body#other #other-col #col-left-w50a{
+ float:left;
+	width:48%;
+}
+body#other #other-col #col-left-w50b{
+ float:left;
+	margin-left:20px;
+	width:48%;
+}
+body#other #other-col #col-left-w50c{
+ float:left;
+	width:55%;
+}
+body#other #other-col #col-left-w50d{
+ float:left;
+	margin-left:20px;
+	width:38%;
+}
+body#other #other-col #col-left-w50e{
+ float:left;
+	width:330px;
+}
+body#other #other-col #col-left-w50f{
+ float:right;
+	width:330px;
+}
+body#other p.pageup a{
+	background-image: url(../images/arrow_03.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	padding-left:10px;
+	font-size:80%;
+	float:right;
+	margin:10px 0 0 0;
+}
+
+
+
+/* ------------------------------------------------------
+チラシ情報用CSS
+------------------------------------------------------- */
+div#other-area #pagenavi ul li a{
+	display: block;
+	width:120px;
+}
+div#other-area #pagenavi ul li a.short{
+	display: block;
+	width:70px;
+}
+div#other-area p.caution {
+	text-align: right;
+	margin: 5px 25px 0 0;
+}
+div#other-area .svh-color {
+	color:#FF6600;
+}
+div#other-area p.title{
+ margin:0 0 10px 0;
+}
+div#other-area dl.chiku{
+	margin:0 10px 0.5em 10px;
+}
+
+div#other-area dl.chiku dt{
+ font-weight:bold;
+	margin:0 0 0.2em 0;
+}
+
+div#other-area dl.chiku dd{
+ line-height: 160%;
+}
+
+div#other-area ul.chiku{
+	margin:0 0 10px 0;
+}
+div#other-area ul.chiku li{
+ float:left;
+	margin:0 0 0 10px;
+}
+div#other-area ul.chiku li.top{
+ float:left;
+	margin:0;
+}
+/* チラシ詳細3分割 */
+div#other-area div.col-sale{
+ width:32%;
+	padding:5px;
+	margin-bottom: 15px;
+	float:left;
+}
+div#other-area div.col-sale p.title{
+ border:2px solid #EB5C02;
+	padding:5px;
+	font-weight:bold;
+}
+div#other-area div.col-sale p.read{
+ padding:10px 0 0 0;
+}
+div#other-area div.col-sale p.date{
+ text-align: center;
+ font-weight: bold;
+}
+
+div#other-area div.col-sale p.to-paper{
+ padding:5px 0 0 0;
+ margin: 0 0 10px 10px;
+}
+
+div#other-area div.col-sale p.to-paper img {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+div#other-area div#notes-area {
+	margin-bottom: 30px;
+}
+div#other-area div#notes-area p.notes-chirashi {/* 注釈に使用 */
+  margin-left: 25px;
+ text-indent:-1em;
+	padding-left:1em;
+}
+
+div#other-area p.owabi_bold {/* お詫び太字に使用 */
+	margin-left: 25px;
+	text-indent:3em;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+div#other-area p.owabi{/* お詫びに使用 */
+	margin-left: 25px;
+	text-indent:-1em;
+	}
+
+div#other-area div#flash-howto {
+	padding: 0 20px 0 20px;
+	*+margin:20px 0 0 0;
+	_margin:0 0 0 0;
+}
+div#other-area div#flash-howto p#figure {
+	margin: 15px auto 10px;
+}
+div#other-area div#get-flash p.attention {/* GetFlash喚起文 */
+  margin-top: 10px;
+}
+/* ------------------------------------------------------
+お知らせページ用CSS
+------------------------------------------------------- */
+/* 問い合わせ文字サイズ */
+body#other .inquiry{
+	font-size:120%;
+}
+
+/* ------------------------------------------------------
+ここから店舗スタッフ募集CSS　--add 0911--
+------------------------------------------------------- */
+/* h3 */
+body#other div#other-area div.sintensaiyo h3{
+ margin:15px 0 0 22px;
+	*+margin:15px 0 14px 22px;
+	_margin:15px 0 0 22px;
+}
+body#other div#other-area div.sintensaiyo h3 span.top{
+ background-image: url(../images/other_h3_bg01.gif);
+}
+body#other div#other-area div.sintensaiyo h3 span.bottom{
+ background-image: url(../images/other_h3_bg03.gif);
+
+}
+body#other div#other-area div.sintensaiyo h3 span.naka{
+ /* MacIE begin \*/
+ *+margin-top:-2px;
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/other_h3_bg02.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+}
+
+/* 中エリア */
+body#other div#other-area div.sintensaiyo #other-section{
+ margin:5px 0 15px 22px;
+}
+/* テーブル設定 */
+body#other div#other-area div.sintensaiyo table {
+ border-collapse:collapse;
+ width:100%;
+ margin-bottom:15px;
+}
+body#other div#other-area div.sintensaiyo table caption{
+ font-size:80%;
+ text-align:right;
+ padding-bottom:5px;
+}
+body#other div#other-area div.sintensaiyo table th{
+ padding:5px;
+ font-weight:normal;
+ text-align:left;
+ background-color: #E1E1E1;
+ border:1px solid #999999;
+ vertical-align:top;
+ line-height:125%;
+ width:30%;
+}
+body#other div#other-area div.sintensaiyo table th.sub{
+ background-color: #F0F0F0;
+}
+body#other div#other-area div.sintensaiyo table td{
+ padding:5px;
+ background-color: #FFFFFF;
+ border:1px solid #999999;
+ line-height:125%;
+ width:70%;
+}
+/* リスト */
+body#other div#other-area div.sintensaiyo li{
+ line-height:140%;
+}
+/* 段落 */
+body#other div#other-area div.sintensaiyo p.work{
+ border-top:1px dotted #CCCCCC;
+ padding-top:5px;
+ margin-top:5px;
+}
+/* お問い合わせ */
+body#other div#other-area div.sintensaiyo dl.toiawase{
+ margin-bottom:0;
+}
+/* アンカーリンク */
+body#other div#other-area div.sintensaiyo #pagenavi{
+ padding:5px;
+ *+margin:0 0 7px 0;
+ _margin:0 0 0 0;
+}
+/* 均等2段組み */
+div.sintensaiyo #col #col-left01a{
+ float:left;
+	width:265px;
+	height:200;
+}
+div.sintensaiyo #col #col-left01b{
+ float:left;
+	margin-left:20px;
+	width:265px;
+	height:200;
+}
+div.sintensaiyo #col #col-left01b p.img-caption{
+	margin-left:2em;
+}
+/* TEL太字 */
+body#other div#other-area div.sintensaiyo span.tel{
+	font-weight:bold;
+	font-size:120%;
+}
+/* 問い合わせ　空き */
+body#other div#other-area div.sintensaiyo p.space{
+	margin-bottom:1em;
+}
+/* 問い合わせ　住所 */
+body#other div#other-area div.sintensaiyo span.address{
+	margin-left:3.5em;
+}
+
+body#other div#other-area div.sintensaiyo #other-section{
+ width:720px;
+	margin:5px 0 5px 22px;
+}
+/* ブログ、一覧へのリンク */
+body#other div#other-area div.sintensaiyo a.linktxt {
+	background-image: url(../images/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	padding-left:10px;
+	float:right;
+}
+/* 空き詰め */
+body#other div#other-area div.sintensaiyo .minus{
+	margin-bottom:-25px;
+}
+/* 店舗画像 */
+body#other div#other-area div.sintensaiyo img.margin{
+	margin-left:20px;
+}
+body#other #container #other-area #other-section dt {
+	line-height: 1.3em;
+}

@@ -1,0 +1,71 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+出店候補地用CSS
+------------------------------------------------------- */
+
+/* 見出し */
+div#other-area-all div.open h1{
+	background-image: url(../images/other_h1_bg.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	padding:4px 0 0 14px;
+}
+div#other-area-all div.open p.read{
+	margin:13px 0 36px 40px;
+}
+
+
+/* 段組 */
+div#other-area-all div.open div.col-main{
+ width:680px;
+	margin:13px 0 20px 43px;
+	*+margin:13px 0 20px 43px;
+	_margin:10px 0 20px 43px;
+}
+div#other-area-all div.open div.col-main-left{
+ float:left;
+	width:250px;
+}
+div#other-area-all div.open div.col-main-right{
+ float:right;
+	width:424px;
+	margin-right:45px;
+	*+margin-right:45px;
+	_margin-right:10px;
+}
+
+div#other-area-all div.open div.col-main-left dl dt{
+ font-weight:bold;
+	color:#EB5C02;
+	line-height:125%;
+}
+div#other-area-all div.open div.col-main-left dl dd{
+ margin:0 0 1em 1em;
+	line-height:125%;
+}
+
+/* テーブル */
+div#other-area-all div.open table{
+ border-collapse:collapse;
+	width:100%;
+	margin:0 0 10px 0;
+}
+div#other-area-all div.open table th{
+ padding:10px;
+	background-color:#FFE8CD;
+	text-align:left;
+	border:1px solid #CCCCCC;
+	font-weight:bold;
+	vertical-align:top;
+}
+div#other-area-all div.open table td{
+ padding:10px;
+	border:1px solid #CCCCCC;
+}
+div#other-area-all div.open table td p{
+ text-indent:-1.5em;
+	padding-left:1.5em;
+	line-height:100%;
+	margin:0;
+}

@@ -1,0 +1,23 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+住まいの豆知識用CSS
+------------------------------------------------------- */
+
+/* トップページ */
+body#mamechishiki #contents h1.top{
+ margin:0;
+	padding:0;
+	background-image: none;
+	height: 185px;
+}
+
+body#mamechishiki #contents p.left-btn{
+ float:left;
+	padding:20px 0 0 0;
+}
+body#mamechishiki #contents p.right-btn{
+ float:right;
+	padding:20px 0 0 0;
+	text-align:right;
+}

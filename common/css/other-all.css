@@ -1,0 +1,84 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+その他（一段抜き マージンなし）用CSS
+------------------------------------------------------- */
+/*** エリア設定 ***/
+#other-area-all {
+ width:800px;
+	font-size:80%;
+	/* [2008renewal] */
+	margin-left:82px;
+	/**/
+}
+
+/* 見出し */
+#other-area-all h2{
+	height:28px;
+	padding:2px 0 0 10px;
+	background-image: url(../images/other_h2_bg.gif);
+	background-repeat: no-repeat;
+}
+
+#other-area-all h2.h3,body#other h3{/* h3 と h2.h3 */
+	width:760px;
+	margin-left:22px;
+	*+margin-bottom:100x;
+	_margin-bottom:0;
+	background-image: none;
+	padding-left:0px;
+}
+
+#other-area-all h2.h3 span.top,body#other h3 span.top{
+	background-image: url(../images/h3_long_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+#other-area-all h2.h3 span.bottom,body#other h3 span.bottom{
+	background-image: url(../images/h3_long_bg02.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+#other-area-all h2.h3 span.naka,body#other h3 span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ *+margin-top:-2px;/* WinIE調整 */
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/h3_long_bg03.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	*+padding:0 5px 0 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+/* 定義リスト */
+/*** お問い合わせ ***/
+#other-area-all dl.toiawase,div#other-area dl.toiawase{
+ margin-bottom:15px;
+	width:100%;
+	border:1px solid #999999;
+}
+#other-area-all dl.toiawase dt,div#other-area dl.toiawase dt{
+ padding:5px;
+	font-weight:bold;
+	background-color: #E1E1E1;
+	margin:3px;
+}
+#other-area-all dl.toiawase dd,div#other-area dl.toiawase dd{
+ padding:5px;
+	margin:3px;
+}
+
+/* 出展候補地 */
+
+body#open #other-area-all .col-main {
+  width: 735px;
+}

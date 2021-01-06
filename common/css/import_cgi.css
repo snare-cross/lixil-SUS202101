@@ -1,0 +1,7 @@
+@charset "EUC-JP";
+/* For all */
+@import "reset_cgi.css";
+@import "font_cgi.css";
+@import "layout.css";
+@import "base.css";
+@import "common_cgi.css";

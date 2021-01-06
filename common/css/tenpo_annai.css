@@ -1,0 +1,233 @@
+@charset "shift_jis";
+/* ------------------------------------------------------
+スーパービバホーム用CSS
+------------------------------------------------------- */
+body#tenpo div#other-area-all {
+ font-size:80%;
+}
+/* トップページ */
+body#tenpo div#other-area-all h1{
+	margin:0;
+	padding:0;
+	background-image: none;
+	height:70px;
+	margin:0 0 10px 20px;
+}
+body#tenpo div#other-area-all div.sub-section{
+ width:740px;
+	margin:10px 0 20px 30px;
+}
+
+body#tenpo div#other-area-all table{
+ border-collapse:collapse;
+	padding:10px 3px 0 3px;
+	width:100%;
+}
+
+body#tenpo div#other-area-all table caption{
+ color:#FF6600;
+	font-weight:bold;
+	text-align:left;
+	padding:0 0 10px 0;
+}
+body#tenpo div#other-area-all table th{
+ padding:3px;
+	border-bottom:1px dotted #CCCCCC;
+	font-weight:bold;
+	color:#666666;
+	width:20%;
+	text-align:left;
+	vertical-align:top;
+}
+body#tenpo div#other-area-all table th.closure{
+ padding:3px;
+	border-bottom:1px dotted #CCCCCC;
+	font-weight:bold;
+	color:#666666;
+	width:15%;
+	text-align:left;
+	vertical-align:top;
+}
+
+body#tenpo div#other-area-all table td{
+ padding:3px;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+body#tenpo div#other-area-all div.col{
+	width:760px;
+	margin:0 0 15px 20px;
+}
+body#tenpo div#other-area-all div.col div.col-left{
+ float:left;
+	width:422px;
+}
+body#tenpo div#other-area-all div.col div.col-right{
+ float:right;
+	width:326px;
+}
+body#tenpo div#other-area-all div.col div.col-left div.area{
+ padding:5px;
+	width:408px;
+	border:1px solid #EF6D13;
+	background-color:#CCCC99;
+	height:32px;
+}
+body#tenpo div#other-area-all div.col div.col-left div.area p{
+ line-height:125%;
+}
+
+body#tenpo div#other-area-all div.col div.col-right div.tenpo01{
+	width:161px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	height:153px;
+	background-image: url(../../tenpo_annai/images/default_bg01.jpg);
+	background-repeat: repeat-x;
+	float:left;
+}
+body#tenpo div#other-area-all div.col div.col-right div.tenpo02{
+	width:161px;
+	border-right:1px solid #cccccc;
+	height:153px;
+	background-image: url(../../tenpo_annai/images/default_bg01.jpg);
+	background-repeat: repeat-x;
+	float:left;
+}
+body#tenpo div#other-area-all div.col div.col-right div.tenpo03{
+	width:161px;
+	border:1px solid #cccccc;
+	height:153px;
+	background-image: url(../../tenpo_annai/images/default_bg01.jpg);
+	background-repeat: repeat-x;
+	float:left;
+}
+body#tenpo div#other-area-all div.col div.col-right div.tenpo04{
+	width:161px;
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	height:153px;
+	background-image: url(../../tenpo_annai/images/default_bg01.jpg);
+	background-repeat: repeat-x;
+	float:left;
+}
+body#tenpo div#other-area-all div.col div.col-right div.tenpo01 p,
+body#tenpo div#other-area-all div.col div.col-right div.tenpo02 p,
+body#tenpo div#other-area-all div.col div.col-right div.tenpo03 p,
+body#tenpo div#other-area-all div.col div.col-right div.tenpo04 p{
+ padding:6px 5px 0 5px;
+}
+body#tenpo div#other-area-all div.col div.col-right div.tenpo01 p.img{
+ padding:2px 5px 0 5px;
+}
+
+/* 店舗詳細用 */
+table.map-area {
+	border: 2px solid #CCCCCC;
+	padding: 1px;
+}
+
+/* ------------------------------------------------------
+検索各エリアトップ用CSS
+------------------------------------------------------- */
+body#tenpo-annai div#main div#contents h1{
+	background-image: url(../images/h1_bg.jpg);
+	background-repeat: no-repeat;
+	height: 68px;
+	padding:6px 0 0 14px;
+}
+
+body#tenpo-annai div#main div#contents div.icon-area{
+ border:1px solid #FFCC66;
+ background-color:#FFFFCC;
+ width:588px;
+ margin:0 0 15px 0;
+ padding:0;
+}
+body#tenpo-annai div#main div#contents div.icon-area ul{
+ margin:10px 0;
+}
+body#tenpo-annai div#main div#contents div.icon-area li{
+ font-size:80%;
+ display:inline;
+ padding:2px 5px 0 45px;
+ height:15px;
+ background-repeat: no-repeat;
+ background-position: 10px 0;
+ float:left;
+}
+body#tenpo-annai div#main div#contents div.icon-area li.bg01,
+body#tenpo-annai div#main div#contents table.top th.bg01,
+body#tenpo-annai div#main div#contents table.top th p.bg01{/* VHアイコン */
+ background-image: url(../../tenpo_annai/images/ic01.gif);
+}
+body#tenpo-annai div#main div#contents div.icon-area li.bg02,
+body#tenpo-annai div#main div#contents table.top th.bg02,
+body#tenpo-annai div#main div#contents table.top th p.bg02{/* SVHアイコン */
+ background-image: url(../../tenpo_annai/images/ic02.gif);
+}
+body#tenpo-annai div#main div#contents div.icon-area li.bg03,
+body#tenpo-annai div#main div#contents table.top th.bg03,
+body#tenpo-annai div#main div#contents table.top th p.bg03{/* R&Dアイコン */
+ background-image: url(../../tenpo_annai/images/ic03.gif);
+}
+body#tenpo-annai div#main div#contents div.icon-area li.bg04,
+body#tenpo-annai div#main div#contents table.top th.bg04,
+body#tenpo-annai div#main div#contents table.top th p.bg04{/* VCSアイコン */
+ background-image: url(../../tenpo_annai/images/ic04.gif);
+}
+
+body#tenpo-annai div#main div#contents table.top{
+ border-collapse:collapse;
+ margin:5px 0 15px 0;
+ width:588px;
+ border:1px solid #CCCCCC;
+}
+body#tenpo-annai div#main div#contents table.top th{
+ text-align:left;
+ vertical-align:top;
+ padding:10px 10px 10px 48px;
+ background-repeat: no-repeat;
+ background-position: 10px 8px;
+ border-bottom:1px solid #CCCCCC;
+ background-color:#F5F5F5;
+ width:25%;
+ *+width:30%;
+ _width:30%;
+}
+body#tenpo-annai div#main div#contents table.top th.none{
+ padding:10px;
+}
+body#tenpo-annai div#main div#contents table.top th p{
+ padding:0 0 8px 38px;
+ background-repeat: no-repeat;
+ background-position: 0 0;
+}
+body#tenpo-annai div#main div#contents table.top td{
+ border:1px solid #CCCCCC;
+ padding:10px;
+ vertical-align:top;
+ width:75%;
+ _width:70%;
+}
+body#tenpo-annai div#main div#contents table.top td p{
+ line-height:140%;
+}
+body#tenpo-annai div#main div#contents table.top td p.eigyo{
+ padding-left:5.5em;
+ text-indent:-5.5em;
+}
+body#tenpo-annai div#main div#contents table.top td p.tel{
+ margin-left:3.1em;
+}
+/* ページ内ナビ */
+body#tenpo-annai div#main #contents #pagenavi{
+	padding:5px 5px 0 5px;
+}
+body#tenpo-annai div#main #contents #pagenavi ul li{
+	padding: 0.1em 0 0 18px;
+}
+body#tenpo-annai div#main #contents #pagenavi ul li a{
+	width:70px;
+}

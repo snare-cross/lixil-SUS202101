@@ -1,0 +1,213 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+その他（一段抜き）用CSS
+------------------------------------------------------- */
+/*** エリア設定 ***/
+body#form #other-area {
+ width:766px;
+	margin-left:17px;
+	font-size:80%;
+}
+/*** コンテンツ内側領域 ***/
+body#form #form-section{
+ width:720px;
+	margin:15px 0 15px 22px;
+}
+body#form #form-section2{/* h2の下など更に幅の小さい領域のとき */
+ width:680px;
+	margin:15px 0 15px 42px;
+}
+
+/*** ページの上部へ ***/
+body#form #footer #pageup {/* 背景を白に */
+	background-image: none;
+}
+
+/*** 見出し ***/
+body#form h1{
+	background-image: url(../images/other_h1_bg.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	padding:6px 0 0 14px;
+	margin-bottom:-10px;
+}
+
+body#form h2{
+	height:28px;
+	padding:2px 0 0 10px;
+	background-image: url(../images/other_h2_bg.gif);
+	background-repeat: no-repeat;
+}
+
+body#form h2.h3,body#form h3{/* h3 と h2.h3 */
+	width:600px;
+	margin-left:0px;
+	background-image: none;
+	padding-left:0px;
+}
+body#form h2.h3 span.top,body#form h3 span.top{
+	background-image: url(../images/other_h3_bg04.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#form h2.h3 span.bottom,body#form h3 span.bottom{
+	background-image: url(../images/other_h3_bg06.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#form h2.h3 span.naka,body#form h3 span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/other_h3_bg05.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+body#form h3.h4{/* 見た目h4だがh3 */
+	font-weight:bold;
+	color:#EB5C02;
+	margin-bottom:5px;
+}
+body#form h4{
+	font-weight:bold;
+	color:#EB5C02;
+	margin-bottom:5px;
+}
+
+
+/*** 段落設定 ***/
+body#form p {
+ margin-bottom:0.5em;
+}
+body#form p.nomb {
+ margin-bottom:0;
+}
+body#form p.indent {
+ text-indent:1em;
+}
+body#form p.top {/* 個人情報保護ol内 */
+ margin-top:0.5em;
+}
+body#form p.indent2 {/* 個人情報保護ol内 */
+ text-indent:-1em;
+ padding-left:3em;
+}
+body#form p.indent3 {/* 個人情報保護ol内 */
+ text-indent:-1.5em;
+ padding-left:1.5em;
+}
+
+/*** 表関係 ***/
+body#form td.w50p{
+ width:50%;
+}
+
+/*** ローカルナビ調整 ***/
+body#form #other-area #localnavi{
+	padding:12px 10px 12px 0;
+}
+/*** リスト/個人情報保護 ***/
+body#form #P_P ol.decimal li{
+ _margin:0 0 10px 35px;
+}
+/*** 定義リスト/news ***/
+body#form #other-area #news dd{
+ margin:-1.2em 0 1em 10em;
+}
+body#form #other-area #news dd p{
+ margin-bottom:0.2em;
+}
+body#form #other-area dd p.mb0{/* 囲みケイまでのマージン調整 */
+ margin:0;
+}
+
+/*** 段組関係 ***/
+/* 均等2段組み */
+body#form #form-col #col-left-w50a{
+ float:left;
+	width:48%;
+}
+body#form #form-col #col-left-w50b{
+ float:left;
+	margin-left:20px;
+	width:48%;
+}
+body#form #form-col #col-left-w50c{
+ float:left;
+	width:55%;
+}
+body#form #form-col #col-left-w50d{
+ float:left;
+	margin-left:20px;
+	width:38%;
+}
+
+
+/*** フォームに使用 ***/
+
+body#form div.sub-section{
+	width:580px;
+	margin:15px 0 15px 20px;
+}
+
+body#form #other-section{
+ width:590px;
+	margin:15px 0 15px 0;
+}
+
+body#form .caution{
+	color:#EB5C02;
+}
+
+body#form .kome{
+	color:#EB5C02;
+	font-weight:bolder;
+	}
+
+body#form tr th.sub{
+	text-align:center;
+	vertical-align:middle;
+}
+
+body#form div.center{
+	text-align:center;
+}
+
+/* テーブル設定 ナビなしページ用幅600px */
+div#main table.type02,div#other-area table.type02 {
+ border-collapse:collapse;
+	width:600px;
+	margin-bottom:15px;
+}
+div#main table.type02 caption,div#other-area table.type02 caption{
+ font-size:80%;
+	text-align:right;
+	padding-bottom:5px;
+}
+div#main table.type02 th,div#other-area table.type02 th{
+	padding:5px;
+	font-weight:normal;
+	text-align:left;
+	background-color: #E1E1E1;
+	border:1px solid #999999;
+	vertical-align:top;
+}
+div#main table.type02 th.sub,div#other-area table.type02 th.sub{
+	background-color: #F0F0F0;
+}
+div#main table.type02 td,div#other-area table.type02 td{
+	padding:5px;
+	background-color: #FFFFFF;
+	border:1px solid #999999;
+}

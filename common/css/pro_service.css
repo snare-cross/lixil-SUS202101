@@ -1,0 +1,15 @@
+@charset "shift_jis";
+
+
+div#contents p.pageup {
+	background-image: url(../images/arrow_03.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left:10px;
+	font-size:80%;
+	float:right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}

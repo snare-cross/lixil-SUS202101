@@ -1,0 +1,320 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+イベント用CSS
+------------------------------------------------------- */
+body#service{
+}
+/* 見出し */
+body#service h1{
+	background-image: url(../images/other_h1_bg02.jpg);
+	background-repeat: no-repeat;
+	height: 55px;
+	padding:6px 0 0 14px;
+	margin-left:20px;
+}
+body#service h1.minus{
+	margin-bottom:-25px;
+}
+
+body#service h3{
+	width:760px;
+	margin-left:22px;
+
+	background-image: none;
+	padding-left:0px;
+}
+
+body#service h3 span.top{
+	background-image: url(../images/h3_long_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#service h3 span.bottom{
+	background-image: url(../images/h3_long_bg02.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#service h3 span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ *+margin-top:-2px;
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/h3_long_bg03.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	*+padding:0 5px 0 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+
+/* アンカーナビ */
+body#service div.pagenavi{
+	padding:5px 5px 15px 10px;
+}
+body#service div.pagenavi ul li{
+	float:left;
+	background: url(../images/arrow_02b.gif) no-repeat 0 -4px;
+	margin-left:5px;
+	padding: 0.1em 0 0.2em 18px;
+	height:15px;
+}
+body#service div.pagenavi ul li.none{
+	background: url(../images/arrow_02.gif) no-repeat 7px 5px;
+	margin-left: 0;
+}
+
+body#service div.pagenavi ul li a{
+	display: block;
+	width:160px;
+}
+
+
+/* 段組 */
+body#service div.col-main{
+ width:737px;
+	margin:5px 0 15px 40px;
+}
+body#service div.col-main p.line{
+	background-image:url(../../service/images/default_bg01.gif);
+	background-repeat:repeat-x;
+	height:5px;
+	margin:10px 0;
+}
+
+body#service div.col-main-left{
+ float:left;
+	width:360px;
+}
+body#service div.col-main-right{
+ float:right;
+	width:360px;
+}
+
+body#service div.col-main-left p,
+body#service div.col-main-right p{
+	margin-left:1em;
+}
+body#service div.col-main-left p img,
+body#service div.col-main-right p img{
+	margin-top:3px;
+}
+
+body#service p.pageup a{
+	background-image: url(../images/arrow_03.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left:10px;
+	font-size:80%;
+	float:right;
+	margin:8px 30px 10px 0;
+}
+
+/* 文字 */
+body#service .margin-top{
+	margin-top:10px;
+}
+
+
+/* アイコン */
+body#service div.col-main-left p,
+body#service div.col-main-right p{
+	margin-bottom:15px;
+}
+/* アイコン（有料） */
+body#service div.col-main-left p.pay,
+body#service div.col-main-right p.pay{
+	margin:10px 10px 5px 0;
+	line-height:100%;
+}
+body#service p.pay img{
+	margin-left:15px;
+}
+/* アイコン（無料） */
+body#service div.col-main-left p.free,
+body#service div.col-main-right p.free{
+	margin:10px 10px 5px 0;
+}
+body#service p.free img{
+	margin-left:15px;
+}
+/* アイコン（見積無料） */
+body#service div.col-main-left p.free02,
+body#service div.col-main-right p.free02{
+	margin:10px 10px 5px 0;
+}
+body#service p.free02 img{
+	margin-left:15px;
+}
+/* アイコン（送料無料） */
+body#service div.col-main-left p.free03,
+body#service div.col-main-right p.free03{
+	margin:10px 10px 5px 0;
+}
+body#service p.free03 img{
+	margin-left:15px;
+}
+
+/* テーブル設定 */
+body#service table.service-table {
+ border-collapse:collapse;
+	width:740px;
+	margin: 15px 20px 25px 20px;
+}
+body#service table.service-table .center {
+	text-align:center;
+}
+
+body#service table.service-table th{
+	padding:5px;
+	font-weight:normal;
+	text-align:center;
+	background-color: #E1E1E1;
+	border:1px solid #999999;
+	vertical-align: center;
+	line-height:125%;
+	text-align:center;
+}
+body#service table.service-table th.contents{
+	width:25%;
+}
+body#service table.service-table th.cost{
+	width:6%;
+}
+body#service table.service-table th.note{
+	width:30%;
+}
+body#service table.service-table th.shop{
+	width:1.5em;
+}
+
+body#service table.service-table th.shop2{
+	width:6%;
+}
+body#service table.service-table th.service{
+	width:40%;
+}
+body#service table.service-table th.service2{
+	width:30%;
+}
+body#service table.service-table td{
+	padding:5px;
+	background-color: #FFFFFF;
+	border:1px solid #999999;
+	line-height:125%;
+}
+
+/* VH用テーブル設定 */
+body#service table.service-table_vh {
+ border-collapse:collapse;
+	
+	margin: 15px 20px 25px 20px;
+}
+body#service table.service-table_vh .center {
+	text-align:center;
+}
+
+body#service table.service-table_vh th{
+	padding:5px;
+	font-weight:normal;
+	text-align:center;
+	background-color: #E1E1E1;
+	border:1px solid #999999;
+	vertical-align: center;
+	line-height:125%;
+	text-align:center;
+}
+body#service table.service-table_vh th.contents{
+	width:190px;
+}
+body#service table.service-table_vh th.cost{
+	width:30px;
+}
+
+body#service table.service-table_vh th.shop{
+	width:25px;
+}
+
+body#service table.service-table_vh th.shop2{
+	width:30px;
+}
+
+body#service table.service-table_vh td{
+padding:5px;
+	background-color: #FFFFFF;
+	border:1px solid #999999;
+	line-height:125%;
+}
+/* ローカルナビ */
+body#service #localnavi {
+	margin:0px 20px 10px 20px;
+	padding:0 20px;
+	background-color: #F0F0F0;
+}
+body#service #localnavi ul{
+ _margin-left:-10px;/* WinIE調整 */
+}
+body#service #localnavi ul li{
+ float:left;
+	background-image: url(../images/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 4px;
+	padding-left:15px;
+	line-height: 110%;
+	margin:5px 10px 10px 10px;
+}
+
+
+
+/* ページナビ */
+body#service div.pagenavi {
+  margin: 5px 20px 10px 20px;
+}
+
+body#service div.pagenavi ul li{
+	display: inline;
+	background: url(../images/arrow_02b.gif) no-repeat 0 -4px;
+	margin-left:5px;
+	margin-bottom: 2px;
+	padding: 0.1em 0 0.2em 18px;
+	min-height:15px;
+	_height: 15px;
+	line-height: 110%;
+}
+
+body#service div.pagenavi ul li.none{
+	background: url(../images/arrow_02.gif) no-repeat 7px 5px;
+	margin-left: 0;
+}
+
+/* h2 */
+body#service h2 {
+	margin:0 20px 0 20px;
+}
+
+/* 米印用 */
+body#service .caption{
+	font-size:80%;
+}
+body#service .caption02{
+	font-size:80%;
+	text-align:right;
+	width:760px;
+	margin-top:-10px;
+	display:block;
+}
+#service #container #other-area-all #chiku {
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #333333;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}

@@ -11,7 +11,8 @@
 	background-image:url(/corporate/pic/index_main_img.jpg);
 }
 #corporate #side .sideNavi > li > ul,
-#corporate #side .sideNavi > li > ul > li > ul{
+#corporate #side .sideNavi > li > ul > li > ul,
+#corporate #side .sideNavi > li > ul > li > ul >li > ul{
 	display:none;
 }
 
@@ -40,91 +41,83 @@
 }
 
 /* side */
-#corporate.sustainability-customer #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > ul,
-#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul,
-#corporate.sustainability-community #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > ul,
-#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > ul,
-#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > ul,
-#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > ul,
-#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(3) > ul,
-#corporate.sustainability-future #side .sideNavi > li:nth-child(4) > ul,
-#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > ul,
-#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > ul,
-#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > ul,
-#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > ul,
-#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul,
-#corporate.sustainability-future-evaluation #side .sideNavi > li:nth-child(4) > ul,
-#corporate.sustainability-employee #side .sideNavi > li:nth-child(5) > ul,
-#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > ul,
-#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > ul > li > ul,
-#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > ul,
-#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > ul > li > ul,
-#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > ul,
-#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > ul > li > ul,
-#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(5) > ul,
-#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(5) > ul,
-#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(5) > ul{
+#corporate.sustainability #side .sustainabilitySideLink a{
+  margin-top:30px;
+  border:solid 1px #999;
+  font-size:14px;
+  line-height: 21px;
+  padding:15px 20px;
+  display:inline-block;
+  color:#e75400;
+}
+
+#corporate.sustainability #side .sustainabilitySideLink a span{
+  padding-right:24px;
+  background-image:url(/common_r/pic/icon_win.png);
+  background-repeat:no-repeat;
+  background-position:right center;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul > li > ul > li > ul > li >a{
+	padding-left:48px;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul,
+#corporate.sustainability-community-activities #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-dialogue #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-dialogue #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-dialogue-list #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-dialogue-list #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-communityday #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-cooperation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-education #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_toilet #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_water #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_healthyliving #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_universal #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_safety #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-employee #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(2) > ul > li > ul,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(2) > ul > li > ul,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(2) > ul > li > ul,
+#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(2) > ul,
+#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(2) > ul{
 	display:block;
 }
-#corporate.sustainability-engagement #side .sideNavi > li:nth-child(1) > a,
-#corporate.sustainability-customer #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-community #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-future #side .sideNavi > li:nth-child(4) > a,
-#corporate.sustainability-employee #side .sideNavi > li:nth-child(5) > a{
+
+#corporate.sustainability-community #side .sideNavi > li:nth-child(1) > a,
+#corporate.sustainability-employee #side .sideNavi > li:nth-child(2) > a{
 	color:#e75400;
 }
-#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > a,
-#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
-#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > a,
-#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul > li:nth-child(1) > a,
-#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul > li:nth-child(2) > a,
-#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > ul > li:nth-child(3) > a,
-#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > a,
-#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
-#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
-#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(3) > ul > li:nth-child(2) > a,
-#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > a,
-#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > ul > li:nth-child(3) > ul > li:nth-child(1) > a,
-#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > a,
-#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > ul > li:nth-child(4) > ul > li:nth-child(1) > a,
-#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(3) > ul > li:nth-child(5) > a,
-#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > a,
-#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
-#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
-#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > ul > li:nth-child(1) > ul > li:nth-child(3) > a,
-#corporate.sustainability-future-evaluation #side .sideNavi > li:nth-child(4) > ul > li:nth-child(2) > a,
-#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > ul > li:nth-child(1) > a,
-#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
-#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
-#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(5) > ul > li:nth-child(2) > a,
-#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(5) > ul > li:nth-child(3) > a,
-#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(5) > ul > li:nth-child(4) > a{
+
+#corporate.sustainability-community-activities #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-activities-dialogue #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-activities-dialogue-list #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-activities-communityday #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-activities-cooperation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-education #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-education-ed_toilet #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-education-ed_water #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-education-ed_healthyliving #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-education-ed_universal #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(4) > a,
+#corporate.sustainability-community-education-ed_safety #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(5) > a,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > a,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(5) > a,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > a,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(2) > ul > li:nth-child(3) > a,
+#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(2) > ul > li:nth-child(4) > a{
 	color:#e75400;
 	border-left:solid 2px #e75400;
 }
@@ -160,91 +153,55 @@
 }
 
 /* community dialogue list */
-.sustainability-community-dialogue-list #contents table th,
-.sustainability-community-dialogue-list #contents table td{
+.sustainability-community-activities-dialogue-list #contents table th,
+.sustainability-community-activities-dialogue-list #contents table td{
 	font-size:16px;
 	line-height:27px;
 	vertical-align:top;
 }
-.sustainability-community-dialogue-list #contents table th{
+.sustainability-community-activities-dialogue-list #contents table th{
 	font-weight:normal;
 	font-family: "UD新ゴ L" ,"UD Shin Go Light";
 	min-width:5.5em;
 	padding-top:14px;
 }
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(2),
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(3),
-.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(2){
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(2),
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(3),
+.sustainability-community-activities-dialogue-list #contents table .col2 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table .col2 .col:nth-child(2){
 	padding-top:14px;
 }
-.sustainability-community-dialogue-list #contents table td .col{
+.sustainability-community-activities-dialogue-list #contents table td .col{
 	font-size:14px;
 	line-height:23px;
 }
-.sustainability-community-dialogue-list #contents table td .col3 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col3 .col{
 	width:230.8px;
 }
-.sustainability-community-dialogue-list #contents table td .col2 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col2 .col{
 	width:361.6px;
 }
-.sustainability-community-dialogue-list #contents table tr:first-child th,
-.sustainability-community-dialogue-list #contents table tr:first-child .col3 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table tr:first-child .col3 .col:nth-child(2),
-.sustainability-community-dialogue-list #contents table tr:first-child .col3 .col:nth-child(3),
-.sustainability-community-dialogue-list #contents table tr:first-child .col2 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table tr:first-child .col2 .col:nth-child(2){
+.sustainability-community-activities-dialogue-list #contents table tr:first-child th,
+.sustainability-community-activities-dialogue-list #contents table tr:first-child .col3 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table tr:first-child .col3 .col:nth-child(2),
+.sustainability-community-activities-dialogue-list #contents table tr:first-child .col3 .col:nth-child(3),
+.sustainability-community-activities-dialogue-list #contents table tr:first-child .col2 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table tr:first-child .col2 .col:nth-child(2){
 	padding-top:0px;
 }
 
-/* future */
-.sustainability-future #contents .clsC02 h2{
-	font-size:22px !important;
-	line-height:30px !important;
-}
-
 /* future education */
-.sustainability-future-education #contents .cbTable tr:nth-child(2) td:first-child{
+.sustainability-community-education #contents .cbTable tr:nth-child(2) td:first-child{
 	width:4em;
 }
-.sustainability-future-education #contents .cbTable tr:nth-child(2) td:nth-child(2){
+.sustainability-community-education #contents .cbTable tr:nth-child(2) td:nth-child(2){
 	width:3.4em;
 }
 
 /* ed_toilet */
-.sustainability-future-education-ed_toilet .cbTable th{
+.sustainability-community-education-ed_toilet .cbTable th{
 	width:4.2em;
-}
-
-/* future evaluation */
-.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child p{
-	margin-top:0px;
-}
-.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul{
-	margin-top:0px;
-}
-.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
-	margin-top:22px;
-}
-.sustainability-future-evaluation #contents .cbTable th,
-.sustainability-future-evaluation #contents .cbTable td{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.sustainability-future-evaluation #contents .cbTable th:first-child,
-.sustainability-future-evaluation #contents .cbTable td:first-child{
-	width:23%;
-}
-.sustainability-future-evaluation #contents .cbTable th:nth-child(2),
-.sustainability-future-evaluation #contents .cbTable td:nth-child(2){
-	width:60%;
-}
-.sustainability-future-evaluation #contents .cbTable td img{
-	max-width:172px;
 }
 
 /* sports */
@@ -332,6 +289,54 @@
 	font-weight:normal;
 	font-family: "UD新ゴ L" ,"UD Shin Go Light";
 	margin-top:8px;
+}
+#corporate.sports #contents .snsList .snsCol2{
+	display: table;
+	width: 100%;
+}
+#corporate.sports #contents .snsList .snsCol2 .col{
+	display: table-cell;
+	vertical-align: bottom;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink{
+	text-align: right;
+	font-size: 0;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul{
+	display: inline-block;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 105px;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:first-child{
+	margin-left: 0;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .icon{
+	height: 95px;
+	margin: 0 auto;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(1) .icon{
+	width: 95px;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(2) .icon{
+	width: 88px;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(3) .icon{
+	width: 103px;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li img{
+	position: relative;
+	top: 50%;
+	height: auto;
+	transform: translate(0%,-50%);
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .link{
+	display: block;
+	margin-top: 10px;
+	color: #54585a !important;
 }
 #corporate.sports #contents .inhouseathleteList .col h3{
 	margin-top:14px;
@@ -686,6 +691,7 @@
 	top:8px;
 	right:0px;
 }
+
 #corporate.sports-inhouseathlete-nagashima .bnr{
   text-align: center;
   max-width: 438px;
@@ -726,7 +732,24 @@
 	color:#e75400;
 	border-left:solid 2px #e75400;
 }
+
 @media screen and (max-width: 1400px) {
+/* sustainability */
+#corporate.sustainability #side .sustainabilitySideLink a{
+  margin-top:2.14vw;
+  font-size:1vw;
+  line-height:1.5vw;
+  padding:1.07vw 1.42vw;
+}
+
+#corporate.sustainability #side .sustainabilitySideLink a span{
+  padding-right:1.71vw;
+  background-size:1vw 0.85vw;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul > li > ul > li > ul > li >a{
+	padding-left:3.28vw;
+}
 
 /* customer */
 .sustainability-customer #contents .clsC02 .cllC01{
@@ -752,41 +775,30 @@
 }
 
 /* community dialogue list */
-.sustainability-community-dialogue-list #contents table th,
-.sustainability-community-dialogue-list #contents table td{
+.sustainability-community-activities-dialogue-list #contents table th,
+.sustainability-community-activities-dialogue-list #contents table td{
 	font-size:1.14vw;
 	line-height:1.92vw;
 }
-.sustainability-community-dialogue-list #contents table th{
+.sustainability-community-activities-dialogue-list #contents table th{
 	padding-top:1vw;
 }
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(2),
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(3),
-.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(2){
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(2),
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(3),
+.sustainability-community-activities-dialogue-list #contents table .col2 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table .col2 .col:nth-child(2){
 	padding-top:1vw;
 }
-.sustainability-community-dialogue-list #contents table td .col{
+.sustainability-community-activities-dialogue-list #contents table td .col{
 	font-size:1vw;
 	line-height:1.64vw;
 }
-.sustainability-community-dialogue-list #contents table td .col3 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col3 .col{
 	width:16.42vw;
 }
-.sustainability-community-dialogue-list #contents table td .col2 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col2 .col{
 	width:25.75vw;
-}
-
-/* future */
-.sustainability-future #contents .clsC02 h2{
-	font-size:1.57vw !important;
-	line-height:2.14vw !important;
-}
-
-/* future evaluation */
-.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
-	margin-top:1.57vw;
 }
 
 /* sports */
@@ -829,6 +841,24 @@
 	font-size:1.14vw;
 	line-height:1.92vw;
 	margin-top:0.57vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li{
+	margin-left: 7.5vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .icon{
+	height: 6.78vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(1) .icon{
+	width: 6.78vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(2) .icon{
+	width: 6.28vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(3) .icon{
+	width: 7.35vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .link{
+	margin-top: 0.71vw;
 }
 #corporate.sports #contents .inhouseathleteList .col h3{
 	margin-top:1vw;
@@ -965,33 +995,74 @@
 }
 
 /* sustainability */
-#corporate.sustainability-customer-communication #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-customer-communication-kyouzai #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-customer-dialogue #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-customer-business_partner #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-customer-business_partner-toilets_pj #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-customer-business_partner-izumo #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-customer-business_partner-repairs #side .sideNavi > li:nth-child(2) > a,
-#corporate.sustainability-community-dialogue #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-dialogue-case1501 #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-dialogue-list #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-cooperation #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-cooperation-syoudoshima #side .sideNavi > li:nth-child(3) > a,
-#corporate.sustainability-community-donation #side .sideNavi >li:nth-child(3) > a,
-#corporate.sustainability-future-education #side .sideNavi > li:nth-child(4) > a,
-#corporate.sustainability-future-education-ed_water #side .sideNavi > li:nth-child(4) > a,
-#corporate.sustainability-future-education-ed_toilet #side .sideNavi > li:nth-child(4) > a,
-#corporate.sustainability-future-education-ed_unversal #side .sideNavi > li:nth-child(4) > a,
-#corporate.sustainability-future-evaluation #side .sideNavi > li:nth-child(4) > a,
-#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(5) > a,
-#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(5) > a,
-#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(5) > a,
-#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(5) > a,
-#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(5) > a,
-#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(5) > a{
+#corporate.sustainability #side .sustainabilitySideLink{
+  width:85.8vw;
+  text-align: center;
+  margin:0 auto;
+}
+
+#corporate.sustainability #side .sustainabilitySideLink a{
+  margin-top:5vw;
+  font-size:1vw;
+  line-height:1.5vw;
+  padding:1.07vw 1.42vw;
+  display: block;
+}
+
+#corporate.sustainability #side .sustainabilitySideLink a span{
+  padding-right:2.44vw;
+  background-size:1.42vw 1.22vw;
+}
+
+#corporate.sustainability #side .sustainabilitySideLink a br{
+  display:none;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul{
+	display:block !important;
+}
+
+#corporate.sustainability-community-activities #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-dialogue #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-dialogue-list #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-communityday #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-activities-cooperation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul,
+#corporate.sustainability-community-education #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_toilet #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_water #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_healthyliving #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_universal #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-education-ed_safety #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(2) > ul > li > ul,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(2) > ul > li > ul,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(2) > ul > li > ul{
+	display:block !important;
+}
+
+#corporate.sustainability-community-activities #side .sideNavi > li:nth-child(1) > a,
+#corporate.sustainability-community-activities-dialogue #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-activities-dialogue-list #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-activities-communityday #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-activities-cooperation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(1) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-environment #side .sideNavi > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-education #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-education-ed_toilet #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-education-ed_water #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(2) > a,
+#corporate.sustainability-community-education-ed_healthyliving #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(3) > a,
+#corporate.sustainability-community-education-ed_universal #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(4) > a,
+#corporate.sustainability-community-education-ed_safety #side .sideNavi > li:nth-child(1) > ul > li:nth-child(3) > ul > li:nth-child(5) > a,
+#corporate.sustainability-community-reconstruction #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > a,
+#corporate.sustainability-community-reconstruction-tohoku #side .sideNavi > li:nth-child(1) > ul > li:nth-child(4) > ul > li:nth-child(1) > a,
+#corporate.sustainability-community-donation #side .sideNavi > li:nth-child(1) > ul > li:nth-child(5) > a,
+#corporate.sustainability-employee-diversity #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > a,
+#corporate.sustainability-employee-diversity-female_act #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(1) > a,
+#corporate.sustainability-employee-diversity-handicapped_act #side .sideNavi > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-system #side .sideNavi > li:nth-child(2) > ul > li:nth-child(2) > a,
+#corporate.sustainability-employee-wellness #side .sideNavi > li:nth-child(2) > ul > li:nth-child(3) > a,
+#corporate.sustainability-employee-union #side .sideNavi > li:nth-child(2) > ul > li:nth-child(4) > a{
 	color:#e75400;
 }
 
@@ -1019,41 +1090,30 @@
 }
 
 /* community dialogue list */
-.sustainability-community-dialogue-list #contents table th,
-.sustainability-community-dialogue-list #contents table td{
+.sustainability-community-activities-dialogue-list #contents table th,
+.sustainability-community-activities-dialogue-list #contents table td{
 	font-size:1.63vw;
 	line-height:2.75vw;
 }
-.sustainability-community-dialogue-list #contents table th{
+.sustainability-community-activities-dialogue-list #contents table th{
 	padding-top:1.42vw;
 }
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(2),
-.sustainability-community-dialogue-list #contents table .col3 .col:nth-child(3),
-.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(1),
-.sustainability-community-dialogue-list #contents table .col2 .col:nth-child(2){
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(2),
+.sustainability-community-activities-dialogue-list #contents table .col3 .col:nth-child(3),
+.sustainability-community-activities-dialogue-list #contents table .col2 .col:nth-child(1),
+.sustainability-community-activities-dialogue-list #contents table .col2 .col:nth-child(2){
 	padding-top:1.42vw;
 }
-.sustainability-community-dialogue-list #contents table td .col{
+.sustainability-community-activities-dialogue-list #contents table td .col{
 	font-size:1.42vw;
 	line-height:2.04vw;
 }
-.sustainability-community-dialogue-list #contents table td .col3 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col3 .col{
 	width:21.2vw;
 }
-.sustainability-community-dialogue-list #contents table td .col2 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col2 .col{
 	width:33vw;
-}
-
-/* future */
-.sustainability-future #contents .clsC02 h2{
-	font-size:2.24vw !important;
-	line-height:3.06vw !important;
-}
-
-/* future evaluation */
-.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
-	margin-top:2.24vw;
 }
 
 /* sports */
@@ -1096,6 +1156,37 @@
 	font-size:1.63vw;
 	line-height:2.14vw;
 	margin-top:0.81vw;
+}
+#corporate.sports #contents .snsList .snsCol2{
+	display: block;
+}
+#corporate.sports #contents .snsList .snsCol2 .col{
+	display: block;
+}
+#corporate.sports #contents .snsList .snsCol2 .col .tbNone{
+	display: none;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink{
+	text-align: center;
+	margin-top: 2.24vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li{
+	margin-left: 10.71vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .icon{
+	height: 9.69vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(1) .icon{
+	width: 9.69vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(2) .icon{
+	width: 8.97vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(3) .icon{
+	width: 10.51vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .link{
+	margin-top: 1.02vw;
 }
 #corporate.sports #contents .inhouseathleteList .col h3{
 	margin-top:1.42vw;
@@ -1217,6 +1308,67 @@
 }
 
 @media screen and (max-width: 768px) {
+/* sustainability */
+#corporate.sustainability #side .sustainabilitySideLink{
+  width:auto;
+  text-align:left;
+}
+
+#corporate.sustainability #side .sustainabilitySideLink a{
+  margin-top:6.56vw;
+  font-size:4.37vw;
+  line-height:6.56vw;
+  padding:4vw;
+  display: block;
+}
+#corporate.sustainability #side .sustainabilitySideLink a span{
+  padding-right:4.68vw;
+  background-size:2.18vw 1.87vw;
+}
+
+#corporate.sustainability #side{
+  margin-top:9.21vw !important;
+  padding-top:9.21vw !important;
+}
+
+#corporate.sustainability #side h2{
+  font-size:6.87vw;
+  line-height:9.21vw;
+  margin-bottom:0!important;
+}
+
+#corporate.sustainability #side .sideNavi > li{
+  font-size:5vw;
+  line-height:8vw;
+  margin-top:8vw !important;
+  width:auto;
+  margin-right:auto;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul{
+  padding-bottom:1vw;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul li{
+  font-size:4.37vw;
+  line-height:6.56vw;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul > li > a{
+  padding-left:4.37vw;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul > li > ul > li > a{
+  padding-left:8.74vw;
+}
+
+#corporate.sustainability #side .sideNavi > li > ul > li > ul > li > ul > li > a{
+  padding-left:13.11vw;
+}
+
+#corporate.sustainability #side, #corporate.sustainability #side .sideNavi{
+  display:block!important;
+}
 
 /* customer */
 .sustainability-customer #contents .clsC02 .cllC01{
@@ -1250,49 +1402,35 @@
 }
 
 /* community dialogue list */
-.sustainability-community-dialogue-list #contents table th,
-.sustainability-community-dialogue-list #contents table td{
+.sustainability-community-activities-dialogue-list #contents table th,
+.sustainability-community-activities-dialogue-list #contents table td{
 	font-size:4.37vw;
 	line-height:6.71vw;
 }
-.sustainability-community-dialogue-list #contents table th{
+.sustainability-community-activities-dialogue-list #contents table th{
 	padding-top:3.12vw;
 }
-.sustainability-community-dialogue-list #contents table tr:first-child th{
+.sustainability-community-activities-dialogue-list #contents table tr:first-child th{
 	padding-top:0px !important;
 }
-.sustainability-community-dialogue-list #contents table td .col{
+.sustainability-community-activities-dialogue-list #contents table td .col{
 	font-size:4.06vw;
 	line-height:5.62vw;
 }
-.sustainability-community-dialogue-list #contents table td .col3 .col,
-.sustainability-community-dialogue-list #contents table td .col2 .col{
+.sustainability-community-activities-dialogue-list #contents table td .col3 .col,
+.sustainability-community-activities-dialogue-list #contents table td .col2 .col{
 	width:100%;
 	margin-right:0px !important;
 	margin-top:3.12vw !important;
 }
-.sustainability-community-dialogue-list #contents table td .col3 .col:first-child,
-.sustainability-community-dialogue-list #contents table td .col2 .col:first-child{
+.sustainability-community-activities-dialogue-list #contents table td .col3 .col:first-child,
+.sustainability-community-activities-dialogue-list #contents table td .col2 .col:first-child{
 	margin-top:0px !important;
 	padding-top:3.12vw;
 }
-.sustainability-community-dialogue-list #contents table tr:first-child td .col3 .col:first-child,
-.sustainability-community-dialogue-list #contents table tr:first-child td .col2 .col:first-child{
+.sustainability-community-activities-dialogue-list #contents table tr:first-child td .col3 .col:first-child,
+.sustainability-community-activities-dialogue-list #contents table tr:first-child td .col2 .col:first-child{
 	padding-top:0px !important;
-}
-
-/* future */
-.sustainability-future #contents .clsC02 h2{
-	font-size:5.62vw !important;
-	line-height:7.5vw !important;
-}
-
-/* future evaluation */
-.sustainability-future-evaluation #contents .cbQuoteS .clnC01 li:last-child ul + *{
-	margin-top:3.12vw;
-}
-.sustainability-future-evaluation #contents .cbTable td img{
-	max-width:260px;
 }
 
 /* sports */
@@ -1358,6 +1496,29 @@
 	font-size:4.37vw;
 	line-height:5.78vw;
 	margin-top:3.12vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink{
+	margin-top: 8.69vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li{
+	width: 20.77vw;
+	margin-left: 10.62vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .icon{
+	height: 15.7vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(1) .icon{
+	width: 15.7vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(2) .icon{
+	width: 14.49vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li:nth-child(3) .icon{
+	width: 16.85vw;
+}
+#corporate.sports #contents .snsList .snsCol2 .snsLink ul li .link{
+	margin-top: 3.38vw;
+	font-size: 3.38vw;
 }
 #corporate.sports #contents .inhouseathleteList .col{
 	width:40.62vw;
@@ -1539,7 +1700,7 @@
 	display:none;
 }
 #corporate.sports-inhouseathlete-nagashima .bnr{
-  max-width: 325px;
+	max-width: 325px;
 }
 
 /* localNavi */

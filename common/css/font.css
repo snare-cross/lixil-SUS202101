@@ -1,0 +1,174 @@
+@charset "EUC-JP";
+/* ****************************************************
+Since : 2008-06-03
+Last Modified: 2008-06-03
+***************************************************** */
+/* ****************************************************
+1: Header
+2: Footer
+3: Navigation
+4: Common setting
+***************************************************** */	
+body {
+	color:#555555;
+}
+
+a.atl:link {
+	color:#555555;
+}
+a.atl:visited {
+	color:#555555;
+}
+a.atl:active {
+	color:#FF0000;
+}
+a.atl:hover {
+	color:#FF0000;
+}
+a[name]:hover{
+	color:#FF0000;
+}
+sub,sup {
+	font-size:83%;
+}
+
+.clear {
+	font-size:1px;
+}
+
+/*1: Header
+=========================================*/
+
+#headerSkip,
+h2.anchor,
+div#page-navi p#pankuzu span {
+	color:#555555;
+}
+/* Header logo part */
+#header-layout {
+	font-size:0;
+}
+
+/* search area */
+#header #header-right-box #header-option #search-area p {
+	font-size:0;
+}
+#header #header-right-box #header-option #search-area p #InputBox {
+	font-size:12px;
+	color:#999999;
+}
+
+/* global-navi */
+#global-navi {
+	font-size:0;
+}
+
+/* page-navi list */
+div#page-navi {
+	font-size:11px;
+	color:#555555;
+}
+#pankuzu a {
+	color:#555555;
+}
+#pankuzu a:hover {
+	color:#555555;
+}
+
+/*2: Footer
+=========================================*/
+#footer-layout {
+	font-size:0;
+}
+
+/*3: Navigation
+=========================================*/
+/* category title */
+div#contents div#category-navi #right-ti a {
+	font-weight:bold;
+}
+div#contents div#category-navi #right-menu {
+	font-size:83%;
+}
+
+div#contents div#category-navi ul li a {
+	color:#555555;
+}
+div#contents div#category-navi ul li a:hover {
+	color:#FF0000;
+}
+
+/* other menu */
+div#contents div#category-navi ul li.on-menu a,
+div#contents div#category-navi ul li.on-menu a:hover {
+	color:#FF0000;
+}
+
+/* Three hierarchical menus */
+div#contents div#category-navi ul.three-menu li a {
+	color:#555555;
+}
+div#contents div#category-navi ul.three-menu li.on a {
+	color:#FF0000;
+}
+
+
+div#contents h1{
+	background:url(../images/com_ti001.gif) no-repeat left top;
+	margin-bottom:10px;
+}
+* html div#contents h1{
+	height:1%;
+}
+div#contents h1 span{
+	background:url(../images/com_ti002.gif) no-repeat left bottom;
+	width:640px;
+	height:30px;
+	padding:20px 0 0 20px;
+	display:block;
+	font-size:0;
+	line-height:0;
+}
+* html div#contents h1 span{
+	height:50px;
+}
+div#contents p.date{
+	float:right;
+	color:#FF0000;
+	padding-right:20px;
+	margin-top:-2.7em;
+}
+
+div#contents p.date01{
+	float:right;
+	color:#FF0000;
+	padding-right:20px;
+	margin-top:-2.5em;
+}
+
+div#contents p.date01 img{
+	margin:0 0 4px 2px;
+	padding:0;
+}
+
+/*3: Common setting
+=========================================*/
+
+/* ==================================
+Finding and text
+================================== */
+/* text */
+div#contents {
+	font-size:83%;
+}
+/* for IE6 */
+* html div#contents table {
+	font-size:100%;
+	line-height:1.4;
+}
+
+/*5: index setting
+=========================================*/
+div#contents div.two-column p.text {
+	font-size:83%;
+}

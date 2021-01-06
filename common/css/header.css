@@ -1,0 +1,270 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+ヘッダー・フッター用CSS
+------------------------------------------------------- */
+
+div#header {
+	/* [2008renewal] */
+	margin:0px 3px;
+	/* width: 800px; */
+}
+
+
+/* ヘッダ左 */
+div#header-logo {
+	/* [2008renewal] */
+	width:123px;
+	padding-top:0px;
+	padding-left:20px;
+	/* width: 206px; */
+	float: left;
+}
+
+/* ヘッダ右 */
+div#header-menu {
+	/* [2008renewal] */
+	width:726px;
+	padding-top:10px;
+	/* width: 594px; */
+	text-align: right;
+	float: right;
+}
+
+/* ヘッダ：shop [2008renewal] */
+div#header-shop {
+	float:left;
+	width:98px;
+	/*padding-left:135px;*/
+}
+/* */
+
+/* [2008renewal]
+div#header-menu img{ */
+div#header img {
+ display: block;
+}
+
+div#header-menu div#cmn-menu {
+	/* [2008renewal] */
+ width: 601px;
+ *+width: 601px;
+ _width: 601px;
+	margin-bottom: 11px;
+/*
+ width: 410px;
+ *+width: 430px;
+ _width: 410px;
+	margin-bottom: 6px;
+ */
+	float: right;
+}
+div#header-menu div#cmn-menu ul.type01 {
+	/* [2008renewal] */
+	float:right;
+	margin-top: 5px;
+	/*
+ float: left;
+ width: 159px;
+ */
+}
+div#header-menu div#cmn-menu ul.type01:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0;	
+}
+div#header-menu div#cmn-menu ul.type01 li{
+ float: left;
+ line-height: 100%;
+	/* [2008renewal] */
+	padding-right:22px;
+	/*
+ margin-top: 10px;
+ */
+}
+/* [2008renewal] */
+div#header-menu div#cmn-menu ul.type01 li.end{
+	padding-right:2px;
+}
+	/* [2008renewal]
+div#header-menu div#cmn-menu ul.type01 li#home{
+  width: 68px;
+}
+div#header-menu div#cmn-menu ul.type01 li#sitemap{
+ width: 91px;
+}
+*/
+
+div#header-menu div#cmn-menu form{
+	/* [2008renewal]
+ width: 251px;
+ *+width: 271px;
+ _width: 251px;
+ float: right;
+ */
+ _font-size: 1px;
+ _margin-bottom: 1px;
+}
+div#header-menu div#cmn-menu form dl{
+	/* [2008renewal]
+ width: 251px;
+ *+width: 271px;
+ _width: 251px;
+ margin-top: 5px;
+ */
+	padding: 0;
+}
+div#header-menu div#cmn-menu form dl:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0;	
+}
+/* [2008renewal]
+div#header-menu div#cmn-menu form dt{
+	width:68px;
+}
+div#header-menu div#cmn-menu form dd{
+	width:183px;
+	*+width:203px;
+	_width:183px;
+}
+*/
+div#header-menu div#cmn-menu form dt,
+div#header-menu div#cmn-menu form dd {
+ float: left;
+	margin: 0;
+	padding: 0;
+}
+div#header-menu div#cmn-menu form dt img {
+	/* [2008renewal] */
+ margin-right:6px;
+ margin-top: 3px;
+/* margin-top: 5px; */
+}
+div#header-menu div#cmn-menu form input {
+	vertical-align: middle;
+ line-height: 100%;
+ font-size: 12px;
+ padding-top: 1px;
+}
+div#header-menu div#cmn-menu form input.search-txt{
+	/* [2008renewal] */
+ 	width:165px;
+	margin-right:4px;
+	margin-right /**/:0px;
+	/* width:120px;*/
+	height: 15px;
+	border:1px solid #CCCCCC;
+	line-height: 100%;
+	padding-left: 3px;
+}
+div#header-menu ul.type02 {
+	/* [2008renewal] */
+	width:602px;
+	/*
+	width:563px;
+	*+margin:0 0 6px 0;
+	_margin:0 0 0 0;
+	*/
+	float: right;
+}
+div#header-menu ul.type02:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+}
+div#header-menu ul.type02 li{
+ float: left;
+ line-height: 100%;
+	/* [2008renewal] */
+	border-left:1px dotted #c1c1c1;
+	padding:0px 20px 0px 34px;
+	background: url(../img2008/header_list_icon.gif) no-repeat 20px;
+	/* margin-bottom: 5px; */
+}
+/* [2008renewal] */
+div#header-menu ul.type02 li.end{
+	border-right:1px dotted #c1c1c1;
+}
+/* [2008renewal]
+div#header-menu ul.type02 li#event{
+ width: 95px;
+}
+div#header-menu ul.type02 li#product{
+ width: 110px;
+}
+div#header-menu ul.type02 li#service{
+  idth: 88px;
+}
+div#header-menu ul.type02 li#knowledge{
+ width: 125px;
+}
+div#header-menu ul.type02 li#inquiry{
+ width: 145px;
+}
+*/
+
+/* [2008renewal]
+div#header-menu ul.type03 { */
+div#header ul.type03 {
+	/* [2008renewal] */
+	padding-top:5px;
+	/*
+	float:right;
+	width: 594px;
+	*/
+}
+/* [2008renewal]
+div#header-menu ul.type03 li{ */
+div#header ul.type03 li{
+	float: left;
+	line-height: 100%;
+	/* [2008renewal] */
+	border:1px solid #e0e0e0;
+	border-width:1px 0px 1px 1px;
+	width:157px;
+	/* */
+}
+/* [2008renewal]
+div#header-menu ul.type03 li.end{ */
+div#header ul.type03 li.end{
+	border-right:1px solid #e0e0e0;
+}
+/* [2008renewal]
+div#header-menu ul.type03 li#shop-search{
+	width: 135px;
+}
+div#header-menu ul.type03 li#super {
+	width: 117px;
+}
+div#header-menu ul.type03 li#vh {
+	width: 92px;
+}
+div#header-menu ul.type03 li#rd {
+	width: 157px;
+}
+div#header-menu ul.type03 li#vcs {
+	width: 93px;
+}
+*/
+/* [2008renewal]
+div#header-menu ul.type03:after { */
+div#header ul.type03:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0;	
+}
+
+
+/* ---------- パンくず ---------- */
+div#pankuzu {
+ margin:10px;
+}
+div#pankuzu p{
+ font-size:70%;
+}
+

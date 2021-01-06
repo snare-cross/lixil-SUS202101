@@ -1,4 +1,0 @@
-DirectoryIndex index.html default.htm
-Options +Includes
-AddType text/html .html
-AddOutputFilter INCLUDES .html

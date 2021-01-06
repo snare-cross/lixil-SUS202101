@@ -1,0 +1,63 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+法人のお客様用CSS
+------------------------------------------------------- */
+/*** 取引までの流れ　コラムの上下マージン ***/
+body#purchase #purchase dl.toiawase {
+ margin:5px 0px;
+}
+
+/*** フォームで使用 ***/
+body#purchase div.sub-section{
+	width:550px;
+	margin:15px 0 15px 20px;
+}
+
+body#purchase #other-section{
+	width:550px;
+	margin:15px 0 15px 0;
+}
+
+body#purchase .caution{
+	color:#EB5C02;
+}
+
+body#purchase span.half{
+	color:#666666;
+	font-size:80%;
+}
+
+body#purchase .kome{
+	color:#EB5C02;
+	font-weight:bolder;
+}
+
+body#purchase table.type01 tr th{
+	text-align:reft;
+	vertical-align:middle;
+}
+
+body#purchase .success{
+	color:#EB5C02;
+	font-size:150%;
+}
+
+body#purchase div.center{
+	text-align:center;
+}
+
+/*** トップ ***/
+body#purchase #contents h1.top{
+ margin:0;
+	padding:0;
+	background-image: none;
+	height: 185px;
+}
+body#purchase #contents p.read{
+ text-align:center;
+	margin:10px 0 20px 0;
+}
+body#purchase #contents #sub-section {
+ margin:5px 0 15px 20px;
+}

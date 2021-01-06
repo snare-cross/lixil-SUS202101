@@ -1,0 +1,77 @@
+@charset "EUC-JP";
+/* ****************************************************
+Since : 2008-06-03
+Last Modified: 2008-06-03
+***************************************************** */
+
+/*1: company/index.html
+=========================================*/
+body.index div#contents div.two-column {
+	clear:both;
+	width:640px;
+	margin:6px 0 0 0;
+}
+body.index div#contents div.two-column div.two-left {
+	width:317px;
+	float:left;
+}
+body.index div#contents div.two-column div.two-right {
+	width:317px;
+	float:right;
+}
+body.index div#contents div.two-column dl.link-box {
+	background:url(../../company/images/company_bg002.gif) no-repeat bottom left;
+	padding:0 0 9px 0;
+}
+body.index div#contents div.two-column dl.link-box dd {
+	background:url(../../company/images/company_bg001.gif) repeat-y top left;
+	padding:12px 23px 7px 23px;
+}
+
+/* Double layout */
+body.index div#contents div.double {
+	background:url(../../company/images/company_bg003.gif) no-repeat bottom left;
+	padding:0 0 9px 0;
+}
+body.index div#contents div.double dl.link-box {
+	background:none;
+	padding:0;
+}
+
+
+/*2: company/news/ popupcontents
+=========================================*/
+body.category#popup div#container div#page-navi p#pankuzu{
+	display:none;
+}
+
+
+/*99: extra
+=========================================*/
+
+body.index div#contents div.two-column:after,
+body.index div#contents div.two-column dl.link-box:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+
+body.index div#contents div.two-column,
+body.index div#contents div.two-column dl.link-box {
+	min-height: 1px;
+}
+
+/* for IE6 */
+* html body.index div#contents div.two-column,
+* html body.index div#contents div.two-column dl.link-box {
+	height: 1px;
+}
+
+/* for IE7 */
+*+html body.index div#contents div.two-column,
+*+html body.index div#contents div.two-column dl.link-box {
+	zoom: 1;
+}

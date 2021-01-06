@@ -1,0 +1,472 @@
+@charset "shift_jis";
+/* ------------------------------------------------------
+トップ用CSS
+------------------------------------------------------- */
+body#top div#other-area-all {
+	font-size:80%;
+	/* [2008renewal] */
+	margin:10px 3px 0px 3px;
+	width:949px;
+	/*
+	margin:10px 0 0 0;
+	*/
+}
+
+/* 1 */
+body#top div#other-area-all div.title-area{
+	/* [2008renewal] */
+	margin:0;
+	/* margin:0 0 0 10px;
+	margin:0 0 0 106px;//act081120
+	width:777px; */
+}
+body#top div#other-area-all div.title-area div.col-left{
+	/* [2008renewal] */
+	width:710px;
+	/*
+	width:612px;
+	*/
+	float:left;
+	margin:1px 0;
+}
+body#top div#other-area-all div.title-area div.col-right{
+	float:right;
+	/* [2008renewal] */
+	width:220px;
+	height:240px;
+	border:1px solid #e8e8e8;
+	/*
+	width:160px;
+	vertical-align:top;
+	*/
+}
+/* div.title-area [2008renewal] **************/
+body#top div#other-area-all a {
+	display:block;
+}
+body#top div#other-area-all div.title-area div.col-right h2 {
+	margin: 12px 0 15px 10px;
+}
+body#top div#other-area-all div.title-area div.col-right div.clearfix {
+	margin: 0 0 0 10px;
+	width:200px;
+	padding-bottom:8px;
+	border-bottom:1px dotted #d6d6d6;
+}
+body#top div#other-area-all div.title-area div.col-right div.clearfix img {
+	display:block;
+	margin-bottom:5px;
+	float:left;
+}
+body#top div#other-area-all div.title-area div.col-right div.clearfix img.jap {
+	margin-top:1px;
+	float:right;
+}
+body#top div#other-area-all div.title-area div.col-right ul {
+	margin: 10px 0 0 10px;
+	float:clear;
+}
+body#top div#other-area-all div.title-area div.col-right ul li{
+	width:7em;
+	margin: 0 0 5px 0;
+	float:left;
+}
+body#top div#other-area-all div.title-area div.col-right ul li.long{
+	width:9em;
+}
+body#top div#other-area-all div.title-area div.col-right ul li a{
+	text-align: left;
+	margin:0;
+	line-height:110%;
+	padding: 0 5px 0 12px;
+	background: url(../img2008/footer_list_icon.gif) no-repeat left;
+}
+/*
+body#top div#other-area-all div.title-area div.col-right li.chirashi-top{
+	margin-bottom:-4px;
+}
+body#top div#other-area-all div.title-area div.col-right li.chirashi-center{
+	background-image:url(../../images/defualt_bg07.gif);
+	background-repeat:repeat-y;
+	background-position:top;
+}
+body#top div#other-area-all div.title-area div.col-right .naka{
+	display:block;
+	padding:10px 20px 0 20px;
+	height:50px;
+}
+
+body#top div#other-area-all div.title-area div.col-right .naka .day{
+	display:block;
+	float:right;
+	padding-top:10px;
+	font-size:10px;
+	height:15px;
+}
+
+
+body#top div#other-area-all div.right li.event-top{
+	margin-bottom:-4px;
+}
+body#top div#other-area-all div.right li.event-center{
+	background-image:url(../../images/defualt_bg08.gif);
+	background-repeat:repeat-y;
+	background-position:top;
+	margin-bottom:-10px;
+}
+body#top div#other-area-all div.right .naka{
+	display:block;
+	padding:10px 20px 0 20px;
+	height:30px;
+	font-size:80%;
+}
+body#top div#other-area-all div.right .event-bottom{
+	padding:-4px 0 200px 0:
+}
+*/
+
+
+
+body#top div#other-area-all h1,
+body#top div#other-area-all h2,
+body#top div#other-area-all h3{
+	margin:0;
+	padding:0;
+	/* [2008renewal] */
+	height:auto;
+	text-align:left;
+	background:none;
+}
+/* [2008renewal]
+body#top div#other-area-all div.line{
+	background-image: url(../../images/defualt_bg06.gif);
+	background-repeat: repeat-x;
+	height:26px;
+	width:787px;
+	/* [2008renewal]
+	margin-left:106px;
+}
+*/
+
+/* 2 */
+body#top div#other-area-all div.main-col{
+	/* [2008renewal] */
+	margin: 20px 0 0 0;
+	/*
+	margin:0 0 0 106px;//act081120
+	margin:0 0 0 13px;
+	width:774px;
+	background-image: url(../../images/defualt_bg01.gif);
+	background-repeat: repeat-y;
+	*/
+}
+body#top div#other-area-all div.main-col div.left{
+	/* [2008renewal] */
+	width:710px;
+	/*
+	width:521px;
+	background-image: url(../../images/defualt_bg01b.gif);
+	background-repeat: repeat-y;
+	*/
+	float:left;
+}
+body#top div#other-area-all div.main-col div.right{
+	/* [2008renewal] */
+	width:220px;
+	/*
+	width:230px;
+	*/
+	float:right;
+}
+
+/* [2008renewal] 
+body#top div#other-area-all div.main-area{
+	margin:0 0 0 13px;
+	width:774px;
+	background-image: url(../../images/defualt_bg01.gif);
+	background-repeat: repeat-y;
+}
+*/
+body#top div#other-area-all div.main-col div.left div.col-left{
+	/* [2008renewal] */
+	width:218px;
+	/*
+	width:250px;
+	*/
+	float:left;
+}
+body#top div#other-area-all div.main-col div.left div.col-center{
+	/* [2008renewal] */
+	width:472px;
+	/*
+	width:250px;
+	margin:0 0 0 20px;
+	*/
+	float:right;
+}
+
+/* div.right [2008renewal] **************/
+body#top div#other-area-all div.main-col div.right h2 {
+	margin-bottom:20px;
+}
+body#top div#other-area-all div.main-col div.right div {
+	margin-bottom:20px;
+	border:1px solid #e8e8e8;
+}
+body#top div#other-area-all div.main-col div.right div h2 {
+	margin-bottom:0;
+}
+body#top div#other-area-all div.main-col div.right div.top-service h2 {
+	margin-bottom:8px;
+}
+body#top div#other-area-all div.main-col div.right div.top-service li {
+	margin: 0 0 8px 8px;
+	height:52px;
+}
+body#top div#other-area-all div.main-col div.right div.mame h2 {
+	margin-bottom:9px;
+}
+body#top div#other-area-all div.main-col div.right div.mame li {
+	margin: 0 0 10px 10px;
+	height:50px;
+}
+
+/* div.col-left [2008renewal] **************/
+body#top div#other-area-all div.main-col div.col-left div {
+	padding: 10px 8px 25px 8px;
+	border:1px solid #e8e8e8;
+}
+body#top div#other-area-all div.main-col div.col-left div dt {
+	margin-top:8px;
+	margin-bottom:5px;
+	padding-top:8px;
+	border-top:1px dotted #d6d6d6;
+}
+body#top div#other-area-all div.main-col div.col-left div dt.top {
+	margin-top:3px;
+	border:0;
+}
+body#top div#other-area-all div.main-col div.col-left div dd {
+	font-size:95%;
+	margin: 0 0 4px 8px;
+}
+body#top div#other-area-all div.main-col div.col-left div dd a {
+	margin:0;
+	line-height:110%;
+	padding: 0 5px 0 12px;
+	background: url(../img2008/footer_list_icon.gif) no-repeat left 2px;
+}
+/* vivacard */
+body#top div#other-area-all div.main-col div.col-left h2.vivacard {
+	margin-top:12px;
+}
+/* div.col-center [2008renewal] **************/
+body#top div#other-area-all div.main-col div.col-center div.news h2 {
+	padding: 18px 0 5px 0;
+}
+body#top div#other-area-all div.main-col div.col-center div.news ul {
+	font-size:95%;
+}
+body#top div#other-area-all div.main-col div.col-center div.news li {
+	padding: 9px 0 8px 2px;
+	border-bottom:1px dotted #b2b2b2;
+}
+body#top div#other-area-all div.main-col div.col-center div.news li.end {
+	border:0;
+}
+body#top div#other-area-all div.main-col div.col-center div.news li a {
+	display:inline;
+}
+body#top div#other-area-all div.main-col div.col-center div.news li img {
+	margin: 0 5px;
+}
+/* main-menu */
+body#top div#other-area-all div.main-col div.col-center div.main-menu li {
+	margin:0;
+	padding:0;
+	margin-bottom:10px;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.r {
+	float:right;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.l {
+	float:left;
+}
+/* main-menu bg */
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.bg strong {
+	display:none;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.bg span {
+	display:block;
+	padding:60px 0 0 12px;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.bg a {
+	display:block;
+	width:231px;
+	height:80px;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.flier a {
+	background: url(../img2008/top_center_flier.jpg) top left;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.flier a:hover {
+	background: url(../img2008/top_center_flier_on.jpg) top left;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.event a {
+	background: url(../img2008/top_center_event.jpg) top left;
+}
+body#top div#other-area-all div.main-col div.col-center div.main-menu li.event a:hover {
+	background: url(../img2008/top_center_event_on.jpg) top left;
+}
+/**/
+
+/* RSS */
+body#top div#other-area-all div.main-col div.col-center div.rss {
+	border:1px dotted #b2b2b2;
+	padding:7px;
+	margin-top:30px;
+}
+body#top div#other-area-all div.main-col div.col-center div.rss img {
+	vertical-align:middle;
+	margin-right:7px;
+}
+
+/* 2右 */
+/* [2008renewal] 
+body#top div#other-area-all div.main-col div.right dl{
+ margin:2px 2px 10px 2px;
+}
+body#top div#other-area-all div.main-col div.right dt{
+ font-size:80%;
+	color:#666666;
+	font-weight:bold;
+	line-height:125%;
+	padding:2px 0;
+}
+body#top div#other-area-all div.main-col div.right dd{
+ font-size:80%;
+	line-height:125%;
+	padding:2px 0;
+}
+*/
+
+/* 2左 */
+/* [2008renewal] 
+body#top div#other-area-all div.main-col h2.main{
+ height:71px;
+}
+body#top div#other-area-all div.main-col div.f-left{
+ float:left;
+}
+body#top div#other-area-all div.main-col .card{
+	margin-top:5px;
+	float:left;
+	margin-bottom: 5px;
+}
+
+body#top div#other-area-all div.main-col div.left div.col-left div.menu{
+	background-image: url(../../images/defualt_bg04.gif);
+	background-repeat: repeat-y;
+	margin:10px 0;
+}
+body#top div#other-area-all div.main-col div.left div.col-left div.menu ul{
+	padding:0 0 0 10px;
+	*+padding:0 0 0 10px;
+	_padding:0;
+}
+body#top div#other-area-all div.main-col div.left div.col-left div.menu ul li{
+	margin:5px 0 0 10px;
+	background-image: url(../images/arrow_01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding:0 0 0 10px;
+	float:left;
+	width:90px;
+	line-height: 1.3em;
+}
+*/
+
+/* 2中 */
+/* [2008renewal] 
+body#top div#other-area-all div.main-col div.left div.col-center ul li.top{
+	padding:10px 0 3px 0;
+	border:none;
+}
+body#top div#other-area-all div.main-col div.left div.col-center ul li{
+	border-top:1px solid #cccccc;
+	padding:3px 0;
+}
+*/
+
+/* 2下 */
+/* [2008renewal] 
+body#top div#other-area-all div.main-col div.left div.line02{
+	background-image: url(../../images/defualt_bg02.gif);
+	background-repeat: repeat-x;
+	height: 5px;
+	margin-top: 1px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+body#top div#other-area-all div.main-col div.left div.bottom-area{
+	background-image: none;
+	background-color: #FFFFFF;
+	padding:0;
+}
+body#top div#other-area-all div.main-col div.left div.bottom-area div.banner{
+	width:250px;
+	float:left;
+	padding:5px 0 0 0;
+}
+body#top div#other-area-all div.main-col div.left div.bottom-area div.banner01{
+	width:250px;
+	float:left;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+body#top div#other-area-all div.main-col div.left div.bottom-area div.banner02{
+	width:250px;
+	float:left;
+	padding:0px 0 0 20px;
+}
+body#top div#other-area-all div.main-col div.left div.bottom-area li.sign{
+	padding-top:10px;
+}
+*/
+
+body#top div#other-area-all div.main-col div.col-center div.news dl {
+	width: 472px;
+	border-bottom: #CCCCCC dotted 1px;
+	padding: 8px 0 8px 0;
+	margin: 0 0 0 0;
+}
+
+body#top div#other-area-all div.main-col div.col-center div.news dt {
+	width: 85px;
+	float: left;
+	margin: 0;
+	padding: 0 0 0 2px;
+	font-size: 95%;
+}
+
+body#top div#other-area-all div.main-col div.col-center div.news dt img {
+	margin: 0 0 0 3px;
+}
+
+body#top div#other-area-all div.main-col div.col-center div.news dd {
+	margin: 0 0 0 90px;
+	padding: 0;
+	width: 379px;
+	font-size: 95%;
+	line-height: 110%;
+}
+
+body#top div#other-area-all div.main-col div.col-center div.news dd a {
+	display: inline;
+}
+
+body#top div#other-area-all div.main-col div.col-center div.news dl.lasted {
+	border-bottom: none !important;
+}

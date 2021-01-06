@@ -1,0 +1,71 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+イベント用CSS
+------------------------------------------------------- */
+div#other-area div.event{
+	margin-left:3px;
+}
+/* 見出し */
+div#other-area div.event h1{
+	background-image: none;
+	height: 70px;
+	padding:0;
+	margin:0;
+}
+div#other-area div.event h2{
+	background-image: none;
+	height: 30px;
+	padding:0;
+	margin:0;
+}
+
+/* アンカーナビ */
+div#other-area div.event #pagenavi ul li a{
+	display: block;
+	width:85px;
+}
+
+/* 段組 */
+div#other-area div.event div.col-main{
+ width:737px;
+	margin:10px 0 0 10px;
+}
+div#other-area div.event div.col-main-left{
+ float:left;
+	width:360px;
+}
+div#other-area div.event div.col-main-right{
+ float:right;
+	width:360px;
+}
+
+/* 文字 */
+div#other-area div.event div.col-main-left p,
+div#other-area div.event div.col-main-right p{
+	margin:0.5em 10px 0.5em 10px;
+}
+
+/* 文字（太字） */
+div#other-area div.event div.col-main-left p.bold,
+div#other-area div.event div.col-main-right p.bold{
+	margin:0.5em 10px 0.5em 10px;
+	font-weight:bold;
+}
+/* 文字（内容） */
+div#other-area div.event div.col-main-left p.detail,
+div#other-area div.event div.col-main-right p.detail{
+	padding-left:1em;
+}
+/* 文字（更新日） */
+div#other-area div.event div.col-main-left p.date,
+div#other-area div.event div.col-main-right p.date{
+	text-align:right;
+	padding:0 8px 5px 0;
+	border-bottom:1px dotted #cccccc;
+}
+
+div#other-area div.event div.pageup{
+	width:737px;
+	margin:10px 0 0 10px;
+}

@@ -1,0 +1,96 @@
+@charset "shift_jis";
+
+/* ------------------------------------------------------
+ビバホームトップ用CSS
+------------------------------------------------------- */
+/*** エリア設定 ***/
+body#vh #vh-area {
+	width:800px;
+	font-size:80%;
+	/* [2008renewal] */
+	margin-left:82px;
+	/* */
+}
+/*** ページの上部へ ***/
+body#vh #footer #pageup {/* 背景を白に */
+	background-image: none;
+}
+
+/*** トップ画像 ***/
+body#vh h1.title{
+	margin-bottom:17px;
+}
+
+/*** 段組 ***/
+body#vh div#sub-section{
+	width:767px;
+	margin:0 11px 0 22px;
+}
+body#vh div#sub-section #col #col-left01{
+	float:left;
+	width:527px;
+}
+body#vh div#sub-section #col #col-left02{
+	float:left;
+	width:220px;
+	margin-left:14px;
+}
+/*** 段組右 ***/
+body#vh div#sub-section #col #col-left02 ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+body#vh div#sub-section #col #col-left02 ul li{
+	padding-bottom:1px;
+	text-align:center;
+}
+body#vh div#sub-section #col #col-left02 ul li.banner{
+	padding-bottom:5px;
+}
+
+/*** 段組左 ***/
+body#vh div#sub-section #col #col-left01 h2{
+	width:527px;
+	height:22px;
+	display:block;
+	background-image:url(../../tenpo_annai/vh/images/default_bg01.gif);
+	background-color:#95410C;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+}
+body#vh div#sub-section #col #col-left01 span.font{
+	display:block;
+	padding:5px 0 3px 16px;
+	color:#FFFFFF;
+	font-weight:bolder;
+}
+
+body#vh div#sub-section #col #col-left01 dl.osirase{
+	margin-top:15px;
+}
+body#vh div#sub-section #col #col-left01 dl.osirase dd{
+	 margin:-1.2em 0 1em 6em;
+}
+body#vh div#sub-section #col #col-left01 dl.osirase dd p{
+	 margin-bottom:0.2em;
+}
+
+
+/*** 文字 ***/
+body#vh .bold{/* オレンジ */
+	color:#EB5C02;
+	font-weight:bolder;
+	font-size:110%;
+	margin-bottom:3px;
+}
+body#vh .bold02{/* 黒 */
+	font-weight:bolder;
+}
+body#vh .day{/* 更新日 */
+	float:right;
+	font-size:80%;
+	margin-top:10px;
+}
+
+

@@ -1,0 +1,572 @@
+@charset "shift_jis";
+
+
+/*** フォームに使用 ***/
+
+body#rd div.sub-section{
+	width:530px;
+	margin:15px 0 15px 20px;
+}
+
+body#rd #other-section{
+ width:550px;
+	margin:15px 0 15px 0;
+}
+
+body#rd .caution{
+	color:#EB5C02;
+}
+
+body#rd .kome{
+	color:#EB5C02;
+	font-weight:bolder;
+	}
+
+body#rd tr th.sub{
+	text-align:center;
+	vertical-align:middle;
+}
+
+body#rd div.center{
+	text-align:center;
+}
+/* 見出し */
+body#other #container h2#rd {
+	width:720px;
+	margin-left:22px;
+	background-image: none;
+	padding-left:0px;
+}
+body#other #container h2#rd span.top{
+	background-image: url(../images/rd_h3_bg01.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height:7px;
+	display:block;
+}
+body#other #container h2#rd span.bottom{
+	background-image: url(../images/rd_h3_bg03.gif);
+	background-repeat: no-repeat;
+	height:7px;
+	display:block;
+	margin-top:-1px;
+}
+body#other #container h2#rd span.naka{
+ margin-top:0;/* WinIE調整 */
+ /* MacIE begin \*/
+ *+margin-top:-2px;
+ _margin-top:-0.7em;/* WinIE調整 */
+/* MacIE end */
+
+	background-image: url(../images/rd_h3_bg02.gif);
+	background-repeat: repeat-y;
+	display:block;
+	font-weight:bold;
+ padding:0 5px 2px 10px;
+	*+padding:0 5px 0 10px;
+	_padding:0 5px 0 10px;/* WinIE調整 */
+}
+
+
+#rd #main #contents p {
+	margin-top: 10px;
+}
+#rd #main #contents p.center {
+    text-align: center;
+}
+/* 画像 */
+#rd #main #contents .illustsereis {
+	clear: both;
+	text-align: center;
+	margin-top: 10px;
+}
+#rd #main #contents .type01{
+	margin-top: 10px;
+	width: 80%;
+}
+#rd #main #contents .type01 th{
+	text-align: left;
+	width: 50%;
+}
+#rd #main #contents .type01 td{
+	text-align: left;
+}
+#rd #main #contents .type01 td.right{
+	text-align: right;
+}
+
+#rd #main #contents #sub-section h4.area {
+	font-weight: bold;
+	color: #1D254A;
+	background-image: url(../../tenpo_annai/r_and_d/reform/images/staff_dotline.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof,#rd #main #contents #sub-section #col #col-left01b .prof {
+	background-image: url(../../tenpo_annai/r_and_d/reform/images/staff_bg.gif);
+	background-repeat: repeat-y;
+	padding: 5px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof img,#rd #main #contents #sub-section #col #col-left01b .prof img {
+	float: left;
+	margin-right: 8px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof img.u10,#rd #main #contents #sub-section #col #col-left01b .prof img.u10 {
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof p,#rd #main #contents #sub-section #col #col-left01b .prof p {
+	color: #FFFFFF;
+	margin-top: 0px;
+	display: block;
+	height: 140px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof p.w150,#rd #main #contents #sub-section #col #col-left01b .prof p.w150 {
+	color: #FFFFFF;
+	margin-top: 0px;
+	display: block;
+	height: 150px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof p.w160,#rd #main #contents #sub-section #col #col-left01b .prof p.w160 {
+	color: #FFFFFF;
+	margin-top: 0px;
+	display: block;
+	height: 160px;
+}
+#rd #main #contents #sub-section #col #col-left01a .prof p span,#rd #main #contents #sub-section #col #col-left01b .prof p span {
+	font-size: 83%;
+}
+#rd #main #contents #sub-section #col #col-left01a .pr,#rd #main #contents #sub-section #col #col-left01b .pr {
+	background-color: #e6e5ff;
+	background-image: url(../../tenpo_annai/r_and_d/reform/images/staff_grayline.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 5px;
+	margin-top: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#rd #main #contents #sub-section #col #col-left04a h4,#rd #main #contents #sub-section #col #col-left04b h4 {
+	font-weight: bold;
+	color: #1D254A;
+}
+#rd #main #contents p.tx {
+	background-color: #1E254B;
+	padding: 5px;
+	width: 480px;
+}
+#rd #main #contents .exam {
+	width: 570px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#rd #main #contents .exam .youbo {
+	padding: 8px;
+	background-color: #E6E5FF;
+	width: 530px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#rd #main #contents .exam .youbo p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#rd #main #contents .exam p.left27 {
+	margin-left: 27px;
+}
+#rd #main #contents .type02 {
+	width: 568px;
+	margin-left: 10px;
+}
+#rd #main #contents .type02 th {
+	white-space:nowrap;
+	padding:5px;
+	font-weight:normal;
+	text-align:left;
+	background-color:#E2E7FA;
+	border:1px solid #999999;
+	vertical-align:top;
+	line-height:125%;
+	width:100px;
+}
+
+#rd #main #contents #sub-section p.top-zero {
+	margin-top: 0px;
+}
+#rd #main #contents #sub-section p.waku {
+	padding: 7px;
+	border: 1px solid #999999;
+}
+#rd #main #contents #sub-section .toiawase img {
+	margin-right: 20px;
+}
+
+#rd #main #contents #sub-section h4 {
+	font-weight: bold;
+	color: #1D254A;
+}
+#rd #main #contents span.red {
+	color: #CC0000;
+}
+/* テーブル設定 */
+div#main table.type03,div#other-area table.type03 {
+ border-collapse:collapse;
+	width:100%;
+	margin-bottom:15px;
+}
+div#main table.type03 caption,div#other-area table.type03 caption{
+ font-size:80%;
+	text-align:right;
+	padding-bottom:5px;
+}
+div#main table.type03 th,div#other-area table.type03 th{
+	padding:5px;
+	font-weight:normal;
+	text-align:left;
+	background-color: #E1E1E1;
+	border:1px solid #999999;
+	vertical-align:top;
+}
+div#main table.type03 th.sub,div#other-area table.type03 th.sub{
+	background-color: #F0F0F0;
+}
+div#main table.type03 td,div#other-area table.type03 td{
+	padding:5px;
+	background-color: #FFFFFF;
+	border:1px solid #999999;
+}
+
+
+#rd #main #contents #sub-section .type03 th{
+	text-align: center;
+}
+#rd #main #contents #sub-section .type03 th.sub {
+	text-align: left;
+}
+div#main table.type04,div#other-area table.type04 {
+ border-collapse:collapse;
+	width:100%;
+	margin-bottom:15px;
+}
+div#main table.type04 th,div#other-area table.type04 th{
+	padding:5px;
+	font-weight:normal;
+	text-align:left;
+	background-color: #E1E1E1;
+	border:1px solid #999999;
+	vertical-align:top;
+	width: 20%;
+}
+div#main table.type04 th.sub,div#other-area table.type04 th.sub{
+	background-color: #F0F0F0;
+}
+div#main table.type04 td,div#other-area table.type04 td{
+	padding:5px;
+	background-color: #FFFFFF;
+	border:1px solid #999999;
+}
+
+/* soudan */
+#rd #main #contents .qa-area {
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	background-color: #e6e5ff;
+}
+#rd #main #contents .ans-area {
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+#rd #main #contents .qa-area dl.soudan ,#rd #main #contents .ans-area dl.soudan{
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+#rd #main #contents .qa-area dl.soudan dt,#rd #main #contents .ans-area dl.soudan dt{
+	display: block;
+	background-color: #1e254b;
+	padding: 5px;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+}
+
+#rd #main #contents .qa-area dl.soudan dd,#rd #main #contents .ans-area dl.soudan dd{
+	display: block;
+	padding: 5px;
+}#rd #main #contents .ans-area p.ans {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+#rd #main #contents .ans-area .soudan dd span {
+	font-weight: bold;
+	color: #003366;
+}
+
+/* QandA */
+#rd #main #contents .qa-area2 {
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	background-color: ebebeb;
+}
+#rd #main #contents .ans-area {
+	width: 550px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+#rd #main #contents .qa-area2 dl.shitumon,#rd #main #contents .ans-area dl.shitumon {
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	clear: both;
+}
+#rd #main #contents .qa-area2 dl.shitumon dt,#rd #main #contents .ans-area dl.shitumon dt{
+	display: block;
+	background-color: #7eaeef;
+	padding: 5px;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	width: 20px;
+}
+
+#rd #main #contents .qa-area2 dl.shitumon dd,#rd #main #contents .ans-area dl.shitumon dd{
+	display: block;
+	padding: 5px;
+}
+#rd #main #contents .ans-area dl.kaitou{
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+#rd #main #contents .ans-area dl.kaitou dt{
+	background-color: #1e254b;
+	padding: 5px;
+	_padding-right: 6px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	width: 20px;
+	float: left;
+}
+#rd #main #contents .ans-area dl.kaitou dd{
+	padding: 2px 0px 10px 2px;
+	_padding-left: 5px;
+	line-height: 120%;
+	float: right;
+	width: 508px;
+	_width: 495px;
+}
+#rd #main #contents .ans-area dl.kaitou dd p{
+	margin-top: 0px;
+	padding-bottom: 5px;
+}
+
+#rd #main #contents .ans-area .shitumon dd span {
+	font-weight: bold;
+	color: #669900;
+}
+
+/* staff */
+#rd #main #contents dl.topics{
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+#rd #main #contents dl.topics dt{
+	display: block;
+	padding: 5px;
+	margin-right: 10px;
+	float: left;
+	width: 50px;
+}
+#rd #main #contents dl.topics dd{
+	display: block;
+	padding: 5px;
+}
+
+/* price */
+body#rd div#main .toiawase #col {
+	padding-left:20px;
+	*+padding-left:20px;
+	_padding-left:0;
+}
+body#rd div#main .toiawase #col #col-left{
+	float:left;
+	margin-left:20px;
+}
+body#rd div#main .toiawase #col #col-left-m{
+	float:left;
+	margin-left:40px;
+}
+
+div#main #col #col-left-200{
+	float:left;
+	width:200px;
+	margin-left: 50px;
+}
+div#main table th.w40{
+	width:40%;
+
+}
+div#main table th.w20{
+	width:20%;
+
+}
+
+/* トップページ */
+div#other-area-all div.r-d{
+	background-image: url(../../tenpo_annai/r_and_d/images/default_bg01.gif);
+	background-repeat: repeat-y;
+	margin:0 0 10px 0;
+}
+div#other-area-all div.r-d div.col-left{
+ float:left;
+	width:568px;
+	margin-top:8px;/* [2008renewal] */
+}
+div#other-area-all div.r-d div.col-right{
+ float:left;
+	width:224px;
+}
+
+div#other-area-all div.r-d h1{
+	background-image: url(../../tenpo_annai/r_and_d/images/default_h1.jpg);
+	background-repeat: no-repeat;
+	height: 366px;
+	text-indent:-1000px;
+	margin:0 0 5px 0;
+}
+
+div#other-area-all div.r-d div.info{
+	_margin:2px 0 0 0;
+	margin-top: 8px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+div#other-area-all div.r-d div.info p{
+ float:left;
+	margin:10px 0 0 5px;
+}
+
+div#other-area-all div.r-d div.col-right div.box01{
+ padding:7px 0 0 7px;
+}
+div#other-area-all div.r-d div.col-right div.box01 p.img{
+ margin:3px 0;
+}
+div#other-area-all div.r-d div.col-right div.box02{
+	padding:0 0 0 7px;
+	background-image: url(../../tenpo_annai/r_and_d/images/default_bg03.gif);
+	background-repeat: repeat-y;
+	background-position: 7px 0px;
+	margin:0 0 10px 0;
+}
+
+div#other-area-all div.r-d div.col-right div.box02 ul li{
+ float:left;
+	margin:5px 0 0 10px;
+	_margin:3px 5px 0 5px;
+	display:block;
+}
+div#other-area-all div.r-d div.col-right div.box02 p.ti{
+ margin:0 0 3px 0;
+	_margin:0 0 5px 0;
+}
+div#other-area-all div.r-d div.col-right div.box03{
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 7px;
+}
+/* トータルリフォームFlash */
+#rd div.col-sale {
+ width:40%;
+	padding:5px;
+	margin-bottom: 15px;
+	float:left;
+}
+#rd div.col-sale p.title,
+#other #rd div.col-sale p.title {
+ border:2px solid #4A59A9;
+	padding:5px;
+	font-weight:bold;
+}
+#rd div.col-sale p.read{
+ padding:10px 0 0 0;
+}
+#rd div.col-sale p.date{
+ text-align: center;
+ font-weight: bold;
+}
+
+#rd div.col-sale p.to-paper{
+ padding:5px 0 0 0;
+ margin: 0 0 10px 10px;
+}
+
+#rd div#notes-area {
+	margin-bottom: 30px;
+}
+#rd div#notes-area p.notes-chirashi {/* 注釈に使用 */
+  margin-left: 25px;
+ text-indent:-1em;
+	padding-left:1em;
+}
+
+#rd div#flash-howto {
+	padding: 0 20px 0 20px;
+}
+#rd div#flash-howto p#figure {
+	margin: 15px auto 10px;
+}
+#rd div#get-flash p.attention {/* GetFlash喚起文 */
+  margin-top: 10px;
+}

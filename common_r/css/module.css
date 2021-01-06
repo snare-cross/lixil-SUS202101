@@ -6548,3 +6548,23 @@ a .link{
 	border-left:solid 1px #999999;
 }
 }
+
+
+/* 追加 */
+.section-2 {
+	position: relative;
+}
+
+.section-2 .cbTxt01-2 {
+	position: absolute;
+  top: -12px;
+  left: 315px;
+}
+
+@media screen and (max-width: 1400px) {
+	.section-2 .cbTxt01-2 {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}

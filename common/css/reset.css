@@ -1,0 +1,66 @@
+@charset "EUC-JP";
+/* ****************************************************
+Since : 2008-06-03
+Last Modified: 2008-06-03
+***************************************************** */
+
+dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea,
+p, blockquote, th, td.atl {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+div.atl {
+	margin:0;
+	padding:0;
+}
+
+table.atl {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+fieldset, img.rollover , img.atl {
+	border:0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var.atl {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol {
+	list-style:none;
+}
+
+caption, th.atl {
+	text-align:left;
+}
+
+h1, h2, h3, h4, h5, h6.atl {
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before, q:after {
+	content:'';
+}
+
+abbr, acronym.atl {
+	border:0;
+}
+
+sub {
+	vertical-align:bottom;
+}
+
+sup {
+	vertical-align:top;
+}

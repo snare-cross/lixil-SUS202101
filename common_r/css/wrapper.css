@@ -234,9 +234,9 @@
 #nvCorporate .megaMenu .mmChild .detail > .col:nth-child(6){
 	margin-top:-140px;
 }*/
-#nvCorporate .megaMenu .mmChild .detail > .col:nth-child(6){
+/*#nvCorporate .megaMenu .mmChild .detail > .col:nth-child(6){
 	margin-left:400px;
-}
+}*/
 .megaMenu .mmChild .detail > .col p{
 	font-size:18px;
 	line-height:30px;
@@ -556,9 +556,9 @@
 #nvCorporate .megaMenu .mmChild .detail > .col:nth-child(6){
 	margin-top:-10vw;
 }*/
-#nvCorporate .megaMenu .mmChild .detail > .col:nth-child(6){
+/*#nvCorporate .megaMenu .mmChild .detail > .col:nth-child(6){
 	margin-left:28.57vw;
-}
+}*/
 .megaMenu .mmChild .detail > .col p{
 	font-size:1.28vw;
 	line-height:2.14vw;

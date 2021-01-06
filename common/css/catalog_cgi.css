@@ -1,0 +1,155 @@
+@charset "EUC-JP";
+/*1: Common setting
+=========================================*/
+/* Contents */
+body#catalog div.req-contents {
+	padding-bottom: 10px;
+}
+body#catalog div#contents div.section {
+	padding:0 51px 55px 52px;
+	clear:both;
+}
+body#catalog div#contents div.req-section {
+	padding:0 51px 27px 52px;
+	clear:both;
+}
+body#catalog div#contents h1.catalog-h1 {
+	width: 760px;
+	height: 57px;
+	margin-bottom: 36px;
+	background: url(../../catalog/images/ttl_catalog_req.gif) no-repeat top left;
+	text-indent: -9999px;
+}
+body#catalog div#contents h1.catalog-req-h1 {
+	width: 760px;
+	height: 57px;
+	margin-bottom: 36px;
+	background: url(../../catalog_req/images/index_tx001.gif) no-repeat top left;
+	text-indent: -9999px;
+}
+body#catalog div#contents li {
+	list-style: none;
+}
+body#catalog div#contents a.attention {
+	color: #ff3333;
+	font-weight: bold;
+}
+
+/* Box-layout */
+body#catalog div#contents div.two-column {
+	clear:both;
+	width:657px;
+	margin:0;
+}
+body#catalog div#contents div.two-column .haikei {
+	background: url(../../catalog/images/index_ex002.gif) repeat-y top left;
+}
+body#catalog div#contents div.two-column .wrap {
+	background: url(../../catalog/images/index_ex001.gif) no-repeat bottom right;
+	padding:0 0 8px 0;
+}
+body#catalog div#contents div.two-column .two-left {
+	float:left;
+}
+body#catalog div#contents div.two-column .two-right {
+	float:right;
+}
+body#catalog div#contents div.two-column .type1 {
+	width:306px;
+}
+body#catalog div#contents div.two-column .type2 {
+	width:306px;
+}
+body#catalog div#contents div.two-column .two-left .textarea01 {
+	width: 155px;
+	float: left;
+	font-size: 120%;
+}
+body#catalog div#contents div.textarea02 {
+	clear: both;
+	padding-bottom: 15px;
+	text-align: center;
+}
+body#catalog div#contents div.two-column dl.support-layout div.textarea03 {
+	clear: both;
+	font-size: 120%;
+}
+body#catalog div#contents div.textarea04 {
+	clear: both;
+	width: 577px;
+	margin: 0 92px 0 91px;
+	padding: 18px 0 18px 0;
+	background-color: #f2efdb;
+}
+body#catalog div#contents div.textarea04 ul {
+	padding: 0 36px 0 36px;
+}
+body#catalog div#contents div.textarea04 li.list01 {
+	margin-bottom: 5px;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+body#catalog div#contents div.two-column .two-left .area01 {
+	float: right;
+	width: 92px;
+}
+body#catalog div#contents div.two-column .two-left .area02 {
+	float: right;
+	width: 110px;
+}
+body#catalog div#contents div.two-column dl.support-layout div.button01 {
+	clear: both;
+	width: 264px;
+	padding-top: 20px;
+	text-align: center;
+}
+body#catalog div#contents div.two-column dl.support-layout div.button02 {
+	clear: both;
+	width: 264px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+body#catalog div#contents div.two-column dl.support-layout div.button03 {
+	clear: both;
+	width: 264px;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+body#catalog div#contents div.two-column dl.support-layout dt {
+	width: 306px;
+	height: 55px;
+}
+body#catalog div#contents div.two-column dl.support-layout dd {
+	padding:22px 20px 21px 20px;
+}
+body#catalog div#contents div.req-contents div.two-column dl.support-layout dd {
+	padding:27px 20px 21px 20px;
+}
+/*99: extra
+=========================================*/
+body#catalog div#contents div.two-column:after,
+body#catalog div#contents div.two-column .wrap:after,
+body#catalog div#contents div.two-column dl dd:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+/* for IE6 */
+* html body#catalog div#contents div.two-column,
+* html body#catalog div#contents div.two-column .wrap,
+* html body#catalog div#contents div.two-column dl dd,
+* html body#catalog div#contents div.two-column .haikei {
+	height: 1px;
+}
+
+/* for IE7 */
+*+html body#catalog div#contents div.two-column,
+*+html body#catalog div#contents div.two-column .wrap,
+*+html body#catalog div#contents div.two-column dl dd {
+	zoom: 1;
+}
+
+

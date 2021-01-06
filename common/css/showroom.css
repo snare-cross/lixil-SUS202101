@@ -1,0 +1,411 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------
+	showroom.css
+	
+	style sheet for showroom category
+---------------------------------------------------------- */
+
+body#showroom .outline .column2 {
+	margin-top: 0;
+}
+body#showroom .outline h1 {
+	background: none;
+}
+body#showroom .outline .colLeft {
+	float: left;
+	width: 470px;
+}
+body#showroom .outline .colRight {
+	float: right;
+	width: 235px;
+}
+body#showroom .outline .mainImg {
+	margin-top: 1px;
+}
+body#showroom .outline ul.itemInfo li {
+	float: left;
+	font-size: 0;
+}
+body#showroom .outline .lead {
+	clear: both;
+	margin-top: 8px;
+	padding: 7px 0 7px 18px;
+	border-left: 3px solid #efefef;
+	zoom: 1;
+}
+body#showroom .outline .lead .title {
+	padding-bottom: 10px;
+}
+
+body#showroom .outline .newsArea {
+	margin-top: 45px;
+}
+body#showroom .outline .newsArea .title {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #cccccc;
+}
+body#showroom .outline .newsArea dl {
+	background: url(/common/pic/com_bg001.gif) repeat-x left bottom;
+}
+body#showroom .outline .newsArea dt {
+	margin-right: 6px;
+}
+body#showroom .outline .newsArea .newsDetail01 dt {
+	padding-top: 0;
+}
+* html body#showroom .outline .newsArea .newsDetail01 dt { /* for IE6 */
+	padding-top: 2px;
+}
+body#showroom .outline .newsArea dt img {
+	margin-left: 0;
+}
+body#showroom .outline .newsArea dd {
+	padding-left: 15px;
+}
+
+
+
+body#showroom .detailBox {
+	clear: both;
+	margin-top: 20px;
+	padding: 20px;
+	border: 10px solid #f6f6f6;
+}
+body#showroom .detailBox .place {
+	padding-bottom: 15px;
+	font-size: 129%;
+	font-weight: bold;
+}
+body#showroom .detailBox .column2 {
+	width: 660px;
+	margin-top: 0;
+}
+body#showroom .detailBox .column2 .colLeft {
+	float: left;
+	width: 280px;
+	font-size: 0;
+}
+body#showroom .detailBox .column2 .colRight {
+	float: right;
+	width: 343px;
+}
+body#showroom .detailBox .outside img {
+	border: 1px solid #ececec;
+}
+body#showroom .detailBox .map {
+	margin-top: 13px;
+	border: 1px solid #ececec;
+}
+body#showroom .detailBox .map p {
+	padding: 5px;
+	background-color: #ececec;
+}
+body#showroom .detailBox .map p img {
+	margin-right: 8px;
+}
+body#showroom .detailBox .mobile {
+	margin-top: 16px;
+	padding: 1px 0;
+	height: 115px;
+	background: url(/showroom/pic/showroom_bg001.gif) repeat-x 0 0;
+	zoom: 1;
+}
+body#showroom .detailBox .mobile dt,
+body#showroom .detailBox .mobile dd {
+	float: left;
+}
+body#showroom .detailBox .mobile dd {
+	margin-top: 8px;
+}
+body#showroom .detailBox .mobile dd img {
+	padding: 3px;
+	border: 1px solid #c9c9c9;
+}
+body#showroom .detailBox dl.information {
+	margin-top: 10px;
+	padding-top: 10px;
+	background: url(/common/pic/com_bg001.gif) repeat-x 0 0;
+	zoom: 1;
+}
+body#showroom .detailBox dl.information.firstchild {
+	margin-top: 0;
+	padding-top: 0;
+	background: none;
+}
+body#showroom .detailBox dl.information dt {
+	padding-left: 10px;
+	background: url(/showroom/pic/showroom_ic015.gif) no-repeat 0 0.7em;
+	font-weight: bold;
+	zoom: 1;
+}
+body#showroom .detailBox dl.information dd {
+	padding-left: 10px;
+}
+body#showroom .detailBox dl.information dd li {
+	padding-left: 9px;
+	background: url(/showroom/pic/showroom_ic016.gif) no-repeat 0 0.7em;
+	zoom: 1;
+}
+body#showroom .detailBox .reservation {
+	margin-top: 20px;
+}
+body#showroom .detailBox .serviceInfo {
+	clear: both;
+	margin-top: 17px;
+}
+body#showroom .detailBox .serviceInfo dl.information {
+	padding-top: 0;
+	background: none;
+}
+body#showroom .detailBox .serviceInfo dl.information dd {
+	overflow: hidden;
+	width: 660px;
+	padding-left: 0;
+	zoom: 1;
+}
+body#showroom .detailBox .serviceInfo dl.information dd ul {
+	width: 661px;
+}
+body#showroom .detailBox .serviceInfo dl.information dd li {
+	display: inline;
+	float: left;
+	margin: 8px 10px 0 0;
+	padding: 0;
+	background: none;
+	font-size: 0;
+}
+body#showroom .detailBox .around {
+	overflow: hidden;
+	clear: both;
+	width: 620px;
+	margin-top: 30px;
+	padding: 10px 20px;
+	background-color: #f6f6f6;
+	zoom: 1;
+}
+body#showroom .detailBox .around .title {
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+body#showroom .detailBox .around ul {
+	width: 640px;
+}
+
+
+
+body#showroom .table02.exi thead th {
+	font-size: 80%;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+}
+body#showroom .table02.exi tbody td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+body#showroom .anchorLink {
+	background: none;
+}
+body#showroom .anchorLink ul {
+	padding: 0 10px;
+	background: none;
+}
+
+
+
+/* /showroom/default.htm only
+------------------------------------------ */
+#topPage h1{
+	background:none;
+	font-size:0;
+	margin-bottom:10px;
+}
+#topPage .wrapper{
+	margin-top:30px;
+}
+#topPage .wrapper .mainArea{
+	float:left;
+	width:715px;
+}
+#topPage .wrapper .sideArea{
+	float:right;
+	width:210px;
+}
+
+#topPage .wrapper .mainArea .searchArea{
+	width:715px;
+	height:316px;
+	position:relative;
+	background:#efefef;
+	zoom:1;
+}
+#topPage .wrapper .mainArea .searchArea .title{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+#topPage .wrapper .mainArea .searchArea #map{
+	margin-left:33px;
+	font-size:0;
+}
+#topPage .wrapper .mainArea .searchArea .inBox{
+	position:absolute;
+	width:267px;
+	top:20px;
+	left:428px;
+	zoom:1;
+}
+#topPage .wrapper .mainArea .searchArea .inBox .serch{
+	padding:10px;
+	border:3px solid #dedede;
+	background:#ffffff;
+}
+#topPage .wrapper .mainArea .searchArea .inBox .serch select{
+	margin:0 5px 0 45px;
+	color:#555555;
+	height:21px;
+}
+#topPage .wrapper .mainArea .searchArea .inBox .serch input{
+	vertical-align:top;
+}
+#topPage .wrapper .mainArea .searchArea .inBox .serch dt{
+	margin-bottom:5px;
+}
+
+
+#topPage .wrapper .mainArea .newsArea .colLeft{
+	float:left;
+	width:348px;
+}
+#topPage .wrapper .mainArea .newsArea .colLeft ul li{
+	margin-top:10px;
+	padding-bottom:10px;
+	background:url(/common/pic/com_bg001.gif) repeat-x 0 100%;
+	zoom: 1;
+}
+#topPage .wrapper .mainArea .newsArea .colLeft ul li span.iconLink01{
+	display: block;
+	background-position: 0 0.5em;
+	line-height: 1.5;
+}
+#topPage .wrapper .mainArea .newsArea .colRight{
+	float:right;
+	width:348px;
+}
+#topPage .wrapper .mainArea .newsArea .colRight dl{
+	margin-top:10px;
+	padding:0 0 10px 0;
+}
+#topPage .wrapper .mainArea .newsArea .colRight dl dt {
+	width: 8em;
+}
+#topPage .wrapper .mainArea .newsArea .colRight dl dt,
+#topPage .wrapper .mainArea .newsArea .colRight dl dd{
+	background-position: 0 0.5em;
+	line-height: 1.5;
+}
+#topPage .wrapper .mainArea .newsArea .colLeft ul li.noline,
+#topPage .wrapper .mainArea .newsArea .colRight dl.noline{
+	background:none;
+}
+
+#topPage .wrapper .sideArea .fair{
+	background:#dddddd;
+	padding:5px;
+	zoom:1;
+}
+#topPage .wrapper .sideArea .fair dl{
+	margin-top:5px;
+	padding:8px 5px 5px 5px;
+	background:#ffffff;
+}
+#topPage .wrapper .sideArea .fair dl dt{
+	margin-bottom:5px;
+	line-height:1.2;
+	background-position:0 0.2em;
+}
+#topPage .wrapper .sideArea .fair dl dd span{
+	display:block;
+	margin-top:3px;
+	font-size:80%;
+}
+#topPage .wrapper .sideArea .linkArea{
+	margin:10px 0;
+	border:1px solid #dddddd;
+	zoom:1;
+}
+#topPage .wrapper .sideArea .linkArea dl{
+	width:189px;
+	margin:10px 0 10px 10px;
+}
+#topPage .wrapper .sideArea .linkArea dl dt{
+	margin-bottom:5px;
+}
+#topPage .wrapper .sideArea .linkArea dl dd span{
+	display:block;
+	margin-top:3px;
+	font-size:80%;
+}
+
+#topPage img.areaSearchBt {
+	vertical-align: bottom;
+	cursor: pointer;
+}
+* html #topPage img.areaSearchBt { /* for IE6 */
+	margin-top: -1px;
+}
+
+#topPage .emergency {
+	margin-top: 20px;
+	padding: 15px 30px;
+	border: 4px solid #cccccc;
+}
+
+
+/* #topPage general */
+#topPage .wrapper .line{
+	padding-bottom:10px;
+	background:url(/common/pic/com_bg001.gif) repeat-x 0 100%;
+}
+
+/* about
+---------------------------------------------------------- */
+.colLeft01 {
+	float: left;
+	width: 160px;
+}
+
+.colRight01 {
+	float: right;
+	width: 545px;
+}
+
+
+/* clearfix
+------------------------------------------ */
+body#showroom .outline .column2:after,
+body#showroom .outline ul.itemInfo:after,
+body#showroom .detailBox .column2:after,
+body#showroom .detailBox .mobile dl:after,
+body#showroom .detailBox .serviceInfo dl.information dd ul:after,
+#topPage .wrapper:after,
+#topPage .wrapper .mainArea .newsArea:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+body#showroom .outline .column2,
+body#showroom .outline ul.itemInfo,
+body#showroom .detailBox .column2,
+body#showroom .detailBox .mobile dl,
+body#showroom .detailBox .serviceInfo dl.information dd ul,
+#topPage .wrapper,
+#topPage .wrapper .mainArea .newsArea {
+	zoom: 1;
+}

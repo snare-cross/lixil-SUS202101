@@ -1,0 +1,40 @@
+@charset "shift_jis";
+
+/* ----------------------------------------------------------
+	support.css
+	
+	style sheet for showroom category
+---------------------------------------------------------- */
+
+body#support h1.imageH1 {
+	background: none;
+}
+
+body#support .colorBox {
+	clear: both;
+	margin-top: 15px;
+	padding: 13px 15px;
+	background-color: #f6f6f6;
+}
+body#support .colorBox p {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+body#support .colorBox p.normal {
+	padding-left: 0;
+	text-indent: 0;
+}
+
+
+/* clearfix
+------------------------------------------ */
+body#support .dummy:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+body#showroom .dummy {
+	zoom: 1;
+}

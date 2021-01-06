@@ -1,0 +1,314 @@
+@charset "EUC-JP";
+/* ****************************************************
+Since : 2008-06-03
+Last Modified: 2008-06-03
+***************************************************** */
+/* ****************************************************
+1: Common setting
+99: extra
+***************************************************** */
+
+/*1: Common setting
+=========================================*/
+/* Contents */
+div#contents {
+	margin:0;
+	padding:0;
+}
+
+div#contents div#main {
+	width:760px;
+	line-height:1.4;
+	margin:0;
+	padding:0;
+	float:none;
+}
+div#contents div.section {
+	padding:0 0 0 11px;
+	clear:both;
+}
+
+/* global-navi */
+#global-navi {
+	padding:0;
+	background:none;
+}
+
+/* Main-area */
+div#contents #top-main-area {
+	padding:0 0 14px 0;
+	background:#ffffff url(../../images/index_bg007.gif) repeat-x bottom left;
+}
+div#contents #top-main-area div.two-column {
+	clear:both;
+	width:760px;
+	margin:0;
+}
+div#contents #top-main-area div.two-column .two-left {
+	float:left;
+	width:278px;
+	height:350px;
+	background:#ffffff url(../../images/index_bg008.gif) no-repeat top left;
+}
+div#contents #top-main-area div.two-column .two-left ul {
+	margin:0 0 10px 12px;
+}
+div#contents #top-main-area div.two-column .two-left ul li {
+	float:left;
+	padding:0 9px 5px 0;
+	list-style-type: none;
+}
+div#contents #top-main-area div.two-column .two-left ul li.left {
+	float:left;
+	padding:0 143px 5px 0;
+	display:block;
+}
+div#contents #top-main-area div.two-column .two-right {
+	float:right;
+	width:482px;
+	text-align:right;
+}
+
+/* Box-layout */
+div#contents div.two-column {
+	clear:both;
+	width:749px;
+	margin:0;
+}
+div#contents div.two-column .wrap {
+	background:url(../../images/index_bg002.gif) no-repeat bottom right;
+	padding:0 0 8px 0;
+}
+div#contents div.two-column .type2 div.two-column {
+	clear:both;
+	width:407px;
+	margin:10px 0 0 0;
+}
+div#contents div.two-column .two-left {
+	float:left;
+}
+div#contents div.two-column .two-right {
+	float:right;
+}
+div#contents div.two-column .type1 {
+	width:293px;
+}
+div#contents div.two-column .type2 {
+	width:447px;
+}
+div#contents div.two-column .type3 {
+	width:571px;
+}
+div#contents div.two-column .type4 {
+	width:167px;
+}
+
+div#contents div.two-column dl.support-layout {
+	background:url(../../images/index_bg001.gif) repeat-y top left;
+	margin:10px 0 0 0;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.support-layout {
+	height:1px;
+}
+
+div#contents div.two-column dl.support-layout dd {
+	padding:0 20px 21px 20px;
+}
+div#contents div.two-column dl.support-layout dd dl.support-contents dd {
+	background:url(../../images/index_bg004.gif) repeat-x bottom left;
+	padding:0 0 5px 18px;
+}
+div#contents div.two-column dl.support-layout dd dl.support-contents dt {
+	margin:7px 0 0 0;
+}
+div#contents div.two-column dl.support-layout dd dl.support-contents dt.door {
+	background:url(../../images/index_ic001.gif) no-repeat 0 0.3em;
+	padding:2px 0 2px 18px;
+}
+div#contents div.two-column dl.support-layout dd dl.support-contents dt.security {
+	background:url(../../images/index_ic002.gif) no-repeat 0 0.3em;
+	padding:2px 0 2px 18px;
+}
+div#contents div.two-column dl.support-layout dd dl.support-contents dt.comfort {
+	background:url(../../images/index_ic003.gif) no-repeat 0 0.3em;
+	padding:2px 0 2px 18px;
+}
+div#contents div.two-column dl.support-layout dd dl.support-contents dt.plant {
+	background:url(../../images/index_ic004.gif) no-repeat 0 0.3em;
+	padding:2px 0 2px 18px;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.support-layout dd dl.support-contents dt.door,
+* html div#contents div.two-column dl.support-layout dd dl.support-contents dt.security,
+* html div#contents div.two-column dl.support-layout dd dl.support-contents dt.comfort,
+* html div#contents div.two-column dl.support-layout dd dl.support-contents dt.plant {
+	height:1px;
+}
+
+div#contents div.two-column dl.commoditie-layout {
+	background:url(../../images/index_bg003.gif) repeat-y top left;
+	margin:10px 0 0 0;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.commoditie-layout {
+	height:1px;
+}
+
+div#contents div.two-column dl.commoditie-layout dd {
+	padding:0 20px 0 20px;
+}
+div#contents div.two-column .type2 dd div.line {
+	margin:7px 0 0 0;
+}
+div#contents div.two-column .type2 dd div.line div.two-left,
+div#contents div.two-column .type2 dd div.line div.two-right {
+	padding:10px 0 0 0;
+	background:url(../../images/index_bg004.gif) repeat-x top left;
+}
+div#contents div.two-column dl.commoditie-layout dd div.two-left {
+	width:194px;
+	padding:0;
+}
+div#contents div.two-column dl.commoditie-layout dd div.two-right {
+	width:194px;
+	padding:0;
+}
+
+div#contents div.two-column dl.info-layout {
+	background:url(../../images/index_bg005.gif) repeat-y top left;
+	padding:0;
+	margin:10px 0 0 0;
+	list-style:none;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.info-layout {
+	height:1px;
+	list-style:none;
+}
+
+div#contents div.two-column dl.info-layout dd {
+	background:url(../../images/index_bg006.gif) no-repeat bottom left;
+	padding:0 20px 8px 20px;
+	list-style:none;
+}
+div#contents div.two-column dl.info-layout dd dl.news-area {
+	padding:0 0 8px 0;
+	margin:10px 0 0 0;
+	position:relative;
+	list-style:none;
+}
+div#contents div.two-column dl.info-layout dd dl.news-area dt {
+	background:none;
+	padding:4px 0 4px 0;
+	list-style:none;
+}
+div#contents div.two-column dl.info-layout dd dl.news-area dd {
+	padding:4px 0 4px 140px;
+	margin:-2.2em 0 0 0;
+	text-align:left;
+	display:block;
+	background:url(../../images/index_bg004.gif) repeat-x bottom left;
+	list-style:none;
+}
+div#contents div.two-column dl.info-layout dd dl.news-area dd span {
+	display:block;
+	background:url(../images/com_ic004.gif) no-repeat 0 0.3em;
+	padding:0 0 0 16px;
+	list-style:none;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.info-layout dd dl.news-area dd span {
+	height:1px;
+	list-style:none;
+}
+
+div#contents div.two-column dl.info-layout dd ul.info-list li {
+	margin:5px 0 0 0;
+	padding:0 0 4px 0;
+	background:url(../../images/index_bg004.gif) repeat-x bottom left;
+	list-style:none;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.info-layout dd ul.info-list li {
+	zoom:1;
+	list-style:none;
+}
+
+div#contents div.two-column dl.info-layout dd ul.info-list li span {
+	background:url(../images/com_ic004.gif) no-repeat 0 0.4em;
+	padding:0 0 0 16px;
+	display:block;
+	list-style:none;
+}
+/* for IE6 */
+* html div#contents div.two-column dl.info-layout dd ul.info-list li span,
+* html div#contents div.two-column dl.side-layout .side-list li {
+	height:1px;
+	list-style:none;
+}
+
+div#contents div.two-column dl.side-layout {
+	margin:12px 0 0 0;
+}
+div#contents div.two-column dl.side-layout dd {
+	margin:0;
+	padding:10px 14px 10px 14px;
+	border-left:1px solid #e1e1e1;
+	border-right:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+}
+div#contents div.two-column dl.side-layout .side-list li {
+	background:url(../images/com_ic004.gif) no-repeat 0 0.3em;
+	padding:0 0 0 16px;
+	list-style-type: none;
+}
+div#contents div.two-column p.text {
+	margin:3px 0 0 0;
+	padding:0;
+}
+div#contents div.two-column dl.side-layout dd p.end {
+	margin:10px 0 0 0;
+	padding:0;
+}
+div#contents div.two-column div.plug-in {
+	margin:10px 0 0 0;
+	padding:10px;
+	border:1px solid #e1e1e1;
+}
+
+/*99: extra
+=========================================*/
+div#contents div.two-column:after,
+div#contents div.two-column .wrap:after,
+div#contents div.two-column dl dd:after,
+div#contents div.two-column dl.side-layout:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+
+div#contents div.two-column,
+div#contents div.two-column .wrap,
+div#contents div.two-column dl dd,
+div#contents div.two-column dl.side-layout {
+	min-height: 1px;
+}
+
+/* for IE6 */
+* html div#contents div.two-column,
+* html div#contents div.two-column .wrap,
+* html div#contents div.two-column dl dd,
+* html div#contents div.two-column dl.side-layout {
+	height: 1px;
+}
+
+/* for IE7 */
+*+html div#contents div.two-column,
+*+html div#contents div.two-column .wrap,
+*+html div#contents div.two-column dl dd,
+*+html div#contents div.two-column dl.side-layout {
+	zoom: 1;
+}
