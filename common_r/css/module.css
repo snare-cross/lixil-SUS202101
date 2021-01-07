@@ -1376,6 +1376,9 @@ h1,h2,h3,h4,h5,strong,dt,th{
 	background-color:#cceeee !important;
 }
 
+.cbTable .cbTable_icon{
+  width: 15%;
+}
 /* add ho 16.11.09 */
 #contents .cbTable table.cbTable-type02{
 	border-right:none;
