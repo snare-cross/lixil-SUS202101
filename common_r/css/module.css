@@ -953,7 +953,6 @@ h1,h2,h3,h4,h5,strong,dt,th{
 #contents .cbInflatL .col + *{
 	margin-top:0px !important;
 }
-
 /* CB-border-Img */
 #contents div.cbImgBorder,
 #contents img.cbImgBorder{
@@ -2439,6 +2438,8 @@ a .link{
 	padding-bottom:1.71vw;
 	background-size:14rem 0.2rem;
 }
+
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 #contents .tlH1 h1,
 #contents h1.tlH1,
@@ -6571,3 +6572,15 @@ a .link{
 		left: 0;
 	}
 }
+/* 
+.tlH2_logo{
+  text-align: right;
+  margin-top: -30px;
+}
+.tlH2_logo .sdg_logo{
+  width: 30%;
+}
+.tlH2_logo .icon4{
+  width: 10%;
+  margin-left: 20px;
+} */
