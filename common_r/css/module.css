@@ -6578,3 +6578,58 @@ a .link{
   padding: 1px 0 35px;
   margin-top: 50px;
 }
+
+.col3In02-community-bk .cbTxt01 span{
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 769px){
+  #contents .col3In02-community-bk .col.colTwo.bkBoxInner{
+    margin-right: 1vw;
+    margin-left: 1.8vw;
+    width: 55vw;
+  }
+  
+  #contents .col3In02-community-bk .col.colTwo{
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 981px){
+  #contents .col3In02-community-bk .col.colTwo.bkBoxInner{
+    width: 40vw;
+  }
+  
+  #contents .col3In02-community-bk .col.colTwo{
+    width: 40vw;
+  }
+}
+
+
+@media screen and (min-width: 1466px){
+  #contents .col3In02-community-bk .col.colTwo.bkBoxInner{
+    width: 37%;
+  }
+  
+  #contents .col3In02-community-bk .col.colTwo{
+    width: 100%;
+  }
+  
+  .col3In02-community-bk{
+    min-width: 1466px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #contents .col3In02-community-bk .col.colTwo.bkBoxInner{
+    margin-right: 1vw;
+    margin-left: 4vw;
+    width: 80vw;
+  }
+  
+  #contents .col3In02-community-bk .cbImg.col{
+    width: 90%;
+    display: block;
+    margin: 3.12vw auto;
+  }
+}
